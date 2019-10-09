@@ -1,0 +1,20 @@
+baseurl = "https://wangonya.com/"
+title = "Kinyanjui Wangonya"
+description = "Kinyanjui Wangonya's website and blog."
+author = "Kinyanjui Wangonya"
+enableRobotsTXT = true
+canonifyurls = true
+languagecode = "en"
+theme = "black-and-light"
+googleAnalytics = "UA-145132150-1"
+
+pygmentsstyle       = "colorful"
+pygmentscodefences  = true
+
+[params]
+sitename = "Kinyanjui Wangonya"
+disableWebFonts = false
+
+[[menu.main]]
+name = "Blog"
+url  = "/blog"
