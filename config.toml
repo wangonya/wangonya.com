@@ -19,6 +19,3 @@ disableWebFonts = false
 name = "Blog"
 url  = "/blog"
 
-[[menu.main]]
-name = "Contact"
-url = "mailto:kwangonya@gmail.com"
