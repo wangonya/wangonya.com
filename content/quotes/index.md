@@ -4,6 +4,12 @@ title: Quotes
 
 This is a collection of quotes I've found inspiring and thought-provoking from books I've read (and other sources too, but mostly books). I keep them here for my own use, and in the hope that someone else might also find them useful.
 
+> The fear of loss is a path to the dark side.
+> - Yoda, Star Wars: Episode III – Revenge of the Sith
+
+> Do, or do not. There is no try.
+> - Yoda, Star Wars Episode V: The Empire Strikes Back
+
 > All voting is a sort of gaming, like checkers or backgammon, with a slight moral tinge to it, a playing with right and wrong, with moral questions; and betting naturally accompanies it. The character of the voters is not staked. I cast my vote, perchance, as I think right; but I am not vitally concerned that that right should prevail. I am willing to leave it to the majority. Its obligation, therefore, never exceeds that of expediency. Even voting for the right is doing nothing for it. It is only expressing to men feebly your desire that it should prevail. A wise man will not leave the right to the mercy of chance, nor wish it to prevail through the power of the majority. There is but little virtue in the action of masses of men.
 > - Henry David Thoreau. “On the Duty of Civil Disobedience”.
 
