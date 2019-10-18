@@ -9,13 +9,15 @@ You may already know about [SMART goals](https://www.mindtools.com/pages/article
 
 ## Cognitive closure
 
-> Cognitive closure (psychology), the human desire to eliminate ambiguity and arrive at definite conclusions (sometimes irrationally) - <small>[Wikipedia](https://en.wikipedia.org/wiki/Cognitive_closure)</small>
+> Cognitive closure (psychology), the human desire to eliminate ambiguity and arrive at definite conclusions (sometimes irrationally). <footer>[Wikipedia](https://en.wikipedia.org/wiki/Cognitive_closure)</sfooter>
 
 You know that nice feeling of crossing things off your to-do list? Closure. Which is great, for the most part. It only gets bad when we end up expending more effort to get immediate results, when we are so focused on small daily "wins" that we lose focus on the larger picture.
 
-> "You get into this mindset where crossing things off your to-do list becomes more important that asking yourself if you're doing the right things. - <small> The book </small>
->
-> "To-do lists are great if you're using them correctly. But when people say things like 'I sometimes write down easy items I can cross off right away, because it makes me feel good', that's exactly the _wrong_ way to create a to-do list. That signals you're using it for mood repair, rather than to become productive." - <small> Timothy Pychyl, quoted in the book </small>
+> You get into this mindset where crossing things off your to-do list becomes more important that asking yourself if you're doing the right things. <footer>The book</footer>
+
+<span></span>
+
+> To-do lists are great if you're using them correctly. But when people say things like 'I sometimes write down easy items I can cross off right away, because it makes me feel good', that's exactly the _wrong_ way to create a to-do list. That signals you're using it for mood repair, rather than to become productive. <footer> Timothy Pychyl, quoted in the book </footer>
 
 I think it's easier to fall into this trap than most of us would like to admit.
 

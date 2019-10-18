@@ -3,9 +3,11 @@ title: "Writing readable code"
 date: 2019-10-10T18:53:42+03:00
 ---
 
-> Readability, I have been told, is not everything. Neither is breathing, but it does come before whatever comes next. — William Sloane, The Craft of Writing, (W.W. Norton, 1979), page 11.
+> Readability, I have been told, is not everything. Neither is breathing, but it does come before whatever comes next. <footer>William Sloane, The Craft of Writing, (W.W. Norton, 1979), page 11.</footer>
 
-> Readability counts. - The Zen of Python
+<span></span>
+
+> Readability counts. <footer>The Zen of Python</footer>
 
 It's not uncommon to write code only you can understand, assuming no one else would have to read it, then come back a few months later to find even you can't understand what the code is doing.
 
@@ -15,7 +17,6 @@ Be kind to the person who's going to maintain the code you write in future. It's
 
 ![maintaining](../images/maintain.jpg)
 
-
 # A few tips on writing readable code
 
 ## Do:
@@ -24,7 +25,7 @@ Be kind to the person who's going to maintain the code you write in future. It's
 
 Some languages (like Python) are strict on indentation - which is good. Others may not be. Either way, make it a practice to indent your code uniformly such that it's readable enough.
 
-> Beautiful is better than ugly. - The Zen of Python
+> Beautiful is better than ugly. <footer>The Zen of Python</footer>
 
 ### Read other people's code
 
@@ -52,7 +53,7 @@ It's much better to get in the habit of writing self-documenting code, and reser
 
 I don't know much about other languages, but I think Python is notorious for this kind of thing with its one-liners. I find these especially unreadable when lambda functions are involved. As elegant as a solution may seem at first, always consider the readability aspect.
 
-> Simple is better than complex. - The Zen of Python
+> Simple is better than complex. <footer>The Zen of Python</footer>
 
 ### Use magic numbers
 

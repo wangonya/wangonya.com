@@ -3,7 +3,7 @@ title: "Caring for your Health as a Developer"
 date: "2019-03-14T19:54:39+03:00"
 ---
 
-> “When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.” ― Herophilus
+> When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.<footer>Herophilus</footer>
 
 Let's face it. As developers, it's easy to let things get a bit out of hand health-wise. Many times we find ourselves in front of screens for hours on end. We sleep really late (or not at all) sometimes. Unless you're disciplined enough to follow a schedule, you might find yourself not having time to eat proper meals so snacking becomes a habit. All these are usually sacrifices made to fix some bug or find the most efficient solution to some problem. Usually, our health suffers as a result. While this might seem to work out just fine for the moment, we don't look at the bigger picture - how it will affect us in the future.
 
