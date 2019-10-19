@@ -3,7 +3,7 @@ title: "My two greatest challenges while learning software development"
 date: 2019-01-16T11:31:12+03:00
 ---
 
-> “The greater our knowledge increases, the greater our ignorance unfolds.” ― John F. Kennedy
+> The greater our knowledge increases, the greater our ignorance unfolds.<footer>John F. Kennedy</footer>
 
 I studied Computer Science at school. Specialized in the software side of it. After graduation, I felt like I knew quite a lot. I’d done a couple of projects in class, and a few side projects so coding wasn’t really new to me. Now I could be paid to write software, right? Wrong.
 
