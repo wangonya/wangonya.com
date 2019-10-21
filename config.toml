@@ -8,8 +8,9 @@ languagecode = "en"
 theme = "black-and-light"
 googleAnalytics = "UA-145132150-1"
 
-pygmentsstyle       = "perldoc"
-pygmentscodefences  = true
+# https://xyproto.github.io/splash/docs/all.html
+pygmentsCodefences = true
+pygmentsStyle = "native"
 
 [params]
 sitename = "Kinyanjui Wangonya"

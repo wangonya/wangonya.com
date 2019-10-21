@@ -41,7 +41,7 @@ This actually builds on the last point. If functions are limited to a single tas
 
 ### Write short descriptive comments
 
-If necessary.
+When necessary.
 
 ## Don't:
 
