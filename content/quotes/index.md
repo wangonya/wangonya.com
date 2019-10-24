@@ -4,6 +4,10 @@ title: Quotes
 
 This is a collection of quotes I've found inspiring and thought-provoking from books I've read (and other sources too, but mostly books). I keep them here for my own use, and in the hope that someone else might also find them useful.
 
+> It is a most wonderful comfort to sit alone beneath a lamp, book spread before you, and commune with someone from the past whom you have never met. <footer>Yoshida Kenko</footer>
+
+<span></span>
+
 > What is a scientist after all? It is a curious man looking through a keyhole, the keyhole of nature, trying to know what's going on. <footer>Jacques Yves Cousteau</footer>
 
 <span></span>
