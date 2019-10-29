@@ -1,6 +1,8 @@
 ---
 title: Performing CRUD operations with a CLI app using Firebase
 date: 2019-08-15
+tags: ["python"]
+series: "Building CLI apps with python"
 ---
 
 For the next phase in this series, we'll learn how to make a CLI app to perform CRUD operations, i.e, Creating, Retrieving, Updating and Deleting data. We'll use Firebase to store our data.

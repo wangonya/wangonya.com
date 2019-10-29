@@ -1,6 +1,7 @@
 ---
 title: "Javascript Arithmetic Cheat Sheet"
 date: "2019-03-05T05:25:12+03:00"
+tags: ["javascript"]
 ---
 
 Given that one of the main reason computers were invented was to solve mathematical problems quickly, it is no wonder that all the modern programming languages are so rich in arithmetic-oriented methods. The earliest computers were basically just calculators. (_Yes, I'm looking at you [Abacus](https://en.wikipedia.org/wiki/Abacus)_). If you dabble in Javascript (and a little math every now and then), I do hope you find this useful. The very obvious operations like simple addition (+) and subtraction (-) have been omitted. So have more advanced operations.

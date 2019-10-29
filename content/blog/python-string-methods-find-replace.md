@@ -1,6 +1,8 @@
 ---
 title: A quick reference to Python string methods - Find and Replace
 date: 2019-09-07
+tags: ["python"]
+series: "A quick reference to Python string methods"
 ---
 
 <small>Note: <sup style="color: red">\*</sup> represents a required parameter

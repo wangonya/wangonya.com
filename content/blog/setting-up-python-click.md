@@ -1,6 +1,8 @@
 ---
 title: Setting up your development environment
 date: 2019-08-02
+tags: ["python"]
+series: "Building CLI apps with python"
 ---
 
 In this post, we'll cover the very basics of working with Python and Click to create a CLI app. We'll install Python 3, set up our development environment, install Click, and create a `hello-world` app.

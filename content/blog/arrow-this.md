@@ -1,6 +1,7 @@
 ---
 title: this and arrow functions
 date: 2018-08-27
+tags: ["javascript"]
 ---
 
 Arrow functions were introduced in ES6 as a new syntax for writing Javascript functions. Thanks to their short syntax, they encourage the use of small functions, which make code look cleaner (and `() =>` just looks cooler 😄).

@@ -1,6 +1,8 @@
 ---
 title: A quick reference to Python string methods - Cases
 date: 2019-09-11
+tags: ["python"]
+series: "A quick reference to Python string methods"
 ---
 
 ## Cases

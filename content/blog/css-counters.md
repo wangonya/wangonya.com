@@ -1,6 +1,7 @@
 ---
 title: Automatically counting and numbering HTML elements with CSS counters
 date: 2019-08-24
+tags: ["css"]
 ---
 
 Say you had an unknown number of `<div>` elements and (for some reason) you wanted to count them and number each other them automatically - how would you do it? If you're like me, your first thought would be to use some kind of Javascript to play around with the DOM. What if I told you (insert Morpheus voice here) you can do it with CSS?

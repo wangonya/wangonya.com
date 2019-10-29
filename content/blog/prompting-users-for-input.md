@@ -1,6 +1,8 @@
 ---
 title: Prompting users for input
 date: 2019-08-10
+tags: ["python"]
+series: "Building CLI apps with python"
 ---
 
 Getting user input is an important part of any kind of application. Since we've already learned about [options](https://wangonya.com/blog/click-commands-options/), adding a user prompt to our hello world app should be a breeze. All we need to do is add `prompt=True` to the option decorator, so that it prompts the user for input if no option is passed in.

@@ -1,6 +1,7 @@
 ---
 title: "Python TDD with Pytest  -- Getting Started"
 date: 2019-01-28T08:15:40+03:00
+tags: ["python"]
 ---
 
 Test-Driven Development is great. If you're a Pythonista, it gets even better with pytest - a framework that makes building simple and scalable tests easy.

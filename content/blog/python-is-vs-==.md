@@ -1,6 +1,7 @@
 ---
 title: Python 'is' vs '=='
 date: 2019-09-06
+tags: ["python"]
 ---
 
 A lot of times when I'm doing `if`s in Python, I find myself wondering whether to use `is` or `==` for the check.

@@ -1,6 +1,7 @@
 ---
 title: Better console.logs
 date: 2018-10-18
+tags: ["javascript"]
 ---
 
 If you work with javascript a lot, you probably often need to use `console.log()` to output some info as you go along.

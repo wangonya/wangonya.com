@@ -1,6 +1,7 @@
 ---
 title: norris-cli
 date: 2018-12-27T09:24:39+03:00
+tags: ["python"]
 ---
 
 Best feeling I've had this year: seeing something I did listed on PyPi 😊 🎉

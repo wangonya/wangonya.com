@@ -1,6 +1,7 @@
 ---
 title: Flexible Gatsby
-date: 2019-10-10
+date: 2019-10-09
+tags: ["project"]
 ---
 
 A simple and clean Gatsby starter for your blog. [Demo](https://flexible-gatsby.netlify.com/).

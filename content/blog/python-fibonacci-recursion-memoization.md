@@ -2,6 +2,7 @@
 title: Fibonacci sequence with Python recursion and memoization
 date: 2019-06-16
 math: true
+tags: ["python"]
 ---
 
 The Fibonacci sequence is a sequence of numbers such that any number, except for the first and second, is the sum of the previous two. For example:

@@ -1,6 +1,7 @@
 ---
 title: "Displaying a css spinner on ajax calls with fetch api"
 date: "2019-02-01T08:18:26+03:00"
+tags: ["css"]
 ---
 
 I always have to search for how to do this or refer back to my previous code whenever I work with `fetch`. For a while, I've used the solution to [this](https://stackoverflow.com/questions/43792026/display-spinner-during-ajax-call-when-using-fetch-api) SO question. It's a correct solution and it works great but to be honest, I couldn't really explain _very well_ what was going on if someone asked me to explain that piece of my code. So I thought of a simple way to do it. It's very simple really, I think I was just overthinking it. Here's how:

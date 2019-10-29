@@ -1,6 +1,8 @@
 ---
 title: Publishing your Python packages on TestPyPi before publishing on PyPi
 date: 2019-08-23
+tags: ["python"]
+series: "Building CLI apps with python"
 ---
 
 If you're just creating a package for learning purposes, there's no need (IMO) to pollute the official PyPi index with it. Also, you may want to release a package to a select number of users for testing before you actually release it officially. For these purposes, you're better off using [TestPyPi](https://test.pypi.org/):
