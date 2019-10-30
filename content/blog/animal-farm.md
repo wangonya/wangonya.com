@@ -13,9 +13,7 @@ All is well in the start until power corrupts the pigs and they start abusing th
 
 ## Expectations
 
-I had heard about this book ever since I was very young. I thought it was a children story book because I first heard of it in the Swahili translation _"Shamba la Wanyama"_. I finally got around to reading it after listening to this tune from one of my favorite Hip Hop albums:
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hgVWGWKjDDU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+I had heard about this book ever since I was very young. I thought it was a children story book because I first heard of it in the Swahili translation _"Shamba la Wanyama"_. I finally got around to reading it after listening to <a href="https://www.youtube.com/watch?v=hgVWGWKjDDU" target="_blank" title="Aniaml in Man by Dead Prez">this tune</a> from one of my favorite Hip Hop albums.
 
 I expected a good story with a moral lesson at best.
 
