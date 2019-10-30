@@ -1,21 +1,28 @@
 ---
 title: "Book Review: Animal Farm"
 date: 2019-10-29T12:31:48+03:00
-description:
+description: My opinion on the book Animal Farm by George Orwell
 tags: ["books", "musings"]
 ---
 
 ## What is this book about?
-A short introduction of the book in 100-200 words. Mention the genre, book length, about the author and a quick summary of the book. In case of fiction, make sure to keep it spoiler free. Instead, you can end it with something to arise curiosity in the reader’s mind.
+
+Animal Farm is a novel by George Orwell first published in 1945. It's about animals in a farm who get tired of being mistreated by their human masters and decide to rebel - successfully ousting the humans and running the farms by themselves. Led by the smartest animals in the farm - the pigs - the animals set out to govern themselves and agree on seven commandments as laws. As many animals are not able to read and understand all those commandments, they are summarized into one easy one: "Four legs good. Two legs bad.". They all agree that all animals are equal.
+
+All is well in the start until power corrupts the pigs and they start abusing their authority. The seven commandments are manipulated to fit their interests and revolters are executed. In the end, the pigs become just like the humans - even worse in some ways. They even end up walking on two legs. In the end, the one easy commandment becomes, "Four legs good, two legs BETTER.".
 
 ## Expectations
-In 100-200 words, write about the reason you chose to read this book. Where did you get the recommendation or reference? What were your expectations from the book after reading the synopsis? You can write some of it before even starting the book.
+
+I had heard about this book ever since I was very young. I thought it was a children story book because I first heard of it in the Swahili translation _"Shamba la Wanyama"_. I expected a good story with a moral lesson at best.
 
 ## Experience
-In 100-200 words, Write about your experiences or takeaways from the book. How did you find the book? Did it meet your expectations? Was reading it a good or bad experience?
+This book went way beyond my expectations. It gave me a whole new perspective on how the world works, expecially in regard to poilitics. While reading it, I could draw a lot of parallels with the current political situation in my country and in other places. The book is very well written.
 
 ## Lessons from the book
-Include this section if you think you learned something from the book. Usually, this section is added when you rate a book 4 or 5 stars. Mention all the things in bullets or paragraph, about the things you learnt from it, the impact book makes on the reader’s mind.
+
+Here are a few lessons I took from the book:
+
+- The phrase **"power corrupts"** may be cliche and not entirely true in all situations, but it's certainly the case more often than not. 
 
 ## Favorite quotes
 An optional section, write out your favourite or interesting quotes from the book.
