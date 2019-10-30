@@ -1,6 +1,8 @@
 ---
 title: Adding options to CLI commands
 date: 2019-08-07
+tags: ["python"]
+series: "Building CLI apps with python"
 ---
 
 In the previous post, we used `setuptools` to package our app and enable us to run it using a single executable command `hello`. In this post, we look at how to make CLI apps more functional and interactive using options.

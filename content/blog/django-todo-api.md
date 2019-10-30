@@ -1,6 +1,7 @@
 ---
 title: "Creating a Simple ToDo Api With Django"
 date: "2019-04-01T07:57:54+03:00"
+tags: ["python"]
 ---
 
 In this tutorial, we'll create a simple todo api with Python 3 and Django 2.

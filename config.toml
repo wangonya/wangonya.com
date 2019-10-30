@@ -14,6 +14,7 @@ pygmentsStyle = "native"
 
 [params]
 sitename = "Kinyanjui Wangonya"
+dateform = "January 2, 2006"
 disableWebFonts = false
 
 [[menu.main]]

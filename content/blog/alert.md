@@ -1,6 +1,7 @@
 ---
 title: Staying Alert Without Caffeine
 date: 2019-03-17T18:02:01+03:00
+tags: ["productivity"]
 ---
 
 After my first post on "[Caring for your Health as a Developer](https://wangonya.com/blog/caring-for-your-health-as-a-developer/)", I decided to do a bit of research on caffeine, specifically in coffee. I did learn quite a bit but what I found most interesting was that after oil, [coffee is the 2nd most traded commodity in the world](https://capital.com/top-5-most-traded-commodities-in-the-world) 🤯. People are really drinking a lot of coffee (2.25 billion cups of coffee on a daily basis). But while many may love and enjoy the momentary energy boost provided by caffeinated drinks, is it really the best way to go in the long term?

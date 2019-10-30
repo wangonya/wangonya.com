@@ -1,6 +1,7 @@
 ---
 title: "Caring for your Health as a Developer"
 date: "2019-03-14T19:54:39+03:00"
+tags: ["productivity"]
 ---
 
 > When health is absent, wisdom cannot reveal itself, art cannot manifest, strength cannot fight, wealth becomes useless, and intelligence cannot be applied.<footer>Herophilus</footer>

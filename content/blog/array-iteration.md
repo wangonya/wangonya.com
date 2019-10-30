@@ -1,6 +1,7 @@
 ---
 title: Javascript array iteration with some() and every()
 date: 2018-08-28
+tags: ["javascript"]
 ---
 
 If you're using an array in your code, chances are, you'll need to iterate over the values in the array. There's a couple of ways you can do that, some better and more efficient than others depending on what you want to accomplish.

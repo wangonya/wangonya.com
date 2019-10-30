@@ -1,6 +1,7 @@
 ---
 title: Javascript lookaheads and lookbehinds
 date: 2018-08-29
+tags: ["javascript"]
 ---
 
 Regular expressions (also called regex) are patterns used to match character combinations in strings. They help us work with strings in a very performant way.

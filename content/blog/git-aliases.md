@@ -1,6 +1,7 @@
 ---
 title: Speeding up your gitflow with aliases
 date: 2018-12-20
+tags: ["git", "productivity"]
 ---
 
 Sometimes it gets boring to have to write those long git commands over and over again, and one of the attributes that makes a great programmer is _laziness_.

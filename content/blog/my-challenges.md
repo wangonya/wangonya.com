@@ -1,6 +1,7 @@
 ---
 title: "My two greatest challenges while learning software development"
 date: 2019-01-16T11:31:12+03:00
+tags: ["musings"]
 ---
 
 > The greater our knowledge increases, the greater our ignorance unfolds.<footer>John F. Kennedy</footer>

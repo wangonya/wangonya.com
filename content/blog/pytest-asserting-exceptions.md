@@ -1,6 +1,7 @@
 ---
 title: "Asserting Exceptions with Pytest"
 date: 2019-01-29T05:15:40+03:00
+tags: ["python"]
 ---
 
 First time I had someone review my pull requests, she was pretty strict on tests. I couldn't merge if the tests were failing, of course. But I also couldn't merge if coverage had decreased by even 1%. TDD was still new to me so maintaining coverage was a challenge since I was only testing the bare minimum I could. I had to find out how to make my tests more robust and ensure as much of my code was tested as possible. One area that I wasn't really sure how to test was the custom exceptions I had written. Here's an example:

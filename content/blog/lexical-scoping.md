@@ -1,6 +1,7 @@
 ---
 title: "Lexical Variable Scoping with Javascript"
 date: "2019-03-08T12:52:10+03:00"
+tags: ["javascript"]
 ---
 
 In Javascript, code blocks are created using curly braces ({}). For example:

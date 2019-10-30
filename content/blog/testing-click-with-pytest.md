@@ -1,6 +1,8 @@
 ---
 title: Testing Click applications with Pytest
 date: 2019-08-20
+tags: ["python"]
+series: "Building CLI apps with python"
 ---
 
 It's good practice to, as much as possible, write tests for your code. If you're working with Python, [pytest](https://pytest.org/en/latest/) makes the process of writing and running tests much smoother. I wrote a few posts some time back on getting started with testing with pytest, so if you're completely new to it, you might want to take a look at them:

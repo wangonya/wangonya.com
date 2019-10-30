@@ -1,6 +1,7 @@
 ---
 title: Sorting Algorithms with Javascript (Part 1)
 date: 2018-10-18
+tags: ["javascript"]
 ---
 
 I've been learning a lot about data structures and algorithms lately and I've noticed in my reading that there aren't a lot of examples showing implementations of algorithms in Javascript. You'll mostly find examples in Java, Python, C, C++ etc. Maybe there's a reason for preferring these languages over Javascript? I'm not sure.

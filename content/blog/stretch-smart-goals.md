@@ -1,6 +1,7 @@
 ---
 title: Making your SMART goals smarter with Stretch goals
 date: 2019-08-30
+tags: ["productivity", "books"]
 ---
 
 I've been reading the book "Smarter Faster Better" by Charles Duhigg and in it, he gives a perspective on goal-setting that I found interesting.

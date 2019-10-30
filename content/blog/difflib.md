@@ -1,6 +1,7 @@
 ---
 title: difflib - Finding close matches of strings from a list
 date: 2019-09-22
+tags: ["python"]
 ---
 
 Say we have a list of strings: `_list = [...,]` and user input `_input = '...'`, how do we find the items in `_list` that most closely resemble `_input`?

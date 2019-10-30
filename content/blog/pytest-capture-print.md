@@ -1,6 +1,7 @@
 ---
 title: "Capturing print statements while debugging"
 date: 2019-01-30T8:06:29+03:00
+tags: ["python"]
 ---
 
 You might need to capture print statements in your tests while debugging. This might be just to help you debug, or for some other reason. I mostly do this kind of thing when testing for database connections where, in addition to other tests, I want to make sure I see that "Database connection successful" message.

@@ -1,6 +1,7 @@
 ---
 title: Sorting Algorithms with Javascript (Part 2)
 date: 2018-11-04
+tags: ["javascript"]
 ---
 
 I'm going to show Javascript implementations of three more sorting algorithms:

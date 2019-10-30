@@ -1,6 +1,7 @@
 ---
 title: "Writing readable code"
 date: 2019-10-10T18:53:42+03:00
+tags: ["productivity"]
 ---
 
 > Readability, I have been told, is not everything. Neither is breathing, but it does come before whatever comes next. <footer>William Sloane, The Craft of Writing, (W.W. Norton, 1979), page 11.</footer>
