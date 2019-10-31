@@ -1,6 +1,5 @@
 ---
 title: Quotes
-draft: true
 ---
 
 This is a collection of quotes I've found inspiring and thought-provoking from books I've read (and other sources too, but mostly books). I keep them here for my own use, and in the hope that someone else might also find them useful.
