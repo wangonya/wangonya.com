@@ -1,7 +1,7 @@
 ---
 title: Play games on your terminal using emacs
 date: 2019-09-08
-tags: ["random"]
+tags: ["unix"]
 ---
 
 If you've never opened [emacs](https://www.gnu.org/software/emacs/) before, here's a great chance to do it for the first time (like me 😅). Turns out, emacs comes with some pretty nice old school [games](https://www.emacswiki.org/emacs/CategoryGames) built in.
