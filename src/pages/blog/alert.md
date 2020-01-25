@@ -17,7 +17,7 @@ I don't know much about biology but this sure looks like it can cause problems i
 
 Here are some great reads on the topic:
 
-https://dev.to/\_patrickgod/sleep-more-code-more-496i
+https://dev.to/_patrickgod/sleep-more-code-more-496i
 
 https://dev.to/gaiety/less-blue-light-better-sleep
 
@@ -25,7 +25,7 @@ https://dev.to/laszlolm/lets-talk-about-sleep-24ai
 
 I also made a note on it in my previous post 🙂
 
-https://wangonya.com/blog/caring-for-your-health-as-a-developer/
+https://wangonya.com/blog/health-dev/
 
 ### 2. Take a power nap
 
