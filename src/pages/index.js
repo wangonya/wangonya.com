@@ -15,9 +15,6 @@ const IndexPage = ({ data }) => {
   const postsList = posts =>
     posts.map(post => (
       <li key={post.node.id}>
-        <div className="post-date code">
-          <small>{post.node.frontmatter.date.split(",")[0]}</small>
-        </div>
         <div className="title">
           {post.node.frontmatter.math ? (
             <a href={post.node.fields.slug}>{post.node.frontmatter.title}</a>
@@ -33,7 +30,7 @@ const IndexPage = ({ data }) => {
   const postsListContainer = groupBy(posts, getDateYear)
     .map(({ year, posts }, i) => (
       <div key={i}>
-        <h4 className="code">{year}</h4>
+        <h4 className="code silver">{year}</h4>
         {postsList(posts)}
       </div>
     ))

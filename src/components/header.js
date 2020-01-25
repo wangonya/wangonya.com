@@ -10,13 +10,13 @@ const Header = ({ title, description }) => (
             </Link>
             <p>{description}</p>
             <div class="social-links">
-              <a href="mailto:kwangonya@gmail.com" title="Email"><i class="fa fa-envelope"></i></a>
-              <a href="https://twitter.com/wang0nya" title="Twitter" target="_blank"><i class="fab fa-twitter"></i></a>
-              <a href="https://github.com/wangonya" title="Github" target="_blank"><i class="fab fa-github"></i></a>
-              <a href="https://dev.to/wangonya" title="Dev" target="_blank"><i class="fab fa-dev"></i></a>
-              <a href="https://www.linkedin.com/in/wangonya/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin"></i></a>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Facebook" target="_blank"><i class="fab fa-facebook"></i></a>
-              <a href="https://wangonya.com/rss.xml" title="RSS" target="_blank"><i class="fas fa-rss"></i></a>
+              <a href="mailto:kwangonya@gmail.com" title="Email"><i class="fa fa-envelope silver-link"></i></a>
+              <a href="https://twitter.com/wang0nya" title="Twitter" target="_blank"><i class="fab fa-twitter silver-link"></i></a>
+              <a href="https://github.com/wangonya" title="Github" target="_blank"><i class="fab fa-github silver-link"></i></a>
+              <a href="https://dev.to/wangonya" title="Dev" target="_blank"><i class="fab fa-dev silver-link"></i></a>
+              <a href="https://www.linkedin.com/in/wangonya/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin silver-link"></i></a>
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Facebook" target="_blank"><i class="fab fa-facebook silver-link"></i></a>
+              <a href="https://wangonya.com/rss.xml" title="RSS" target="_blank"><i class="fas fa-rss silver-link"></i></a>
             </div>
           </div>
   </header>
