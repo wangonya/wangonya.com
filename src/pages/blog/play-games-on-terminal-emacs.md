@@ -18,16 +18,16 @@ I thought I'd have to install emacs on my Mac but have it already there on my Li
 
 If the command runs successfully, you should see something similar to the screenshot below.
 
-![emacs](../images/emacs.png)
+![emacs](/images/emacs.png)
 
-![also emacs](../images/emacs-gtk.png)
+![also emacs](/images/emacs-gtk.png)
 
 Press the **`escape`** then **`x`** keys, and `M-x` should appear at the bottom of the screen.
 
 Next, type in the name of the game you want to play. You can pick from <a href="https://www.emacswiki.org/emacs/CategoryGames#toc1" target="_blank">this list</a>. I like snake, so that's what I'll type in.
 
-![playing snake on emacs](../images/emacs-snake.png)
+![playing snake on emacs](/images/emacs-snake.png)
 
-![](../images/emacs-snake2.png)
+![](/images/emacs-snake2.png)
 
 You can quit emacs by pressing `Ctrl-x Ctrl-c`.

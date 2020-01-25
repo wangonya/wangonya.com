@@ -143,20 +143,3 @@ Hello World!
 Congratulations on making it this far 🎉
 
 We'll be doing more cool stuff in the next posts.
-
-## Practice exercise
-
-I've edited the code a bit so that we're now passing the word "World!" to our `hello()` function in order to display "Hello World!" in full. **Problem: The code is incomplete**. See if you can complete it successfully.
-
-```python
-import click
-
-@click.command()
-def hello():
-    click.echo('Hello {}')
-
-if __name__ == '__main__':
-    hello("World!")
-```
-
-<small class="code"><a target="_blank" href="https://www.digitalocean.com/community/tutorials/how-to-use-string-formatters-in-python-3">Hint</a></small>

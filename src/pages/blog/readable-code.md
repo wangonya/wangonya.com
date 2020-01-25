@@ -12,11 +12,11 @@ tags: ["productivity"]
 
 It's not uncommon to write code only you can understand, assuming no one else would have to read it, then come back a few months later to find even you can't understand what the code is doing.
 
-![crappy-code](../images/who-wrote-this-crap-code.png)
+![crappy-code](/images/who-wrote-this-crap-code.png)
 
 Be kind to the person who's going to maintain the code you write in future. It's likely going to be you.
 
-![maintaining](../images/maintain.jpg)
+![maintaining](/images/maintain.jpg)
 
 # A few tips on writing readable code
 
