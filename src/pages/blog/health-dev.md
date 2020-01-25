@@ -20,7 +20,7 @@ I won't go as far as some have to say that [sitting kills](https://edition.cnn.c
 
 ## Stay hydrated 💧
 
-If you wait until you feel thirsty, you've waited too long. Always have a bottle of water around to help stay hydrated throughout the day. [As it turns out](https://www.zipwater.com/zip-experiments), staying hydrated can improve our reaction time, make us more focused and alert, and improve our problem-solving skills.
+If you wait until you feel thirsty, you've waited too long. Always have a bottle of water around to help stay hydrated throughout the day. As it turns out, staying hydrated can improve our reaction time, make us more focused and alert, and improve our problem-solving skills.
 
 ## Take a break
 
