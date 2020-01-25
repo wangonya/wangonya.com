@@ -57,19 +57,19 @@ After signing in successfully, click on the **Go to console** button on the top 
 
 Once the project is created, you'll see a **Develop** sidebar on the left. Click on **Database** to set up the database. **Cloud Firestore** will be displayed as the first option but that's not what we'll be using. Scroll down and you'll see a **Realtime Database** option. Click on **Create database**. Next, you'll be presented with the security options.
 
-![Firebase security rules options](../images/firebase-security.png)
+![Firebase security rules options](/images/firebase-security.png)
 
 Since we'll not be handling authentication, choose **Start in test mode** for the security rules. Your database is now created 🎉
 
-![Empty firebase db](../images/empty-firebase-db.png)
+![Empty firebase db](/images/empty-firebase-db.png)
 
 Now for the final step in setting up the database, click on the little plus sign **+** to add a new child node called **contacts**. This will hold our contacts (obviously 😅). Also, add a test contact just to see how the database will be structured.
 
-![Adding a new node to hold our data](../images/firebase-nodes.png)
+![Adding a new node to hold our data](/images/firebase-nodes.png)
 
 The database should now look like this:
 
-![Final result](../images/firebase-final.png)
+![Final result](/images/firebase-final.png)
 
 ## App setup
 
@@ -141,7 +141,7 @@ def cli(ctx):
 
 We need to use `@click.group` to allow us to include sub-commands.
 
-![command-subcommand illustration](../images/cmd-sbcmd.png)
+![command-subcommand illustration](/images/cmd-sbcmd.png)
 
 If the main command is invoked without any sub-command, a welcome message is shown. How does the main command know if a sub-command has been passed in or not? By looking at the context. `if ctx.invoked_subcommand is None`, then no sub-command has been passed - show the welcome message.
 
@@ -194,7 +194,7 @@ Contact Chris added!
 {'mobile': '34243234'}
 ```
 
-![Contacts database](../images/firebase-contacts.png)
+![Contacts database](/images/firebase-contacts.png)
 
 ## Getting all contacts
 

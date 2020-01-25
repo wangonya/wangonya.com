@@ -96,7 +96,7 @@ Uploading contacts-0.1.0.tar.gz
 
 The package should now be uploaded on your account:
 
-![TestPyPi projects](../images/testpypi.png)
+![TestPyPi projects](/images/testpypi.png)
 
 To install the package locally from TestPyPi, run:
 
