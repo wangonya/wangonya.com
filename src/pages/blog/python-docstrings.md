@@ -7,7 +7,7 @@ tags: ["python"]
 
 Until recently, I thought python docstrings were just an alternative way to write comments in the code. As I have since learnt, they can be quite useful in writing documentation right into the code. Here's what I mean:
 
-```python3
+```python
 # hello.py
 
 class Hello:
