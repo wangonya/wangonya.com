@@ -53,7 +53,7 @@ for i, fruit in enumerate(fruits):
 # 2: banana
 ```
 
-Indexing can also be set to begin at any desired number.
+Numbering can also be set to begin at any desired number.
 
 ```python
 fruits = ["apple", "mango", "banana"]
