@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Kinyanjui Wangonya`,
-    description: `Software engineer`,
+    description: `Software engineer. Currently mostly working with Python - learning Swift & iOS development on the side.`,
     author: `@wangonya`,
     avatar: `https://avatars0.githubusercontent.com/u/19375569?s=460&v=4`,
     siteUrl: `https://wangonya.com`,
