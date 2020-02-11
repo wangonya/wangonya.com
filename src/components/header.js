@@ -15,7 +15,6 @@ const Header = ({ title, description }) => (
               <a href="https://github.com/wangonya" title="Github" target="_blank"><i class="fab fa-github silver-link"></i></a>
               <a href="https://dev.to/wangonya" title="Dev" target="_blank"><i class="fab fa-dev silver-link"></i></a>
               <a href="https://www.linkedin.com/in/wangonya/" title="LinkedIn" target="_blank"><i class="fab fa-linkedin silver-link"></i></a>
-              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" title="Facebook" target="_blank"><i class="fab fa-facebook silver-link"></i></a>
               <a href="https://wangonya.com/rss.xml" title="RSS" target="_blank"><i class="fas fa-rss silver-link"></i></a>
             </div>
           </div>
