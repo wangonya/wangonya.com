@@ -10,7 +10,6 @@ html {
 }
 body {
   font-size: 14px;
-  line-height: 20px;
   font-weight: normal;
   font-style: normal;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -19,9 +18,6 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: 100%;
-  @media (min-width: 992px) {
-    padding: 35px 50px;
-  }
 }
 
 h2 {
@@ -34,12 +30,8 @@ h2 {
 
 .logo {
   position: relative;
-  max-width: 500px;
-  margin: 0 auto 35px;
-  a {
-    text-decoration: none;
-    display: inline-block;
-  }
+  max-width: 750px;
+  margin: 130px auto 35px;
 }
 
 p a {
