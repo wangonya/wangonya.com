@@ -6,7 +6,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 
 [permalinks]
-    post = "/note/:slug/"
+    posts = "/:slug/"
 
 
 [params]
@@ -38,5 +38,5 @@ footnotereturnlinkcontents = "↩"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "monokailight"
+    style = "dracula"
     tabWidth = 4
