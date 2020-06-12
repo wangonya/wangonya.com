@@ -1,18 +1,15 @@
 ---
-title: "Creating My Own Vim Config"
+title: "Creating my own vim config"
 date: 2020-06-12T13:22:36+03:00
 ---
 
-`Contrary` to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+Since I started using Vim, I've always either used it as it comes with no custom configs or plugins (to edit simple text files), or using someone else's custom config (usually [this](https://github.com/amix/vimrc) or [specevim](https://spacevim.org/)). 
 
-The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.
+While these prebuilt configurations have worked fine for me so far, I always feel like I'm not taking full advantage of what they offer. This is mostly because they come with plugins that I never use - and keybindings that, either just don't feel right to me (like `SPC f s` to save on spacevim - I prefer `<leader>w`) or that I don't even know exist.
 
-```py
-import os
+I think the only way to have Vim exactly the way you want it is to either spend the time to customise the prebuild configs to your liking - or create your own from scratch with only the plugins you know you'll use and with keybindings that feel just right to you. I've decided to create mine from scratch.
 
-os.getenv('sds')
 
-class S:
-    def __init__(self):
-        pass
+```viml
+
 ```
