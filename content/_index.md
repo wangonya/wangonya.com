@@ -6,7 +6,7 @@ title: Home
 
 I write code - `Python` for work, `Rust` for fun.
 
-There used to be a blog here but I moved it to [Dev.to](https://dev.to/wangonya). I have since stopped blogging but I do use this space to keep notes that I pick up while learning about different things - mostly on programming.
+I use this space to keep notes that I pick up while learning about different things - mostly on programming. More of my posts are on [Dev.to](https://dev.to/wangonya).
 
 <div class="social-links">
     <a href="mailto:kwangonya@gmail.com" title="Email">
