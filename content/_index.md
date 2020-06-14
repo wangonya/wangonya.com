@@ -4,8 +4,6 @@ title: Home
 
 ## Kinyanjui Wangonya
 
-I write code.
-
 <div class="social-links">
     <a href="mailto:kwangonya@gmail.com" title="Email">
         <i class="icon-mail-alt silver-link"></i>
