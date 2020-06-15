@@ -38,5 +38,5 @@ footnotereturnlinkcontents = "↩"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "dracula"
+    style = "tango"
     tabWidth = 4
