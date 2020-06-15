@@ -38,5 +38,5 @@ footnotereturnlinkcontents = "↩"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "tango"
+    style = "algol_nu"
     tabWidth = 4
