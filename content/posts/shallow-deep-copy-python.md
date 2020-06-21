@@ -65,7 +65,7 @@ True
 
 `y` was updated externally. This might be a cause of bugs if for example a value is updated by an external library and other variables are affected.
 
-This can be prevented by either creating shallow/deep copies of objects instead of using assignment.
+This can be prevented by creating shallow/deep copies of objects instead of using assignment.
 
 ## shallow copy
 
