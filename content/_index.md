@@ -4,7 +4,7 @@ title: Home
 
 ## Kinyanjui Wangonya
 
-I write code - `Python` for work, `Rust` for fun.
+Software engineer - previously at [Andela](https://andela.com/), now at [Jenga](https://www.jenga-agency.com/).
 
 I use this space to keep notes that I pick up while learning about different things - mostly on programming - and also document some of my projects. More of my posts are on [Dev.to](https://dev.to/wangonya).
 
