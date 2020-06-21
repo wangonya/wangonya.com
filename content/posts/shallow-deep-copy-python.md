@@ -65,7 +65,7 @@ True
 
 `y` was updated externally. This might be a cause of bugs if for example a value is updated by an external library and other variables are affected.
 
-This can be prevented by either creating shallow/deep copies of objects instead of using assignment.
+This can be prevented by creating shallow/deep copies of objects instead of using assignment.
 
 ## shallow copy
 
@@ -90,7 +90,9 @@ Now if some more values are appended to `x`, `y` will still be affected by `z` w
 [1, 2, 3, 4, 5]
 ```
 
-However, a shallow copy doesn't fully solve the problem because as much as a new list was created, the objects in the list are still references to the objects in `x`. As it is currently, updating `x[0]` would not affect `z[0]` because - immutable objects - the alias would be broken. But, if we were dealing with a list of lists, an update in `x[0]` would affect `z[0]`. 
+However, a shallow copy doesn't fully solve the problem because even though a new list was created, the objects in the list are still references to the objects in `x`. 
+
+As it is currently, updating `x[0]` would not affect `z[0]` because - immutable objects - the alias would be broken. But, if we were dealing with a list of lists, an update in `x[0]` would affect `z[0]`. 
 
 ```py
 >>> x = [[1,2], [3,4]]
