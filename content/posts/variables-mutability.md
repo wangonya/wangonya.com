@@ -1,5 +1,5 @@
 ---
-title: "Variables & Mutability"
+title: "variables & mutability in rust"
 date: 2020-06-14T22:33:13+03:00
 description: Understanding variables and mutability in rust
 tags:
@@ -37,7 +37,7 @@ Once a value is assigned to `var`, `var` is bound to that value until it goes ou
 
 ## Opting out of immutability
 
-Variables can be made mutable using the `mut` keyword. This should now work fine:
+Variables can be made mutable using the `mut` keyword:
 
 ```rust
 fn main() {
