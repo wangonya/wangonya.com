@@ -35,7 +35,7 @@ error[E0384]: cannot assign twice to immutable variable `var`
 
 Once a value is assigned to `var`, `var` is bound to that value until it goes out of scope.
 
-## Opting out of immutability
+## opting out of immutability
 
 Variables can be made mutable using the `mut` keyword:
 
@@ -50,7 +50,7 @@ fn main() {
 
 This makes it clear when reading the code that `var` expects to be changed somewhere else.
 
-## Shadowing
+## shadowing
 
 Instead of making a variable mutable and reassigning it directly, rust provides another technique known as shadowing. Here's an example:
 
@@ -92,7 +92,7 @@ error[E0308]: mismatched types
   |             ^^^^^^^^^^^ expected `&str`, found `usize`
 ```
 
-## Variables vs Constants
+## variables vs constants
 
 - Constants are declared with `const` keyword, variables with `let`
 - Constants cannot be made mutable
