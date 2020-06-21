@@ -38,5 +38,5 @@ footnotereturnlinkcontents = "↩"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "algol_nu"
+    style = "github"
     tabWidth = 4
