@@ -1,5 +1,5 @@
 ---
-title: "shallow & deep copying in python"
+title: "Shallow & deep copying in python"
 author: Kinyanjui Wangonya
 date: 2020-06-21T12:36:17+03:00
 description: Understanding how python handles aliasing, shallow and deep copying
@@ -67,7 +67,7 @@ True
 
 This can be prevented by creating shallow/deep copies of objects instead of using assignment.
 
-## shallow copy
+## Shallow copy
 
 A shallow copy creates a new object, then populates it with references of the _objects_ in the original object. Continuing with the previous example, a shallow copy can be created using either the `list()` or `copy()` command.
 
@@ -121,7 +121,7 @@ As it is currently, updating `x[0]` would not affect `z[0]` because - immutable 
 [[1, 'edited'], [3, 4]]
 ```
 
-## deep copy
+## Deep copy
 
 A deep copy creates a new object, and completely new instances of the objects in it. That is, a deep copied object is completely independent of the original. Updating objects in the original would not affect the deep copied object since there's no longer any connection.
 
