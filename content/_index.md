@@ -4,16 +4,6 @@ title: Home
 
 ## Kinyanjui Wangonya
 
-Software engineer - previously at [Andela](https://andela.com/), now at [Jenga](https://www.jenga-agency.com/).
-
-<div class="social-links">
-    <a href="mailto:kwangonya@gmail.com" title="Email">
-        <i class="icon-mail-alt silver-link"></i>
-    </a>
-    <a href="https://github.com/wangonya" title="Github" target="_blank" rel="noreferrer">
-        <i class="icon-github-circled-1 silver-link"></i>
-    </a>
-    <a href="https://www.linkedin.com/in/wangonya/" title="LinkedIn" target="_blank" rel="noreferrer">
-        <i class="icon-linkedin silver-link"></i>
-    </a>
-</div>
+Software engineer - previously at [Andela](https://andela.com/), now at [Jenga](https://www.jenga-agency.com/). 
+You can reach me via [Email](mailto:kwangonya@gmail.com). I'm also on [LinkedIn](https://www.linkedin.com/in/wangonya/). 
+My projects are on [Github](https://github.com/wangonya).

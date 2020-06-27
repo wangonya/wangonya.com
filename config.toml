@@ -1,6 +1,6 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "wangonya's blog"
+title = "Kinyanjui Wangonya"
 theme = "hugo-xmin"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
@@ -10,7 +10,7 @@ footnotereturnlinkcontents = "↩"
 
 
 [params]
-    description = "wangonya's blog"
+    description = "Kinyanjui Wangonya"
 
 [markup]
   [markup.goldmark]
@@ -38,5 +38,5 @@ footnotereturnlinkcontents = "↩"
     lineNos = false
     lineNumbersInTable = true
     noClasses = true
-    style = "github"
+    style = "algol_nu"
     tabWidth = 4
