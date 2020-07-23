@@ -1,12 +1,11 @@
 ---
 title: "Variables & mutability in rust"
 date: 2020-06-14T22:33:13+03:00
-description: Understanding variables and mutability in rust
 tags:
   - rust
 ---
 
-By default, variables are immutable in Rust. Coming from a Python background, I have to keep in mind that this:
+By `default`, variables are immutable in Rust. Coming from a Python background, I have to keep in mind that this:
 
 ```rust
 fn main() {
@@ -17,7 +16,11 @@ fn main() {
 }
 ```
 
-... will not compile. The rust compiler gives a clear output of what went wrong:
+... will not compile. 
+
+<!--more-->
+
+The rust compiler gives a clear output of what went wrong:
 
 
 ```sh
