@@ -2,7 +2,6 @@
 title: "Shallow & deep copying in python"
 author: Kinyanjui Wangonya
 date: 2020-06-21T12:36:17+03:00
-description: Understanding how python handles aliasing, shallow and deep copying
 tags:
   - python
 ---
@@ -24,6 +23,8 @@ Both `x` and `y` will have the value `5`. But, when `x` was assigned to `y`, `y`
 >>> x is y
 True
 ```
+
+<!--more-->
 
 You may never have any problems with this when working with [immutable types](https://stackoverflow.com/a/23715872) because the alias is broken as soon as either of the two variables change. 
 
