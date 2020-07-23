@@ -8,14 +8,14 @@ tags:
 ---
 
 It's good practice to, as much as possible, write tests for your code. If you're working with Python, [pytest](https://pytest.org/en/latest/) makes the process of writing and running tests much smoother. I wrote a few posts some time back on getting started with testing with pytest, so if you're completely new to it, you might want to take a look at them:
-* [Python TDD with Pytest -- Getting Started](https://wangonya.com/blog/getting-started-with-pytest/)
-* [Asserting Exceptions with Pytest](https://wangonya.com/blog/pytest-asserting-exceptions/)
-* [Capturing print statements while debugging](https://wangonya.com/blog/pytest-capture-print/)
-* [Skipping tests](https://wangonya.com/blog/pytest-skip/)
+* [Getting started with pytest](https://wangonya.com/blog/getting-started-with-pytest/)
+* [Asserting Exceptions with Pytest](https://wangonya.com/blog/asserting-exceptions-with-pytest/)
+* [Capturing print statements while debugging](https://wangonya.com/blog/capturing-print-statements-while-debugging/)
+* [Skipping tests](https://wangonya.com/blog/skipping-tests/)
 
 For testing CLI apps, Click provides a convenient module: `click.testing` which has some useful functions (notably `CliRunner()`) to help us invoke commands and check their behavior.
 
-We'll go ahead and test each part of [our app](https://wangonya.com/blog/cli-crud-with-firebase/) - creating, reading, updating and deleting.
+We'll go ahead and test each part of [our app](https://wangonya.com/blog/performing-crud-operations-with-a-cli-app-using-firebase/) - creating, reading, updating and deleting.
 
 <!--more-->
 

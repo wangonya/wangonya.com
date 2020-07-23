@@ -10,7 +10,7 @@ For the next phase in this series, we'll learn how to make a CLI app to perform 
 
 <!--more-->
 
-## What we'll create
+### What we'll create
 A `contacts` app with the following functionality:
 
 ```bash
@@ -51,7 +51,7 @@ Contact deleted!
 
 <small> This post is a bit long. If you just want to take a look at the code or see how the app works, check out [the repo](https://github.com/wangonya/contacts-cli).</small>
 
-## Setting up Firebase
+### Setting up Firebase
 As mentioned earlier, Firebase will be used to store our data. To set up the database, sign in on <a href="https://firebase.google.com" target="_blank">Firebase</a> using your google account.
 
 After signing in successfully, click on the **Go to console** button on the top right. There, you can create a new project. Follow the required steps to create a new project.
@@ -73,7 +73,7 @@ The database should now look like this:
 ![Final result](https://res.cloudinary.com/kwangonya/image/upload/v1595479134/blog/firebase-final.png)
 
 
-## App setup
+### App setup
 We've already gone through the basics of setting up in previous posts so I won't go into much detail on that. Here are the steps:
 
 ```bash
@@ -104,7 +104,7 @@ export URL=https://[YOUR_PROJECT_ID].firebaseio.com
 Make sure to run `. .env` to load your environment variables, otherwise `URL` will be `None`.
 
 ### `setup.py`
-To learn more about the `setup` file, you can go back to [this](https://wangonya.com/blog/using-setuptools/) post.
+To learn more about the `setup` file, you can go back to [this](https://wangonya.com/blog/using-setuptools-to-package-your-python-app/) post.
 
 ```python
 from setuptools import setup, find_packages
@@ -194,7 +194,7 @@ Contact Chris added!
 
 ![Contacts database](https://res.cloudinary.com/kwangonya/image/upload/v1595479134/blog/firebase-contacts.png)
 
-## Getting all contacts
+### Getting all contacts
 
 ```python
 
@@ -219,7 +219,7 @@ Here's a list of all your contacts:
 {'Chris': {'mobile': '34243234'}, 'Peter': {'mobile': '8487344'}}
 ```
 
-## Getting one contact
+### Getting one contact
 
 ```python
 
@@ -249,7 +249,7 @@ The `view` command is similar to `list`, except it takes a `name` argument and a
 The contact you searched for doesn't exist
 ```
 
-## Updating a contact
+### Updating a contact
 
 ```python
 
@@ -277,7 +277,7 @@ Contact updated!
 {'mobile': '552'}
 ```
 
-## And finally, deleting a contact
+### And finally, deleting a contact
 
 Similar to the `view` command. The only change we'll make is using `DELETE` instead of `GET`.
 

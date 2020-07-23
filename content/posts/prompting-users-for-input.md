@@ -6,7 +6,7 @@ tags:
   - tutorial
 ---
 
-Getting user input is an important part of any kind of application. Since we've already learned about [options](https://wangonya.com/blog/click-commands-options/), adding a user prompt to our hello world app should be a breeze. All we need to do is add `prompt=True` to the option decorator, so that it prompts the user for input if no option is passed in.
+Getting user input is an important part of any kind of application. Since we've already learned about [options](https://wangonya.com/blog/adding-options-to-cli-commands/), adding a user prompt to our hello world app should be a breeze. All we need to do is add `prompt=True` to the option decorator, so that it prompts the user for input if no option is passed in.
 
 <!--more-->
 
