@@ -5,7 +5,7 @@ tags:
   - rust
 ---
 
-By `default`, variables are immutable in Rust. Coming from a Python background, I have to keep in mind that this:
+By default, variables are immutable in Rust. Coming from a Python background, I have to keep in mind that this:
 
 ```rust
 fn main() {

@@ -6,7 +6,7 @@ tags:
   - tutorial
 ---
 
-Arguments work very similarly to [options](https://wangonya.com/blog/click-commands-options/). If you're familiar with functional programming, then you're familiar with arguments. The concept is the same in Click.
+Arguments work very similarly to [options](https://wangonya.com/blog/adding-options-to-cli-commands/). If you're familiar with functional programming, then you're familiar with arguments. The concept is the same in Click.
 
 <!--more-->
 
