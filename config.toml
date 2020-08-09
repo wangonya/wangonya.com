@@ -1,4 +1,4 @@
-baseurl = ""
+baseurl = "https://wangonya.com"
 languageCode = "en-us"
 title = "Kinyanjui Wangonya"
 theme = "hugo-rocinante"
