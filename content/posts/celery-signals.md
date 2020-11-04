@@ -73,7 +73,7 @@ def add(x, y):
 
 @task_prerun.connect(sender=add)
 def task_prerun_notifier(sender=None, **kwargs):
-    print("From task_prerun_notifier ==> I'm running just before add() executes")
+    print("From task_prerun_notifier ==> Running just before add() executes")
 ```
 
 Sender is the task object being executed (the `add` function in this case).
@@ -81,7 +81,7 @@ Sender is the task object being executed (the `add` function in this case).
 Running `add.delay(4, 4)` like before now gives the following output on the celery terminal:
 
 ```sh
-[2020-11-03 07:23:19,183: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> I'm running just before add() executes
+[2020-11-03 07:23:19,183: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 07:23:19,184: INFO/ForkPoolWorker-2] Task tasks.add[1ef11c46-f461-4eb8-84ca-5c5cdab62a74] succeeded in 0.0016491969999998801s: 8
 ```
 
@@ -101,19 +101,19 @@ def add(x, y):
 
 @task_prerun.connect(sender=add)
 def task_prerun_notifier(sender=None, **kwargs):
-    print("From task_prerun_notifier ==> I'm running just before add() executes")
+    print("From task_prerun_notifier ==> Running just before add() executes")
 
 @task_postrun.connect(sender=add)
 def task_postrun_notifier(sender=None, **kwargs):
-    print("From task_postrun_notifier ==> Ok, I'm done")
+    print("From task_postrun_notifier ==> Ok, done!")
 ```
 
 Running this should give the following result:
 
 ```sh
-[2020-11-03 17:03:51,655: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> I'm running just before add() executes
+[2020-11-03 17:03:51,655: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 17:03:51,656: INFO/ForkPoolWorker-2] Task tasks.add[7da6ee71-1941-4a87-b993-8136d94ac067] succeeded in 0.0017917519999999243s: 8
-[2020-11-03 17:03:51,657: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, I'm done
+[2020-11-03 17:03:51,657: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, done!
 ```
 
 ### task_success
@@ -131,11 +131,11 @@ def add(x, y):
 
 @task_prerun.connect(sender=add)
 def task_prerun_notifier(sender=None, **kwargs):
-    print("From task_prerun_notifier ==> I'm running just before add() executes")
+    print("From task_prerun_notifier ==> Running just before add() executes")
 
 @task_postrun.connect(sender=add)
 def task_postrun_notifier(sender=None, **kwargs):
-    print("From task_postrun_notifier ==> Ok, I'm done")
+    print("From task_postrun_notifier ==> Ok, done!")
 
 @task_success.connect(sender=add)
 def task_success_notifier(sender=None, **kwargs):
@@ -146,10 +146,10 @@ Result:
 
 ```sh
 [2020-11-03 17:40:47,276: INFO/MainProcess] Received task: tasks.add[6603eb49-75ab-4653-b32f-ebe760a52de0]  
-[2020-11-03 17:40:47,279: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> I'm running just before add() executes
+[2020-11-03 17:40:47,279: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 17:40:47,281: WARNING/ForkPoolWorker-2] From task_success_notifier ==> Task run successfully!
 [2020-11-03 17:40:47,281: INFO/ForkPoolWorker-2] Task tasks.add[6603eb49-75ab-4653-b32f-ebe760a52de0] succeeded in 0.00201471799999986s: 8
-[2020-11-03 17:40:47,282: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, I'm done
+[2020-11-03 17:40:47,282: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, done!
 ```
 
 ### task_failure
@@ -167,11 +167,11 @@ def add(x, y):
 
 @task_prerun.connect(sender=add)
 def task_prerun_notifier(sender=None, **kwargs):
-    print("From task_prerun_notifier ==> I'm running just before add() executes")
+    print("From task_prerun_notifier ==> Running just before add() executes")
 
 @task_postrun.connect(sender=add)
 def task_postrun_notifier(sender=None, **kwargs):
-    print("From task_postrun_notifier ==> Ok, I'm done")
+    print("From task_postrun_notifier ==> Ok, done!")
 
 @task_failure.connect(sender=add)
 def task_failure_notifier(sender=None, **kwargs):
@@ -182,7 +182,7 @@ Result:
 
 ```sh
 [2020-11-03 17:44:36,082: INFO/MainProcess] Received task: tasks.add[da4a03e8-5530-4c9e-afeb-75f8e0b1be5d]  
-[2020-11-03 17:44:36,085: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> I'm running just before add() executes
+[2020-11-03 17:44:36,085: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 17:44:36,096: WARNING/ForkPoolWorker-2] From task_failure_notifier ==> Task failed successfully! 😅
 [2020-11-03 17:44:36,096: ERROR/ForkPoolWorker-2] Task tasks.add[da4a03e8-5530-4c9e-afeb-75f8e0b1be5d] raised unexpected: Exception()
 Traceback (most recent call last):
@@ -190,5 +190,5 @@ Traceback (most recent call last):
    in add
     raise Exception
 Exception
-[2020-11-03 17:44:36,097: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, I'm done
+[2020-11-03 17:44:36,097: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, done!
 ```
