@@ -4,8 +4,8 @@ author: Kinyanjui Wangonya
 date: 2021-04-08T17:08:41+03:00
 description: "Taking advantage of Pytest's parametrize fixture to avoid unnecessary repetition in tests."
 tags:
-  - python
-  - pytest
+    - python
+    - pytest
 ---
 
 Tests tend to not always be so DRY, which isn't necessarily a bad thing.
@@ -16,7 +16,7 @@ Tests tend to not always be so DRY, which isn't necessarily a bad thing.
 >
 > However, eliminating duplication is usually a good thing, as long as it doesn't obscure anything, and eliminating the duplication in your tests may lead to a better API. Just make sure you don't go past the point of diminishing returns.
 
-Pytest gives a couple of ways to reduce duplication with fixtures.
+Pytest gives some ways to reduce duplication with fixtures.
 
 Say you had a couple of endpoints that return data to be used in a report.
 The report data is supposed to be displayed in an excel sheet with different sheets.
@@ -128,7 +128,7 @@ def test_report_sheets_require_auth(endpoint)
     assert response.status == 401
 ```
 
-Now we have two tests instead on eight. But when you run the tests, 8 tests will run,
+Now we have two tests instead of eight. But when you run the tests, 8 tests will run,
 not 2. Pytest takes each value in `report_sheet_endpoints` and feeds it into the test.
 This reduces duplication while maintaining readability.
 
