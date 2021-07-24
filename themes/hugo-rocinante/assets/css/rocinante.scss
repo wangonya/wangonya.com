@@ -223,13 +223,20 @@ header h2 {
   }
   .date h5 {
     color: #888;
-    margin: 0;
+    margin: 0 0 0.4em 0;
   }
   .read-time {
     color: #888;
     font-size: 80%;
+    margin-top: 0.2em;
+    margin-bottom: 0;
   }
-  margin-bottom: 1.5em;
+  .series {
+    color: #888;
+    font-size: 80%;
+    margin-top: 0.2em;
+    margin-bottom: 0;
+  }
 }
 
 footer {

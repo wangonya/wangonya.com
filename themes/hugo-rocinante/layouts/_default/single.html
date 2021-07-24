@@ -6,12 +6,16 @@
                 <h1>{{ .Title }}</h1>
             </div>
             <div class="date"><h5>{{ .Params.date.Format "Jan 02, 2006" }}</h5></div>
+            {{ if .Params.series }}
+              <p class="series">Series: {{ .Params.series }}</p>
+            {{end}}
             {{ if eq .ReadingTime 1 }}
               <p class="read-time">Read time: {{.ReadingTime}} minute</p>
             {{ else }}
               <p class="read-time">Read time: {{.ReadingTime}} minutes</p>
             {{ end }}
         </div>
+ 
         <article class="content">
             {{ .Content }}
         </article>
