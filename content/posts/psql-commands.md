@@ -4,6 +4,7 @@ author: Kinyanjui Wangonya
 date: 2020-12-10T05:51:19+03:00
 tags:
   - psql
+  - db
 ---
 
 Running `\?` within a psql database gives a whole list of commands that come in handy when performing various kinds of tasks.
