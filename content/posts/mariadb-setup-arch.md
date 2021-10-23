@@ -7,6 +7,7 @@ tags:
   - reference
   - linux
   - db
+  - mysql
 ---
 
 [Arch Linux MariaDB docs](https://wiki.archlinux.org/title/MariaDB)
@@ -39,4 +40,16 @@ MariaDB> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
 MariaDB> GRANT ALL PRIVILEGES ON mydb.* TO 'monty'@'localhost';
 MariaDB> FLUSH PRIVILEGES;
 MariaDB> quit
+```
+
+## Logging into MariaDB
+
+```sh
+mysql -u //user_name// -p -h //ip_address// //db_name//
+```
+
+Eg:
+
+```sh
+mysql -u username -ppassword -h localhost database_name
 ```

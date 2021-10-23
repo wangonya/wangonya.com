@@ -1,6 +1,6 @@
 baseurl = "https://wangonya.com"
 languageCode = "en-us"
-title = "Kinyanjui Wangonya"
+title = "Kelvin Wangonya Kinyanjui"
 theme = "hugo-rocinante"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
@@ -9,13 +9,12 @@ footnotereturnlinkcontents = "↩"
     posts = "blog/:slug/"
 
 [author]
-  name = "Kinyanjui Wangonya"
+  name = "Kelvin Wangonya Kinyanjui"
 
 
 [params]
     email = "kwangonya@gmail.com"
-    about = """Software engineer - previously at [Andela](https://andela.com/), 
-               now at [Jenga](https://www.jenga-agency.com/)."""
+    about = "Software engineer."
 
 
 [[params.links]]
@@ -31,6 +30,14 @@ footnotereturnlinkcontents = "↩"
       name = "Github"
       href = "https://github.com/wangonya"
       new_tab = true
+    [[params.links.link]]
+      name = "Now"
+      href = "now"
+      local = true
+    [[params.links.link]]
+      name = "Uses"
+      href = "uses"
+      local = true
 
 [markup]
   [markup.highlight]

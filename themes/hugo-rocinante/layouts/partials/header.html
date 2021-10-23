@@ -1,5 +1,5 @@
 <h2>
-  {{ if and (.IsHome) (not (.Scratch.Get "pagenumber")) }}
+  {{ if .IsHome }}
     {{ .Site.Title }}
   {{ else }}
     <a href="{{ .Site.BaseURL }}">‹‹</a>
