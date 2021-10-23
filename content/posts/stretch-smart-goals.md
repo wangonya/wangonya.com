@@ -1,5 +1,6 @@
 ---
 title: Making your SMART goals smarter with Stretch goals
+author: Kelvin Wangonya
 date: 2019-08-30
 tags:
   - productivity

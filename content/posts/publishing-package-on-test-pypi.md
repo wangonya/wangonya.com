@@ -35,7 +35,7 @@ setup(
         long_description=long_description,
         long_description_content_type="text/markdown",
         url="https://github.com/wangonya/contacts-cli",
-        author="Kinyanjui Wangonya",
+        author="Kelvin Wangonya",
         author_email="kwangonya@gmail.com",
         license="MIT",
         classifiers=[

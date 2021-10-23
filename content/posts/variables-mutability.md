@@ -1,5 +1,6 @@
 ---
 title: "Variables & mutability in rust"
+author: Kelvin Wangonya
 date: 2020-06-14T22:33:13+03:00
 tags:
   - rust

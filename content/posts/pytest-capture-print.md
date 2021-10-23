@@ -1,5 +1,6 @@
 ---
 title: "Capturing print statements while debugging"
+author: Kelvin Wangonya
 date: 2019-01-30T8:06:29+03:00
 tags:
   - python

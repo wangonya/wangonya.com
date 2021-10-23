@@ -1,6 +1,6 @@
 ---
 title: "What happens when you run PSQL slash commands?"
-author: Kinyanjui Wangonya
+author: Kelvin Wangonya
 date: 2020-12-10T05:51:19+03:00
 tags:
   - psql

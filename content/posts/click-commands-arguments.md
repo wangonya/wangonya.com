@@ -1,9 +1,11 @@
 ---
 title: Adding arguments to CLI commands
+author: Kelvin Wangonya
 date: 2019-08-09
 tags:
   - python
   - tutorial
+  - python-click
 ---
 
 Arguments work very similarly to [options](https://wangonya.com/blog/adding-options-to-cli-commands/). If you're familiar with functional programming, then you're familiar with arguments. The concept is the same in Click.

@@ -1,5 +1,6 @@
 ---
 title: Finding an element in the array (the ES5, ES6 and ES7 way)
+author: Kelvin Wangonya
 date: 2018-08-26
 tags:
   - javascript

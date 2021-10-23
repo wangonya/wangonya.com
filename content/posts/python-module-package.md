@@ -1,5 +1,6 @@
 ---
 title: "Difference between a python module and a package"
+author: Kelvin Wangonya
 date: "2019-02-20T18:35:12+03:00"
 tags:
   - python

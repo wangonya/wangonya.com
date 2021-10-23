@@ -1,6 +1,6 @@
 ---
 title: "{{ replace .Name "-" " " }}"
-author: Kinyanjui Wangonya
+author: Kelvin Wangonya
 date: {{ .Date }}
 description:
 tags:

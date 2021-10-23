@@ -1,5 +1,6 @@
 ---
 title: "Creating a Simple ToDo Api With Django"
+author: Kelvin Wangonya
 date: "2019-04-01T07:57:54+03:00"
 tags:
   - python

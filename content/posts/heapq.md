@@ -1,5 +1,6 @@
 ---
 title: Python's heapq module
+author: Kelvin Wangonya
 date: 2018-12-21
 tags:
   - python

@@ -1,6 +1,6 @@
 ---
 title: "You can use your database as a simple calculator"
-author: Kinyanjui Wangonya
+author: Kelvin Wangonya
 date: 2021-10-23T17:49:32+03:00
 description:
 tags:

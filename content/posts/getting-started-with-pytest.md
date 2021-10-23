@@ -1,5 +1,6 @@
 ---
 title: "Getting started with pytest"
+author: Kelvin Wangonya
 date: 2019-01-28T08:15:40+03:00
 tags:
   - python

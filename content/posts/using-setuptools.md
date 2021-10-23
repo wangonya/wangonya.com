@@ -1,5 +1,6 @@
 ---
 title: Using setuptools to package your Python app
+author: Kelvin Wangonya
 date: 2019-08-05
 tags:
   - python

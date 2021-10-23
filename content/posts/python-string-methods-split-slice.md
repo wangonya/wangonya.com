@@ -1,8 +1,10 @@
 ---
 title: A quick reference to Python string methods - Splitting and Slicing
+author: Kelvin Wangonya
 date: 2019-09-13
 tags:
   - python
+  - reference
 ---
 
 <small>Note: <sup style="color: red">\*</sup> represents a required parameter.</small>

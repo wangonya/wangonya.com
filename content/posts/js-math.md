@@ -1,5 +1,6 @@
 ---
 title: "Javascript Arithmetic Cheat Sheet"
+author: Kelvin Wangonya
 date: "2019-03-05T05:25:12+03:00"
 tags:
   - javascript

@@ -1,5 +1,6 @@
 ---
 title: Getting the running Go version
+author: Kelvin Wangonya
 date: 2021-07-24T05:02:01+03:00
 tags:
   - go

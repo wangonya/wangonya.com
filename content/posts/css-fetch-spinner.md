@@ -1,5 +1,6 @@
 ---
 title: "Displaying a css spinner on ajax calls with fetch api"
+author: Kelvin Wangonya
 date: "2019-02-01T08:18:26+03:00"
 tags:
   - css

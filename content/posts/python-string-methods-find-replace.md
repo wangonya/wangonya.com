@@ -1,8 +1,10 @@
 ---
 title: A quick reference to Python string methods - Find and Replace
+author: Kelvin Wangonya
 date: 2019-09-07
 tags:
   - python
+  - reference
 ---
 
 <small>Note: <sup style="color: red">\*</sup> represents a required parameter.</small>

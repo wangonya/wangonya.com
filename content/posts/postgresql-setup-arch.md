@@ -1,6 +1,6 @@
 ---
 title: "Setting up PostgreSQL on Arch Linux"
-author: Kinyanjui Wangonya
+author: Kelvin Wangonya
 date: 2021-10-15T16:09:08+03:00
 description: Setting up MariaDB on Arch Linux
 tags:

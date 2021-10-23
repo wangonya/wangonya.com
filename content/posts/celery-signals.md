@@ -1,6 +1,6 @@
 ---
 title: "Working with celery signals"
-author: Kinyanjui Wangonya
+author: Kelvin Wangonya
 date: 2020-11-03T06:17:15+03:00
 description:
 tags:

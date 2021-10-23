@@ -20,7 +20,7 @@ Getting counters working requires three steps:
 It's pretty simple, really. The Pen below demonstrates how to count and number three `<div>` elements.
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Css counter demo" src="//codepen.io/wang0nya/embed/voRyaJ/?height=265&theme-id=dark&default-tab=css,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/wang0nya/pen/voRyaJ/'>Css counter demo</a> by Kinyanjui Wangonya
+  See the Pen <a href='https://codepen.io/wang0nya/pen/voRyaJ/'>Css counter demo</a> by Kelvin Wangonya
   (<a href='https://codepen.io/wang0nya'>@wang0nya</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 
@@ -29,6 +29,6 @@ It's pretty simple, really. The Pen below demonstrates how to count and number t
 I discovered CSS counters while looking for a way to number images on my blog posts. That's one place it would really come in handy. Here's a quick example:
 
 <iframe height="265" style="width: 100%;" scrolling="no" title="Css counter figcaptions demo" src="//codepen.io/wang0nya/embed/LwdxZz/?height=265&theme-id=dark&default-tab=html,result" frameborder="no" allowtransparency="true" allowfullscreen="true">
-  See the Pen <a href='https://codepen.io/wang0nya/pen/LwdxZz/'>Css counter figcaptions demo</a> by Kinyanjui Wangonya
+  See the Pen <a href='https://codepen.io/wang0nya/pen/LwdxZz/'>Css counter figcaptions demo</a> by Kelvin Wangonya
   (<a href='https://codepen.io/wang0nya'>@wang0nya</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>

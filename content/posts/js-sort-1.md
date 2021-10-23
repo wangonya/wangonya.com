@@ -1,5 +1,6 @@
 ---
 title: Sorting Algorithms with Javascript (Part 1)
+author: Kelvin Wangonya
 date: 2018-10-18
 tags:
   - javascript

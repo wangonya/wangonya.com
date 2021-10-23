@@ -1,8 +1,10 @@
 ---
 title: A quick reference to Python string methods - Cases
+author: Kelvin Wangonya
 date: 2019-09-11
 tags:
   - python
+  - reference
 ---
 
 ### `capitalize()`

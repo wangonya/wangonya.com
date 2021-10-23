@@ -1,6 +1,6 @@
 ---
 title: "Shallow & deep copying in python"
-author: Kinyanjui Wangonya
+author: Kelvin Wangonya
 date: 2020-06-21T12:36:17+03:00
 tags:
   - python

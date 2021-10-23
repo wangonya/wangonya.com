@@ -1,6 +1,6 @@
 ---
 title: "Setting up MariaDB on Arch Linux"
-author: Kinyanjui Wangonya
+author: Kelvin Wangonya
 date: 2021-10-15T15:56:36+03:00
 description: Setting up MariaDB on Arch Linux
 tags:

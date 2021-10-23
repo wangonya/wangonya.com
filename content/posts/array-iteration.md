@@ -1,5 +1,6 @@
 ---
 title: Javascript array iteration with some() and every()
+author: Kelvin Wangonya
 date: 2018-08-28
 tags:
   - javascript

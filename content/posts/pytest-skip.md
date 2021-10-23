@@ -1,5 +1,6 @@
 ---
 title: "Skipping tests"
+author: Kelvin Wangonya
 date: 2019-01-31T08:16:36+03:00
 description: "Python TDD with Pytest Part 4 -- Skipping tests"
 ---
