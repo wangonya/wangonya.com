@@ -32,11 +32,11 @@ footnotereturnlinkcontents = "↩"
       new_tab = true
     [[params.links.link]]
       name = "Now"
-      href = "now"
+      href = "/now"
       local = true
     [[params.links.link]]
       name = "Uses"
-      href = "uses"
+      href = "/uses"
       local = true
 
 [markup]
