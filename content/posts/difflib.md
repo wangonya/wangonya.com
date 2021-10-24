@@ -8,7 +8,7 @@ tags:
 
 Say we have a list of strings: `_list = [...,]` and user input `_input = '...'`, how do we find the items in `_list` that most closely resemble `_input`?
 
-Python has a built-in package called <a href="https://docs.python.org/2/library/difflib.html" target="_blank">`difflib`</a> with the function `get_close_matches()` that can help us.
+Python has a built-in package called <a href="https://docs.python.org/2/library/difflib.html">`difflib`</a> with the function `get_close_matches()` that can help us.
 
 <!--more-->
 
@@ -18,7 +18,7 @@ Python has a built-in package called <a href="https://docs.python.org/2/library/
 * `n` (optional) - the maximum number of close matches to return. Must be `> 0`. Default is `3`.
 * `cutoff` (optional) - a float in the range [0, 1] that a `possibility` must score in order to be considered similar to `word`. `0` is very lenient, `1` is very strict. Default is `0.6`.
 
-An example from the <a href="https://docs.python.org/2/library/difflib.html#difflib.get_close_matches" target="_blank">docs</a>:
+An example from the <a href="https://docs.python.org/2/library/difflib.html#difflib.get_close_matches">docs</a>:
 
 ```
 Python 3.7.3

@@ -54,7 +54,7 @@ Contact deleted!
 <small> This post is a bit long. If you just want to take a look at the code or see how the app works, check out [the repo](https://github.com/wangonya/contacts-cli).</small>
 
 ### Setting up Firebase
-As mentioned earlier, Firebase will be used to store our data. To set up the database, sign in on <a href="https://firebase.google.com" target="_blank">Firebase</a> using your google account.
+As mentioned earlier, Firebase will be used to store our data. To set up the database, sign in on Firebase using your google account.
 
 After signing in successfully, click on the **Go to console** button on the top right. There, you can create a new project. Follow the required steps to create a new project.
 

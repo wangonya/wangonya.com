@@ -25,19 +25,15 @@ footnotereturnlinkcontents = "↩"
     [[params.links.link]]
       name = "LinkedIn"
       href = "https://www.linkedin.com/in/wangonya/"
-      new_tab = true
     [[params.links.link]]
       name = "Github"
       href = "https://github.com/wangonya"
-      new_tab = true
     [[params.links.link]]
       name = "Now"
       href = "/now"
-      local = true
     [[params.links.link]]
       name = "Uses"
       href = "/uses"
-      local = true
 
 [markup]
   [markup.highlight]
