@@ -13,5 +13,5 @@ Here's an overview of what I'm doing now:
     - Django (DRF, Postgres, etc)
     - FastApi (MySQL, SQLAlchemy, Alembic, Pydantic, etc)
 - Reading:
-  - _"Effective Python"_ by Brett Slatkin
-  - _"A Short History of Nearly Everything"_ by Bill Bryson
+  - Effective Python - Brett Slatkin
+  - A Short History of Nearly Everything - Bill Bryson
