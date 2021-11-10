@@ -1,6 +1,6 @@
 ---
 title: Now
-last_updated: 2021-10-24T18:02:01+03:00
+last_updated: 2021-11-10
 tags:
   - productivity
 ---
@@ -14,4 +14,5 @@ Here's an overview of what I'm doing now:
     - FastApi (MySQL, SQLAlchemy, Alembic, Pydantic, etc)
 - Reading:
   - Effective Python - Brett Slatkin
+  - Database Internals: A Deep Dive into How Distributed Data Systems Work - Alex Petrov
   - A Short History of Nearly Everything - Bill Bryson
