@@ -3,6 +3,7 @@ title: My Setup
 last_updated: 2021-10-23T18:02:01+03:00
 tags:
   - productivity
+draft: true
 ---
 
 ![setup](/static/setup.jpg)
