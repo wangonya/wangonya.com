@@ -1,5 +1,5 @@
 ---
-title: "Processing Iterators in Parallel"
+title: "Processing iterators in parallel"
 date: 2021-11-03T06:13:46+03:00
 author: Kelvin Wangonya
 tags:
