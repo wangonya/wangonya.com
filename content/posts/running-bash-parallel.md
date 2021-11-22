@@ -15,6 +15,8 @@ This comes in handy when I want to, for example:
 From [this answer](https://stackoverflow.com/questions/3004811/how-do-you-run-multiple-programs-in-parallel-from-a-bash-script):
 
 ``` bash
+set -m  # enable job control
+
 prog1 & prog2 && fg
 ```
 
