@@ -1,14 +1,13 @@
 ---
 title: Coding interview question patterns
 author: Kelvin Wangonya
-cheat: true
+pinned: true
 last_updated: 2021-11-18
 tags:
   - cheatsheet
   - reference
 draft: true
 ---
-
 
 <table>
   <tr>
@@ -30,7 +29,6 @@ draft: true
     </td>
   </tr>
 </table>
-
 
 <!-- row template
 <tr>
