@@ -26,7 +26,7 @@ True
 
 <!--more-->
 
-You may never have any problems with this when working with [immutable types](https://stackoverflow.com/a/23715872) because the alias is broken as soon as either of the two variables change. 
+You may never have any problems with this when working with [immutable types](https://stackoverflow.com/a/23715872) because the alias is broken as soon as either of the two variables change.
 
 ```py
 >>> x += 2
@@ -53,7 +53,7 @@ But when working with mutable types, the alias is not broken when the original i
 [1, 2, 3]
 >>> x is y
 True
->>> 
+>>>
 >>> x.append(4)
 >>> x.append(5)
 >>> x
@@ -91,9 +91,9 @@ Now if some more values are appended to `x`, `y` will still be affected by `z` w
 [1, 2, 3, 4, 5]
 ```
 
-However, a shallow copy doesn't fully solve the problem because even though a new list was created, the objects in the list are still references to the objects in `x`. 
+However, a shallow copy doesn't fully solve the problem because even though a new list was created, the objects in the list are still references to the objects in `x`.
 
-As it is currently, updating `x[0]` would not affect `z[0]` because - immutable objects - the alias would be broken. But, if we were dealing with a list of lists, an update in `x[0]` would affect `z[0]`. 
+As it is currently, updating `x[0]` would not affect `z[0]` because - immutable objects - the alias would be broken. But, if we were dealing with a list of lists, an update in `x[0]` would affect `z[0]`.
 
 ```py
 >>> x = [[1,2], [3,4]]

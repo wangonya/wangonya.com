@@ -15,22 +15,26 @@ tags:
 > MariaDB is a reliable, high performance and full-featured database server which aims to be an 'always Free, backward compatible, drop-in' replacement of MySQL. Since 2013 MariaDB is Arch Linux's default implementation of MySQL.
 
 ## Install
+
 ```sh
 $ sudo pacman -S mariadb
 ```
 
 ## Setup the data directory
+
 ```sh
 $ sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ```
 
 ## Start mariadb.service
+
 ```sh
 $ systemctl start mariadb.service
 $ systemctl enable mariadb.service
 ```
 
 ## Add user
+
 > In the below example, the user monty with some_pass as password is being created, then granted full permissions to the database mydb:
 
 ```sh

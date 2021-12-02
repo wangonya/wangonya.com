@@ -4,8 +4,8 @@ author: Kelvin Wangonya
 date: 2021-04-08T17:08:41+03:00
 description: "Taking advantage of Pytest's parametrize fixture to avoid unnecessary repetition in tests."
 tags:
-    - python
-    - pytest
+  - python
+  - pytest
 ---
 
 Tests tend to not always be so DRY, which isn't necessarily a bad thing.

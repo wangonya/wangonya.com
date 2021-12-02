@@ -13,6 +13,7 @@ For the next phase in this series, we'll learn how to make a CLI app to perform 
 <!--more-->
 
 ### What we'll create
+
 A `contacts` app with the following functionality:
 
 ```bash
@@ -54,6 +55,7 @@ Contact deleted!
 <small> This post is a bit long. If you just want to take a look at the code or see how the app works, check out [the repo](https://github.com/wangonya/contacts-cli).</small>
 
 ### Setting up Firebase
+
 As mentioned earlier, Firebase will be used to store our data. To set up the database, sign in on Firebase using your google account.
 
 After signing in successfully, click on the **Go to console** button on the top right. There, you can create a new project. Follow the required steps to create a new project.
@@ -74,8 +76,8 @@ The database should now look like this:
 
 ![Final result](https://res.cloudinary.com/kwangonya/image/upload/v1595479134/blog/firebase-final.png)
 
-
 ### App setup
+
 We've already gone through the basics of setting up in previous posts so I won't go into much detail on that. Here are the steps:
 
 ```bash
@@ -97,6 +99,7 @@ $ . env/bin/activate
 ```
 
 ### `.env`
+
 This is where the api endpoint url will be stored. Firebase [provides a REST API](https://firebase.google.com/docs/reference/rest/database) for the database so that's what we'll use. If you already followed the steps and created the database, just grab the link provided at the top of the database and set it in your `.env` file.
 
 ```bash
@@ -106,6 +109,7 @@ export URL=https://[YOUR_PROJECT_ID].firebaseio.com
 Make sure to run `. .env` to load your environment variables, otherwise `URL` will be `None`.
 
 ### `setup.py`
+
 To learn more about the `setup` file, you can go back to [this](https://wangonya.com/blog/using-setuptools-to-package-your-python-app/) post.
 
 ```python
@@ -128,6 +132,7 @@ setup(
 Then run `pip install --editable .` in your terminal to install the app.
 
 #### `app/__init__.py`
+
 ```python
 import click
 

@@ -16,7 +16,6 @@ In our bodies, we have a chemical known as Adenosine. After a good night sleep, 
 
 I don't know much about biology but this sure looks like it can cause problems in the long term. It's really just a hack. Definitely not how things should work.
 
-
 ## Healthier ways to stay alert
 
 ### 1. Have a good night sleep.

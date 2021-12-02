@@ -1,5 +1,5 @@
 ---
-title:  Even more posts
+title: Even more posts
 date: 2017-08-10
 tags: ["Example", "Specimen", "Prototype"]
 ---

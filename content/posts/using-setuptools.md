@@ -7,8 +7,8 @@ tags:
   - tutorial
 ---
 
-In our previous post, we made a Hello World! app to get us started with Click. 
-You might have noticed though that we needed to do `python hello-world.py` to run it. Since we're building CLI apps, 
+In our previous post, we made a Hello World! app to get us started with Click.
+You might have noticed though that we needed to do `python hello-world.py` to run it. Since we're building CLI apps,
 that's just not cool and it's not how CLI apps work anyway. We need to be able to run a single command, something like:
 
 ```bash
@@ -18,7 +18,7 @@ Hello World!
 
 That's where [setuptools](https://setuptools.readthedocs.io/en/latest/) comes in. Setuptools helps us bundle our script so we can install it and run it like an app (`$ hello`), instead of like a script (`$ python hello-world.py`).
 
-> Setuptools is a collection of enhancements to the Python distutils that allow developers to more easily build and distribute Python packages, especially ones that have dependencies on other packages.  - <small><a href="https://setuptools.readthedocs.io/en/latest/setuptools.html">Docs</a></small>
+> Setuptools is a collection of enhancements to the Python distutils that allow developers to more easily build and distribute Python packages, especially ones that have dependencies on other packages. - <small><a href="https://setuptools.readthedocs.io/en/latest/setuptools.html">Docs</a></small>
 
 <!--more-->
 
@@ -111,4 +111,3 @@ Then execute the created command:
 (venv) $ hello
 Hello World!
 ```
-

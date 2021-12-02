@@ -1,7 +1,5 @@
 <h2>
-  {{ if .IsHome }}
-    {{ .Site.Title }}
-  {{ else }}
-    <a href="{{ .Site.BaseURL }}">‹‹</a>
+  {{ if .IsHome }} {{ .Site.Title }} {{ else }}
+  <a href="{{ .Site.BaseURL }}">‹‹</a>
   {{ end }}
 </h2>

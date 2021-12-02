@@ -1,5 +1,5 @@
 ---
-title:  Another post is here
+title: Another post is here
 date: 2017-09-07
 tags: ["Samples", "Example", "Specimen"]
 ---

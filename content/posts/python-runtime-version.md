@@ -16,7 +16,8 @@ print(sys.version)
 ```
 
 Output:
+
 ```sh
-3.9.7 (default, Aug 31 2021, 13:28:12) 
+3.9.7 (default, Aug 31 2021, 13:28:12)
 [GCC 11.1.0]
 ```

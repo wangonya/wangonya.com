@@ -23,6 +23,7 @@ It can be a bit confusing if you're new to Python, and it's easy to assume the t
 <!--more-->
 
 ## `is`
+
 The `is` operator checks if both elements point to the same object. Let's fire up a python console to help illustrate this:
 
 ```bash
@@ -60,6 +61,7 @@ Despite the fact that `a` and `b` seem identical (in that they're both empty lis
 Conversely, because we assigned the variable `a` to `c`, they both point to the same object, thus `a is c` is `True`.
 
 ## `==`
+
 `==` on the other hand checks if both elements contain equal values. Whether or not they point to the same object doesn't matter here.
 
 ```bash

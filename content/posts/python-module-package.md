@@ -8,7 +8,7 @@ tags:
 
 ### Modules
 
-Modules are single Python files that can be imported. Any python file can be a module. 
+Modules are single Python files that can be imported. Any python file can be a module.
 For example, if I have two Python files: `module.py` and `hello.py` in the same directory:
 
 ```python

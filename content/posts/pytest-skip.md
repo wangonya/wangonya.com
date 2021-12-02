@@ -7,7 +7,7 @@ description: "Python TDD with Pytest Part 4 -- Skipping tests"
 
 Sometimes you might want to skip a particular test while executing others for some reason. Maybe the database guy isn't done setting up and that particular test requires a database connection. Instead of having to wait, you can just write the test and instruct pytest to skip it, giving the appropriate reason so it doesn't look like you just skipped a failing test to keep your test suite green.
 
-There's a couple of ways to do this. 
+There's a couple of ways to do this.
 
 <!--more-->
 

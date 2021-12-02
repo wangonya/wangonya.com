@@ -8,7 +8,7 @@ tags:
 katex: true
 ---
 
-The Fibonacci sequence is a sequence of numbers such that any number, except for the first and second, is the sum of the previous two. 
+The Fibonacci sequence is a sequence of numbers such that any number, except for the first and second, is the sum of the previous two.
 
 <!--more-->
 
@@ -39,6 +39,7 @@ if __name__ == "__main__":
 ```
 
 ### Why do we need a base case?
+
 It's easy enough to convert the formula directly into
 
 ```python
@@ -50,6 +51,7 @@ The problem with this though is that when you run it, it throws a [`RecursionErr
 definition that any number in the sequence, **except for the first and second**, is the sum of the previous two. We use that to form our base case `if n < 2: return n`.
 
 ## Making it more efficient
+
 Remember when I told you to only test the program with small values of `n`? Here's why.
 
 As it stands, every call to `fib()` results in two more calls to `fib()` in the `return` statement. The call tree grows exponentially. 15 calls are required to compute `fib(5)`, 177 calls for `fib(10)`, 21,891 for `fib(20)`... you get the point. To solve this problem, we can use [memoization](https://www.ocf.berkeley.edu/~shidi/cs61a/wiki/Memoization).

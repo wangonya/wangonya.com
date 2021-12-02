@@ -48,15 +48,16 @@ Python 3.7.4
 string.partition(separator)
 ```
 
-`separator`<sup style="color: red">\*</sup>: the part of the string that will trigger the separation. If it 
+`separator`<sup style="color: red">\*</sup>: the part of the string that will trigger the separation. If it
 occurs more than once in the string, the **first** occurrence is considered.
 
 #### Return value
 
 Return a tuple containing three parts:
-* the part of the string before the separator
-* the separator itself
-* the part of the string after the separator
+
+- the part of the string before the separator
+- the separator itself
+- the part of the string after the separator
 
 #### Example
 
@@ -83,15 +84,16 @@ Python 3.7.4
 string.rpartition(separator)
 ```
 
-`separator`<sup style="color: red">\*</sup>: the part of the string that will trigger the separation. If it 
+`separator`<sup style="color: red">\*</sup>: the part of the string that will trigger the separation. If it
 occurs more than once in the string, the **last** occurrence is considered.
 
 #### Return value
 
 Return a tuple containing three parts:
-* the part of the string before the last occurrence of the separator
-* the separator itself
-* the part of the string after the separator
+
+- the part of the string before the last occurrence of the separator
+- the separator itself
+- the part of the string after the separator
 
 #### Example
 
@@ -118,12 +120,13 @@ Python 3.7.4
 string.split(separator, maxsplit)
 ```
 
-`separator`: the element to use in separating the string. If none is specified, the string is 
+`separator`: the element to use in separating the string. If none is specified, the string is
 separated using spaces.
 
 `maxsplit`: the maximum number of splits
 
 #### Return value
+
 Returns a list of strings separated at the specified `separator`.
 
 #### Example
@@ -153,12 +156,13 @@ Python 3.7.4
 string.rsplit(separator, maxsplit)
 ```
 
-`separator`: the element to use in separating the string. If none is specified, the string is 
+`separator`: the element to use in separating the string. If none is specified, the string is
 separated using spaces.
 
 `maxsplit`: the maximum number of splits
 
 #### Return value
+
 Returns a list of strings separated at the specified `separator` **starting from the right**.
 
 #### Example
@@ -188,10 +192,11 @@ Python 3.7.4
 string.splitlines(keepends)
 ```
 
-`keepends`: if included, the line breaks are also included in the returned items of the list. 
+`keepends`: if included, the line breaks are also included in the returned items of the list.
 Provided as either `True` or `False`. Defaults to `False` if nothing is provided.
 
 #### Return value
+
 Returns a list of lines in the string.
 
 #### Example
@@ -205,10 +210,10 @@ Python 3.7.4
 ... And never stops - at all -"""
 
 >>> s.splitlines()
-['“Hope” is the thing with feathers -', 'That perches in the soul -', 
+['“Hope” is the thing with feathers -', 'That perches in the soul -',
 'And sings the tune without the words -', 'And never stops - at all -']
 
 >>> s.splitlines(True)
-['“Hope” is the thing with feathers -\n', 'That perches in the soul -\n', 
+['“Hope” is the thing with feathers -\n', 'That perches in the soul -\n',
 'And sings the tune without the words -\n', 'And never stops - at all -']
 ```

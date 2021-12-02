@@ -17,12 +17,11 @@ fn main() {
 }
 ```
 
-... will not compile. 
+... will not compile.
 
 <!--more-->
 
 The rust compiler gives a clear output of what went wrong:
-
 
 ```sh
 error[E0384]: cannot assign twice to immutable variable `var`
@@ -101,4 +100,3 @@ error[E0308]: mismatched types
 - Constants are declared with `const` keyword, variables with `let`
 - Constants cannot be made mutable
 - Constants can only be assigned to constant expressions, not to values that are computed during runtime - like results of function calls
-

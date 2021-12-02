@@ -9,11 +9,13 @@ tags:
 Use [zip](https://docs.python.org/3/library/functions.html#zip)
 
 > `zip(*iterables, strict=False)`
-> 
+>
 > Iterate over several iterables in parallel, producing tuples with an item from each one.
 
 ### Examples
+
 #### Without zip
+
 ```py
 countries = ["Kenya", "Tanzania", "Uganda"]
 capitals = ["Nairobi", "Dodoma", "Kampala"]
@@ -30,6 +32,7 @@ for i, country in enumerate(countries):
 ```
 
 Output:
+
 ```
 === using range ===
 Country: Kenya, Capital: Nairobi
@@ -43,6 +46,7 @@ Country: Uganda, Capital: Kampala
 ```
 
 #### With zip
+
 ```py
 print("=== using zip ===")
 for country, capital in zip(countries, capitals):
@@ -50,6 +54,7 @@ for country, capital in zip(countries, capitals):
 ```
 
 Output:
+
 ```
 === using zip ===
 Country: Kenya, Capital: Nairobi

@@ -1,6 +1,6 @@
 # Rocinante theme for Hugo
 
-######  [Demo link](https://sidverma.io/hugo-rocinante/)
+###### [Demo link](https://sidverma.io/hugo-rocinante/)
 
 Rocinante is a simple responsive blog theme with minimal non-essential components. It supports normal blog posts and photoblogs.
 
@@ -98,4 +98,3 @@ If you find a bug or have an idea for a feature, feel free to write an [issue](h
 ## License
 
 MIT
-

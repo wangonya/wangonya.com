@@ -11,6 +11,7 @@ tags:
 In this post, we'll cover the very basics of working with Python and Click to create a CLI app. We'll install Python 3, set up our development environment, install Click, and create a `hello-world` app.
 
 ### Python 3.x
+
 Getting started with Python is easy. Most <sup>\*</sup>nix systems come with Python pre-installed. We'll be using Python 3. To check which version of Python you have, open up your terminal and run `python -V`. You should get an output similar to this:
 
 ```bash
@@ -28,6 +29,7 @@ If you don't have Python installed, you can head over to [python.org](https://ww
 <!--more-->
 
 ### pip
+
 `pip` is a package manager for Python. It allows us to install libraries and dependencies that we'll need to use for our project. It comes pre-installed with Python. To check if you have it, you can run `pip -V` or `pip3 -V`. You should see something like:
 
 ```bash
@@ -35,6 +37,7 @@ pip 19.0.3 from /usr/local/lib/python3.7/site-packages/pip (python 3.7)
 ```
 
 ### Virtualenv
+
 When working on your Python projects, it's always a good idea to create isolated environments to work in. This is because different projects will require different dependencies or different versions of those dependencies. Installing these globally will be hard to manage and will just mess up your system. Installing them in a project's environment keeps things clean. There's a couple of options to deal with environments in Python but we'll focus on `virtualenv`.
 
 We're going to create a new directory and create a virtual environment in it. On your terminal, run:
@@ -65,6 +68,7 @@ $ source venv/bin/activate
 You'll notice the change in your terminal prompt when the environment is activated. The environment name is prefixed at the prompt. That's how you know you're working in the environment.
 
 ### Click
+
 Now that we have our environment ready, we can start working on our project. Python provides [a number of packages](https://docs.python-guide.org/scenarios/cli/) to help in creating CLI apps. We'll be using [Click](https://click.palletsprojects.com/en/7.x/), so we need to install it to get started.
 
 ```bash
@@ -74,6 +78,7 @@ Now that we have our environment ready, we can start working on our project. Pyt
 That's all we need to get started.
 
 ### Hello World!
+
 As usual, we'll start off with a "Hello World!" program.
 
 Still in the `hello-world-cli` directory, create a file called `hello-world.py`:
@@ -139,4 +144,3 @@ Ok, time to see the results. Save the file, go back to the terminal, and run the
 (venv) $ python hello-world.py
 Hello World!
 ```
-

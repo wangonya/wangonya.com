@@ -13,28 +13,33 @@ tags:
 [Arch Linux PostgreSQL docs](https://wiki.archlinux.org/title/PostgreSQL)
 
 ## Install
+
 ```sh
 $ sudo pacman -S postgresql
 ```
 
 ## Setup the data directory
+
 ```sh
 $ sudo -iu postgres
 [postgres]$ initdb -D /var/lib/postgres/data
 ```
 
 ## Start postgresql.service
+
 ```sh
-$ systemctl start postgresql.service 
-$ systemctl enable postgresql.service 
+$ systemctl start postgresql.service
+$ systemctl enable postgresql.service
 ```
 
 ## Add user
+
 ```sh
 [postgres]$ createuser --interactive
 ```
 
 ## Create db
+
 ```sh
 $ createdb myDatabaseName
 ```

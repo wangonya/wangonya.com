@@ -9,7 +9,9 @@ draft: true
 ![setup](/static/setup.jpg)
 
 ## Hardware
+
 ### Primary Computer
+
 - Laptop: Lenovo Thinkpad X1 Carbon 4th Gen running [Manjaro](https://manjaro.org/) with [i3wm](https://i3wm.org/)
 - Keyboard: Anne Pro 2
 - Mouse: Logitech M330 Silent Plus
@@ -17,14 +19,18 @@ draft: true
 - Headset: HP H160G
 
 ### Secondary Computer
+
 - Laptop: MacBook Air 2015 13" running Windows 10
 - Headset: Sony WH-1000XM3
 
 ## Software
+
 ### Editors
+
 - Visual Studio Code
 - Neovim ([NvChad](https://nvchad.github.io/))
 
 ### Browsers
+
 - FireFox
 - Edge

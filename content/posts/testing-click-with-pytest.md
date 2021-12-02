@@ -10,10 +10,11 @@ tags:
 ---
 
 It's good practice to, as much as possible, write tests for your code. If you're working with Python, [pytest](https://pytest.org/en/latest/) makes the process of writing and running tests much smoother. I wrote a few posts some time back on getting started with testing with pytest, so if you're completely new to it, you might want to take a look at them:
-* [Getting started with pytest](https://wangonya.com/blog/getting-started-with-pytest/)
-* [Asserting Exceptions with Pytest](https://wangonya.com/blog/asserting-exceptions-with-pytest/)
-* [Capturing print statements while debugging](https://wangonya.com/blog/capturing-print-statements-while-debugging/)
-* [Skipping tests](https://wangonya.com/blog/skipping-tests/)
+
+- [Getting started with pytest](https://wangonya.com/blog/getting-started-with-pytest/)
+- [Asserting Exceptions with Pytest](https://wangonya.com/blog/asserting-exceptions-with-pytest/)
+- [Capturing print statements while debugging](https://wangonya.com/blog/capturing-print-statements-while-debugging/)
+- [Skipping tests](https://wangonya.com/blog/skipping-tests/)
 
 For testing CLI apps, Click provides a convenient module: `click.testing` which has some useful functions (notably `CliRunner()`) to help us invoke commands and check their behavior.
 
@@ -22,6 +23,7 @@ We'll go ahead and test each part of [our app](https://wangonya.com/blog/perform
 <!--more-->
 
 ### Installing pytest and writing the first test
+
 pytest can be installed via pip:
 
 ```
@@ -58,6 +60,7 @@ tests/test_app.py .                              [100%]
 ```
 
 ### Testing the `add` command
+
 Let's edit the test_app file to add a test to see if the `add` command adds a new contact:
 
 ```python
@@ -134,6 +137,7 @@ def test_delete():
 ```
 
 ### Improvements
+
 As your application grows, you may want to consider using [fixtures](https://docs.pytest.org/en/latest/fixture.html) and set up things like `runner` in a `conftest.py` file. We got away with it here because our tests were simple and all in a single file. Once multiple test files are introduced, following the approach we used here would lead to a lot of unnecessarily duplicated code.
 
 Also, we made direct calls to our API in the tests. This operation should ideally be mocked.

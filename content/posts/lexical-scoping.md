@@ -18,7 +18,7 @@ anotherFunction() {
 }
 ```
 
-`someFunction` and `anotherFunction` are two different code blocks. These two different code blocks could also be considered as two different scopes. What that means is that the variables declared in `someFunction` only affect that block of code, and those declared in `anotherFunction` only affect that block of code. They are _"scoped"_ in that sense. 
+`someFunction` and `anotherFunction` are two different code blocks. These two different code blocks could also be considered as two different scopes. What that means is that the variables declared in `someFunction` only affect that block of code, and those declared in `anotherFunction` only affect that block of code. They are _"scoped"_ in that sense.
 
 <!--more-->
 

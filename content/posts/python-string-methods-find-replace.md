@@ -21,15 +21,15 @@ string.find(substring, start, end)
 
 `start`: index from which to begin the search.
 
-`end`: index at which to end the search.  
+`end`: index at which to end the search.
 
 #### Return value
 
 Returns an integer value pointing to the index of first occurrence of the
- substring. If the substring is not found, it returns `-1`.
+substring. If the substring is not found, it returns `-1`.
 
  <!--more-->
- 
+
 #### Example
 
 ```bash
@@ -78,11 +78,12 @@ string.rfind(substring, start, end)
 
 `start`: index from which to begin the search.
 
-`end`: index at which to end the search.  
+`end`: index at which to end the search.
 
 #### Return value
+
 Returns an integer value pointing to the **highest** index of the
- occurrence of the substring. If the substring is not found, it returns `-1`.
+occurrence of the substring. If the substring is not found, it returns `-1`.
 
 #### Example
 
@@ -137,7 +138,7 @@ string.index(substring, start, end)
 #### Return value
 
 Returns an integer value pointing to the index of the first occurrence of the
- substring. If the substring is not found, a ValueError exception is raised.
+substring. If the substring is not found, a ValueError exception is raised.
 
 #### Example
 
@@ -193,12 +194,12 @@ string.rindex(substring, start, end)
 
 `start`: index from which to begin the search.
 
-`end`: index at which to end the search. 
+`end`: index at which to end the search.
 
 #### Return value
 
 Returns an integer value pointing to the **highest** index of the
- occurrence of the substring. If the substring is not found, a ValueError exception is raised. 
+occurrence of the substring. If the substring is not found, a ValueError exception is raised.
 
 #### Example
 
@@ -241,7 +242,7 @@ ValueError: substring not found
 ```
 
 ### `replace()`
- 
+
 #### Parameters
 
 ```python
@@ -253,12 +254,11 @@ string.replace(old, new, count)
 `new`<sup style="color: red">\*</sup>: the substring to replace `old`.
 
 `count`: the number of instances of `old` you want replaced with `new`. If
- not specified, **all** instances of `old` in `string` will be replaced.
+not specified, **all** instances of `old` in `string` will be replaced.
 
 #### Return value
 
-Returns a **copy** of `string` with all the specified instances of `old
-` replaced with `new`.
+Returns a **copy** of `string` with all the specified instances of `old ` replaced with `new`.
 
 #### Example
 

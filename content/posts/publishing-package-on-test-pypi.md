@@ -13,12 +13,15 @@ If you're just creating a package for learning purposes, there's no need (IMO) t
 <!--more-->
 
 ## Uploading to TestPyPi
+
 For the final part of this series, I'll upload the app we created on TestPyPi. Here are the steps to follow:
 
 ### 1. Create an account on TestPyPi
+
 You'll need an account to continue so head over to [https://test.pypi.org/](https://test.pypi.org/) and create one.
 
 ### 2. Update `setup.py`
+
 We kept the `setup.py` file very simple during development. Now we'll need to add some details to make it ready for publishing.
 
 ```python
@@ -57,8 +60,8 @@ setup(
 
 Most of the options are self-explanatory, but you can check what each of them means in the [setup docs](https://setuptools.readthedocs.io/en/latest/setuptools.html#new-and-changed-setup-keywords).
 
-
 ### 3. Build your package
+
 In the root directory, run:
 
 ```
@@ -74,6 +77,7 @@ dist/
 ```
 
 ### 4. Upload your package with twine
+
 Install twine:
 
 ```
@@ -104,4 +108,3 @@ $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https:
 ```
 
 `--index-url` tells pip to get the package from TestPyPi. If the package needs other dependencies to run, `--extra-index-url` has to be included so the dependencies can be fetched from the PyPi.
-

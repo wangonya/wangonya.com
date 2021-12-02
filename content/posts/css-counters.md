@@ -13,9 +13,10 @@ Say you had an unknown number of `<div>` elements and (for some reason) you want
 ## How to use CSS counters
 
 Getting counters working requires three steps:
-* Initialize the counter with `counter-reset`
-* Increment the counter with `counter-increment`
-* Show the current counter value with `counter()`
+
+- Initialize the counter with `counter-reset`
+- Increment the counter with `counter-increment`
+- Show the current counter value with `counter()`
 
 It's pretty simple, really. The Pen below demonstrates how to count and number three `<div>` elements.
 

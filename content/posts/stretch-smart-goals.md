@@ -28,11 +28,11 @@ I think it's easier to fall into this trap than most of us would like to admit.
 
 Stretch goals are goals that may be considered audacious, but achievable. These are the kind of goals you may think about when asked to "dream big". The point is to have one major goal that is not immediately achievable, then use the SMART strategy to form sub-goals that move you closer to achieving the main goal. Here's an example from the book:
 
-* Stretch goal: run a marathon
-* Specific sub-goal: run 7 miles without stopping
-* Measurable: run twice around the park, no walking
-* Achievable?: yes, if I run 3 times a week
-* Realistic?: yes, if I wake up early on Mondays, Wednesdays, and Fridays
-* Timeline: run 3 miles this week, 4 miles next week, 5 miles…
+- Stretch goal: run a marathon
+- Specific sub-goal: run 7 miles without stopping
+- Measurable: run twice around the park, no walking
+- Achievable?: yes, if I run 3 times a week
+- Realistic?: yes, if I wake up early on Mondays, Wednesdays, and Fridays
+- Timeline: run 3 miles this week, 4 miles next week, 5 miles…
 
 Setting goals in this format ensures that we do get those small daily wins, and always stay focused on the big picture.
