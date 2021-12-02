@@ -28,6 +28,15 @@ draft: true
       </ul>
     </td>
   </tr>
+  <tr>
+    <td class="easy"><a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock/">Best Time to Buy and Sell Stock</a></td>
+    <td>Arrays, DP</td>
+    <td>
+      <ul>
+        <li><a href="https://wangonya.com/blog/kadanes-algorithm/">Kadane's Algorithm</a></li>
+      </ul>
+    </td>
+  </tr>
 </table>
 
 <!-- row template
