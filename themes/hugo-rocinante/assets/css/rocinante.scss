@@ -325,12 +325,12 @@ footer {
 // cheatsheet table
 tr {
   .easy {
-    background-color: rgba($color: #90EE90, $alpha: 0.7);
+    background-color: rgba($color: #90EE90, $alpha: 0.7) !important;
   }
   .medium {
     background-color: rgba($color: #FFFF00, $alpha: 0.5) !important;
   }
   .hard {
-    background-color: rgba($color: #FF7F7F, $alpha: 0.7);
+    background-color: rgba($color: #FF7F7F, $alpha: 0.7) !important;
   }
 }

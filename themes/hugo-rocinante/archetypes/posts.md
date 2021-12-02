@@ -1,9 +1,8 @@
 ---
-title: "{{ replace .Name "-" " " | title }}"
+title: "{{ replace .Name "-" " " }}"
+author: Kelvin Wangonya
 date: {{ .Date }}
-author: "Kelvin Wangonya"
-tags: []
-draft: true
+description:
+tags:
+  - tag
 ---
-
-<!--more-->
