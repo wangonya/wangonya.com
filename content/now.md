@@ -17,5 +17,5 @@ Here's an overview of what I'm doing now:
     - GCP (App Engine, CloudSql, Bigquery, etc)
 - Reading:
   - Effective Python - _Brett Slatkin_
-  - Pro Git - _Scott Chacon, Ben Straub_
+  - Architecture Patterns with Python - _Harry Percival, Bob Gregory_
   - A Short History of Nearly Everything - _Bill Bryson_
