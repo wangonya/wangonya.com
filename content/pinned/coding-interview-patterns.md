@@ -6,7 +6,6 @@ last_updated: 2021-11-18
 tags:
   - cheatsheet
   - reference
-draft: true
 ---
 
 <table>
@@ -34,6 +33,20 @@ draft: true
     <td>
       <ul>
         <li><a href="https://wangonya.com/blog/kadanes-algorithm/">Kadane's Algorithm</a></li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td class="easy"><a href="https://leetcode.com/problems/contains-duplicate/">Contains Duplicate</a></td>
+    <td>Arrays, Hash Table, Sorting</td>
+    <td>
+      <ul>
+        <li>convert list to set and compare length of set vs original list</li>
+        <li>list to set conversion is <a href="https://stackoverflow.com/a/34642209/9312256"><code>O(n)</code></a> and len check is <a href="https://stackoverflow.com/a/1115329/9312256"><code>O(1)</code></a> so overall complexity is <code>O(n)</code></li>
+        <hr />
+        Alternative solution:
+        <li>Loop over list, adding each element to hash table</li>
+        <li>On each iteration, check if element exists in hash table</li>
       </ul>
     </td>
   </tr>

@@ -33,9 +33,6 @@ footnotereturnlinkcontents = "↩"
       name = "Email"
       href = "mailto:kwangonya@gmail.com"
       smart_email_link = true
-    # [[params.links.link]]
-    #   name = "Uses"
-    #   href = "/uses"
 
 [markup]
   [markup.highlight]
