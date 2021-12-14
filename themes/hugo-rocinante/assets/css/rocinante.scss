@@ -322,16 +322,3 @@ footer {
     font-size: 14px;
   }
 }
-
-// cheatsheet table
-tr {
-  .easy {
-    background-color: rgba($color: #90ee90, $alpha: 0.7) !important;
-  }
-  .medium {
-    background-color: rgba($color: #ffff00, $alpha: 0.5) !important;
-  }
-  .hard {
-    background-color: rgba($color: #ff7f7f, $alpha: 0.7) !important;
-  }
-}
