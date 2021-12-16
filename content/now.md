@@ -1,20 +1,20 @@
 ---
 title: Now
 author: Kelvin Wangonya
-last_updated: 2021-11-30
+last_updated: 2021-12-15
 tags:
   - productivity
 ---
 
 Here's an overview of what I'm doing now:
 
-- Enjoying time with my son, (2 months old)
 - Developing software at [Jenga](https://www.jenga-agency.com/)
-  - 90% Python, 10% others. [See breakdown](https://gist.github.com/wangonya/95d21be1d601b7218f25e16d21aaabd2)
+  - [See languages breakdown](https://gist.github.com/wangonya/95d21be1d601b7218f25e16d21aaabd2) (last 7 days)
   - Mostly backend web development
     - Django (DRF, Postgres, etc)
     - FastApi (MySQL, SQLAlchemy, Alembic, Pydantic, etc)
     - GCP (App Engine, CloudSql, Bigquery, etc)
+- Taking the free [MongoDB University Dev Course](https://university.mongodb.com/learning_paths/developer)
 - Reading:
   - Effective Python - _Brett Slatkin_
   - Architecture Patterns with Python - _Harry Percival, Bob Gregory_

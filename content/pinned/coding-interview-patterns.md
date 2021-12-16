@@ -15,7 +15,9 @@ tags:
 | [Contains Duplicate]              | lists, dicts, sorting | list -> set and compare lengths / loop while adding to dict and check existence |
 | [CyclicRotation]                  | lists                 | loop while `insert(0, pop())` / use [`colections.deque.rotate`]                 |
 | [OddOccurrencesInArray]           | lists                 | use [`Counter`] + generator expression to get the key with an odd value         |
-| [FrogJmp]                         | -                     | -                                                                               |
+| [FrogJmp]                         | -                     | `math.ceil(distance / possible jumps)`                                          |
+| [PermMissingElem]                 | lists                 | linear search with `enumerate`                                                  |
+| [TapeEquilibrium]                 | lists                 | -                                                                               |
 
 [two sum]: https://leetcode.com/problems/two-sum/
 [best time to buy and sell stock]: https://leetcode.com/problems/best-time-to-buy-and-sell-stock/
@@ -26,3 +28,5 @@ tags:
 [oddoccurrencesinarray]: https://app.codility.com/programmers/lessons/2-arrays/odd_occurrences_in_array/
 [`counter`]: https://docs.python.org/3/library/collections.html#collections.Counter
 [frogjmp]: https://app.codility.com/programmers/lessons/3-time_complexity/frog_jmp/
+[permmissingelem]: https://app.codility.com/programmers/lessons/3-time_complexity/perm_missing_elem/
+[tapeequilibrium]: https://app.codility.com/programmers/lessons/3-time_complexity/tape_equilibrium/
