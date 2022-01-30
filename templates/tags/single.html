@@ -1,0 +1,10 @@
+{% extends "base.html" %} {% block title %}{{ term.name }} | {{ config.title
+}}{% endblock title %} {% block content %}
+<h1 class="title"><a href="/tags">Tags</a> / {{ term.name }}</h1>
+{% set pages = term.pages %} {% for page in pages %}
+<ul>
+  <li>
+    <a href="{{ page.permalink }}"> {{ page.title }} </a>
+  </li>
+</ul>
+{% endfor %} {% endblock content %}

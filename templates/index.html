@@ -1,0 +1,22 @@
+{% extends "base.html" %} {% block content %}
+<h1 class="title">{{ config.title }}</h1>
+<p style="padding-bottom: 5px">{{ config.extra.about }}</p>
+
+<p class="horizontal-links">
+  {% for link in config.extra.links %}
+  <a href="{{ link.href }}">{{ link.title }}</a>
+  {% endfor %}
+</p>
+
+<hr />
+
+<h2>Recent Blog Posts</h2>
+{% set blog = get_section(path="blog/_index.md") %}
+<ul>
+  {% for post in blog.pages | slice(end=10) %}
+  <li><a href="{{ post.permalink | safe }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
+<a href="/blog">More ⟶</a>
+
+{% endblock content %}
