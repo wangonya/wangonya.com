@@ -4,7 +4,7 @@
 #+tags[]: python tutorial python-click
 
 Arguments work very similarly to
-[[https://wangonya.com/blog/adding-options-to-cli-commands/][options]].
+[[https://wangonya.com/blog/click-commands-options/][options]].
 If you're familiar with functional programming, then you're familiar
 with arguments. The concept is the same in Click.
 
