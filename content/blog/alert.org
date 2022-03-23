@@ -4,8 +4,7 @@
 #+tags[]: productivity
 
 After my first post on
-"[[https://wangonya.com/blog/caring-for-your-health-as-a-developer/][Caring
-for your Health as a Developer]]", I decided to do a bit of research on
+"[[https://wangonya.com/blog/health-dev/][Caring for your Health as a Developer]]", I decided to do a bit of research on
 caffeine, specifically in coffee. I did learn quite a bit but what I
 found most interesting was that after oil,
 [[https://capital.com/top-5-most-traded-commodities-in-the-world][coffee

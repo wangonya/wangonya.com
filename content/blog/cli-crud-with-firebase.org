@@ -139,7 +139,7 @@ Make sure to run =. .env= to load your environment variables, otherwise
     :CUSTOM_ID: setup.py
     :END:
 To learn more about the =setup= file, you can go back to
-[[https://wangonya.com/blog/using-setuptools-to-package-your-python-app/][this]]
+[[https://wangonya.com/blog/using-setuptools/][this]]
 post.
 
 #+begin_src python

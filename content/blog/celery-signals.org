@@ -4,15 +4,14 @@
 #+tags[]: python celery
 
 If you're new to celery,
-[[https://docs.celeryproject.org/en/stable/getting-started/introduction.html][start
-here]].
+[[https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html#first-steps][start here]].
 
 Sometimes when using celery, you may want to get notified when a task
 running in the background executes successfully or when it fails. You
 may also want to run a function each time before the celery task runs or
 after it completes. These and many others along the same line are all
 situations where
-[[https://docs.celeryproject.org/en/stable/userguide/signals.html][signals]]
+[[https://docs.celeryq.dev/en/stable/userguide/signals.html][signals]]
 would come in handy.
 
 I'll create a simple file =tasks.py= and set up celery to demonstrate
@@ -45,7 +44,7 @@ Then run your tasks.py file and execute the =add= task:
 #+end_src
 
 By default, what is returned is an
-[[https://docs.celeryproject.org/en/stable/reference/celery.result.html#celery.result.AsyncResult][AsyncResult]]
+[[https://docs.celeryq.dev/en/stable/reference/celery.result.html#celery.result.AsyncResult][AsyncResult]]
 instance but that's not what we're interested in. On the terminal with
 your Celery worker running, you should see something similar to this:
 
@@ -60,8 +59,7 @@ The task executes successfully, and 8 is the result as expected.
    :CUSTOM_ID: signals
    :END:
 There are
-[[https://docs.celeryproject.org/en/stable/userguide/signals.html][a
-lot]] of signals that celery offers but I'll focus on 4 simple ones to
+[[https://docs.celeryq.dev/en/stable/userguide/signals.html#signals][a lot]] of signals that celery offers but I'll focus on 4 simple ones to
 demonstrate how signals work in general.
 
 1. task_prerun

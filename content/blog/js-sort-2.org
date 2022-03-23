@@ -76,7 +76,7 @@ a video]] instead.
    :CUSTOM_ID: heap-sort
    :END:
 This algorithm takes advantage of a data structure known as a
-[[https://www.cs.cmu.edu/~adamchik/15-121/lectures/Binary%20Heaps/heaps.html][binary-heap]].
+[[https://brilliant.org/wiki/binary-heap/][binary-heap]].
 Heap sort works by creating a Max heap to sort the elements in ascending
 order, then swapping the root node with the last node, and deleting the
 sorted node from the heap every time this is done.
