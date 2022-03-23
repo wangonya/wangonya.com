@@ -1,0 +1,377 @@
+#+title: Performing CRUD operations with a CLI app using Firebase
+#+author: Kelvin Wangonya
+#+date: 2019-08-15
+#+tags[]: python tutorial python-click
+
+For the next phase in this series, we'll learn how to make a CLI app to
+perform CRUD operations, i.e, Creating, Retrieving, Updating and
+Deleting data. We'll use Firebase to store our data.
+
+*** What we'll create
+    :PROPERTIES:
+    :CUSTOM_ID: what-well-create
+    :END:
+A =contacts= app with the following functionality:
+
+#+begin_src shell
+  # add a new contact with name=Peter and mobile=01034512
+  $ contacts add Peter --mobile 01034512
+  Contact Peter added!
+  { 'mobile': '01034512' }
+#+end_src
+
+#+begin_src shell
+  # view all contacts
+  $ contacts list
+  Here's a list of all your contacts:
+  { ...  # list of all contacts }
+#+end_src
+
+#+begin_src shell
+  # view single contact
+  $ contacts view Peter
+  { 'mobile': '01034512' }
+
+  $ contacts view Meg
+  The contact you searched for doesn't exist
+#+end_src
+
+#+begin_src shell
+  # update mobile number for Peter
+  $ contacts update Peter --mobile 00000
+  Contact updated!
+  { 'mobile': '00000' }
+#+end_src
+
+#+begin_src shell
+  # delete the contact Peter
+  $ contacts delete Peter
+  Contact deleted!
+#+end_src
+
+This post is a bit long. If you just want to take a look at the code or
+see how the app works, check out
+[[https://github.com/wangonya/contacts-cli][the repo]].
+
+*** Setting up Firebase
+    :PROPERTIES:
+    :CUSTOM_ID: setting-up-firebase
+    :END:
+As mentioned earlier, Firebase will be used to store our data. To set up
+the database, sign in on Firebase using your google account.
+
+After signing in successfully, click on the *Go to console* button on
+the top right. There, you can create a new project. Follow the required
+steps to create a new project.
+
+Once the project is created, you'll see a *Develop* sidebar on the left.
+Click on *Database* to set up the database. *Cloud Firestore* will be
+displayed as the first option but that's not what we'll be using. Scroll
+down and you'll see a *Realtime Database* option. Click on *Create
+database*. Next, you'll be presented with the security options.
+
+#+caption: Firebase security rules options
+[[https://res.cloudinary.com/practicaldev/image/fetch/s--NW18o5Cl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/oxot8m2sd0u5k68byq5k.png]]
+
+Since we'll not be handling authentication, choose *Start in test mode*
+for the security rules. Your database is now created 🎉
+
+#+caption: Empty firebase db
+[[https://res.cloudinary.com/practicaldev/image/fetch/s--aoo7zOSH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/90prefpskmno1yxqb76k.png]]
+
+Now for the final step in setting up the database, click on the little
+plus sign *+* to add a new child node called *contacts*. This will hold
+our contacts (obviously 😅). Also, add a test contact just to see how the
+database will be structured.
+
+#+caption: Adding a new node to hold our data
+[[https://res.cloudinary.com/practicaldev/image/fetch/s--4NmGuDlH--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/q7o4dahnowf1h9orx6vn.png]]
+
+The database should now look like this:
+
+#+caption: Final result
+[[https://res.cloudinary.com/practicaldev/image/fetch/s--kRzFTe1G--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/gcupu18rh3ieh1xhdks7.png]]
+
+*** App setup
+    :PROPERTIES:
+    :CUSTOM_ID: app-setup
+    :END:
+We've already gone through the basics of setting up in previous posts so
+I won't go into much detail on that. Here are the steps:
+
+#+begin_src shell
+  $ mkdir contacts-cli
+
+  $ cd contacts-cli
+
+  $ virtualenv env
+
+  $ . env/bin/activate
+
+  (env) $ mkdir app
+
+  (env) $ touch app/__init__.py
+
+  (env) $ touch setup.py
+
+  (env) $ touch .env
+#+end_src
+
+*** =.env=
+    :PROPERTIES:
+    :CUSTOM_ID: env
+    :END:
+This is where the api endpoint url will be stored. Firebase
+[[https://firebase.google.com/docs/reference/rest/database][provides a
+REST API]] for the database so that's what we'll use. If you already
+followed the steps and created the database, just grab the link provided
+at the top of the database and set it in your =.env= file.
+
+#+begin_src shell
+  export URL=https://[YOUR_PROJECT_ID].firebaseio.com
+#+end_src
+
+Make sure to run =. .env= to load your environment variables, otherwise
+=URL= will be =None=.
+
+*** =setup.py=
+    :PROPERTIES:
+    :CUSTOM_ID: setup.py
+    :END:
+To learn more about the =setup= file, you can go back to
+[[https://wangonya.com/blog/using-setuptools-to-package-your-python-app/][this]]
+post.
+
+#+begin_src python
+  from setuptools import setup, find_packages
+
+  setup(
+          name="contacts",
+          py_modules=find_packages(),
+          install_requires=[
+              "Click",
+              "requests",
+              ],
+          entry_points="""
+          [console_scripts]
+          contacts=app:cli
+          """,
+          )
+#+end_src
+
+Then run =pip install --editable .= in your terminal to install the app.
+
+**** =app/__init__.py=
+     :PROPERTIES:
+     :CUSTOM_ID: app__init__.py
+     :END:
+#+begin_src python
+  import click
+
+  @click.group(invoke_without_command=True)
+  @click.pass_context
+  def cli(ctx):
+      if ctx.invoked_subcommand is None:
+          click.echo("Welcome to the contacts app 🥳")
+          click.echo("Run contacts --help for options.")
+#+end_src
+
+We need to use =@click.group= to allow us to include sub-commands.
+
+If the main command is invoked without any sub-command, a welcome
+message is shown. How does the main command know if a sub-command has
+been passed in or not? By looking at the context.
+=if ctx.invoked_subcommand is None=, then no sub-command has been
+passed - show the welcome message.
+
+Everything is setup now, so we can start working on the functionality.
+
+** Creating contacts
+   :PROPERTIES:
+   :CUSTOM_ID: creating-contacts
+   :END:
+#+begin_src python
+  import os
+  import requests
+  import click
+
+  ...
+
+  @cli.command()
+  @click.argument('name')
+  @click.option('--mobile', '-m', required=True)
+  def add(name, mobile):
+      """
+      Add a new contact
+      """
+      response = requests.put('{}/contacts/{}.json'
+                              .format(os.getenv('URL'), name),
+                              json={'mobile': '{}'.format(mobile)})
+      click.echo('Contact {} added!'.format(name))
+      click.echo(response.json())
+#+end_src
+
+You'll notice that I used =PUT= for the request instead of =POST=. I did
+this to avoid generating unique IDs for my data on Firebase. Feel free
+to use =POST= instead and see how you can work with the generated UIDs.
+
+The =add= command takes two parameters - a =name= argument, and a
+=mobile= option. Both are required. Running =contacts add --help= shows
+us what options we have.
+
+#+begin_src shell
+  (env) $ contacts add --help
+
+  Usage: contacts add [OPTIONS] NAME
+
+    Add a new contact
+
+  Options:
+    -m, --mobile TEXT  [required]
+    --help             Show this message and exit.
+#+end_src
+
+Let's add a new contact:
+
+#+begin_src shell
+  (env) $ contacts add Chris -m 34243234
+  Contact Chris added!
+  {'mobile': '34243234'}
+#+end_src
+
+#+caption: Contacts database
+[[https://res.cloudinary.com/practicaldev/image/fetch/s--ohYLYRV4--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/9tjntrzz3lnck3hcrg1l.png]]
+
+*** Getting all contacts
+    :PROPERTIES:
+    :CUSTOM_ID: getting-all-contacts
+    :END:
+#+begin_src python
+
+  ...
+
+  @cli.command()
+  def list():
+      """
+      View all contacts
+      """
+      response = requests.get('{}/contacts.json'
+                              .format(os.getenv('URL')))
+      click.echo('Here\'s a list of all your contacts:')
+      click.echo(response.json())
+#+end_src
+
+The =list= command simply does a =GET= request on the contacts node and
+returns the result.
+
+#+begin_src shell
+  (env) $ contacts list
+  Here's a list of all your contacts:
+  {'Chris': {'mobile': '34243234'}, 'Peter': {'mobile': '8487344'}}
+#+end_src
+
+*** Getting one contact
+    :PROPERTIES:
+    :CUSTOM_ID: getting-one-contact
+    :END:
+#+begin_src python
+
+  ...
+
+  @cli.command()
+  @click.argument('name')
+  def view(name):
+      """
+      View single contact
+      """
+      response = requests.get('{}/contacts/{}.json'
+                              .format(os.getenv('URL'), name))
+      if not response.json():
+          click.echo("The contact you searched for does'nt exist")
+      else:
+          click.echo(response.json())
+#+end_src
+
+The =view= command is similar to =list=, except it takes a =name=
+argument and adds it to the url to return the contact for that name
+only. If the name doesn't exist in the database, =null= is returned. We
+take advantage of that in the =if= block to return the appropriate
+response.
+
+#+begin_src shell
+  (env) $ contacts view Peter
+  {'mobile': '8487344'}
+
+  (env) $ contacts view Meg
+  The contact you searched for doesn't exist
+#+end_src
+
+*** Updating a contact
+    :PROPERTIES:
+    :CUSTOM_ID: updating-a-contact
+    :END:
+#+begin_src python
+
+  ...
+
+  @cli.command()
+  @click.argument('name')
+  @click.option('--mobile', '-m', required=True)
+  def update(name, mobile):
+      """
+      Update contact
+      """
+      response = requests.patch('{}/contacts/{}.json'
+                                .format(os.getenv('URL'), name),
+                                json={'mobile': '{}'.format(mobile)})
+      click.echo('Contact updated!')
+      click.echo(response.json())
+#+end_src
+
+This works exactly the same to the create command, except we're using
+=PATCH= instead of =PUT= (which apparently, doesn't make any difference
+here. Making a =PATCH= on a non-existent node creates it, just like
+=PUT= would do. Try it out.)
+
+#+begin_src shell
+  (env) $ contacts update Peter -m 552
+  Contact updated!
+  {'mobile': '552'}
+#+end_src
+
+*** And finally, deleting a contact
+    :PROPERTIES:
+    :CUSTOM_ID: and-finally-deleting-a-contact
+    :END:
+Similar to the =view= command. The only change we'll make is using
+=DELETE= instead of =GET=.
+
+#+begin_src python
+
+  ...
+
+  @cli.command()
+  @click.argument('name')
+  def delete(name):
+      """
+      Delete contact
+      """
+      requests.delete('{}/contacts/{}.json'
+                      .format(os.getenv('URL'), name))
+      click.echo('Contact deleted!')
+#+end_src
+
+=null= is returned on successful deletion so we don't require to return
+=response=. The =request= is called directly, and a success message is
+shown afterwords. This can be done better but it'll do for now.
+
+#+begin_src shell
+  (env) $ contacts delete Peter
+  Contact deleted!
+#+end_src
+
+I meant to cover exporting (writing) the data to a local JSON file or
+sqlite database, but this post is already too long. These are
+interesting things to try if you want to learn more.
+
+In the next post, we'll add tests to the app using pytest.

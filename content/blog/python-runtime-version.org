@@ -1,0 +1,19 @@
+#+title: Getting the Python version at runtime
+#+author: Kelvin Wangonya
+#+date: 2021-10-24T17:42:19+03:00
+#+tags[]: python
+
+[[https://wangonya.com/blog/go-version/][Again]], might come in handy while debugging.
+
+#+begin_src python
+  import sys
+
+  print(sys.version)
+#+end_src
+
+Output:
+
+#+begin_src sh
+  3.9.7 (default, Aug 31 2021, 13:28:12)
+  [GCC 11.1.0]
+#+end_src

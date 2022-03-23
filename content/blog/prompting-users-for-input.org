@@ -1,0 +1,73 @@
+#+title: Prompting users for input
+#+author: Kelvin Wangonya
+#+date: 2019-08-10
+#+tags[]: python tutorial python-click
+
+Getting user input is an important part of any kind of application.
+Since we've already learned about
+[[https://wangonya.com/blog/adding-options-to-cli-commands/][options]],
+adding a user prompt to our hello world app should be a breeze. All we
+need to do is add =prompt=True= to the option decorator, so that it
+prompts the user for input if no option is passed in.
+
+#+begin_src python
+  # helloworld.py
+
+  import click
+
+  @click.command()
+  @click.option('-c', '--case',
+                type=click.Choice(['upper', 'lower']),
+                prompt=True)
+  @click.argument('person', default='you')
+  def hello(case, person):
+      response = "Hello World! Also, hey {} ☺️".format(person)
+      if case == 'upper':
+          click.echo(response.upper())
+      elif case == 'lower':
+          click.echo(response.lower())
+      else:
+          click.echo(response)
+#+end_src
+
+Save and run the app:
+
+#+begin_src shell
+  (venv) $ hello
+  Case (upper, lower): upper
+  HELLO WORLD! ALSO, HEY YOU ☺️
+
+  (venv) $ hello sally
+  Case (upper, lower): lower
+  hello world! also, hey sally ☺️
+#+end_src
+
+You may also set a custom prompt string if you wish:
+
+#+begin_src python
+  # helloworld.py
+
+  import click
+
+  @click.command()
+  @click.option('-c', '--case',
+                type=click.Choice(['upper', 'lower']),
+                prompt='Please enter case')
+  @click.argument('person', default='you')
+  def hello(case, person):
+      response = "Hello World! Also, hey {} ☺️".format(person)
+      if case == 'upper':
+          click.echo(response.upper())
+      elif case == 'lower':
+          click.echo(response.lower())
+      else:
+          click.echo(response)
+#+end_src
+
+The set string will now be displayed instead of the default prompt:
+
+#+begin_src shell
+  (venv) $ hello
+  Please enter case (upper, lower): upper
+  HELLO WORLD! ALSO, HEY YOU ☺️
+#+end_src

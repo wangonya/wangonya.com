@@ -1,0 +1,108 @@
+#+title: Getting started with pytest
+#+author: Kelvin Wangonya
+#+date: 2019-01-28T08:15:40+03:00
+#+tags[]: python pytest tutorial
+
+Test-Driven Development is great. If you're a Pythonista, it gets even
+better with pytest - a framework that makes building simple and scalable
+tests easy.
+
+In this series, I'll be exploring the cool features that pytest offers
+to help make testing Python code a breeze.
+
+** Preparing your python environment
+   :PROPERTIES:
+   :CUSTOM_ID: preparing-your-python-environment
+   :END:
+Let's set up our testing environment with =virtualenv=. We'll be working
+with Python 3. =cd= into your working directory and create a new virtual
+environment:
+
+#+begin_src shell
+  python3 -m venv env
+#+end_src
+
+Activate the virtual environment:
+
+#+begin_src shell
+  source env/bin/activate
+#+end_src
+
+*** Installing =pytest=
+    :PROPERTIES:
+    :CUSTOM_ID: installing-pytest
+    :END:
+#+begin_src shell
+  pip install pytest
+#+end_src
+
+That's all you need to do to get pytest ready. You can check the
+installed version by running:
+
+#+begin_src shell
+  pytest --version
+#+end_src
+
+** Creating your first test
+   :PROPERTIES:
+   :CUSTOM_ID: creating-your-first-test
+   :END:
+Say we need to create an app that says hello to the name you give it
+when it runs.
+
+#+begin_src python
+  # simple hello world test
+
+  def hello_world(name):
+      pass
+
+  def test_hello():
+      assert hello_world("World!") == "Hello World!"
+#+end_src
+
+You'll notice that our test function name begins with the word /test/.
+That's how pytest discoveres test methods. Also, :
+
+- Test files should be named =test_<something>.py= or
+  =<something>_test.py=
+- Test classes should be named =Test<Something>=
+
+Running =pytest hello.py= should return:
+
+#+begin_src shell
+  collected 1 item
+  hello.py F                         [100%]
+
+  ===================== FAILURES ======================
+      def test_hello():
+  >       assert hello_world("World!") == "Hello World!"
+  E       AssertionError: assert None == 'Hello World!'
+  E        +  where None = hello_world('World!')
+
+  hello.py:6: AssertionError
+#+end_src
+
+Pytest shows why the test failed:
+=AssertionError: assert None == 'Hello World!’=. Obviously, we have no
+code in our hello function so let's fix that.
+
+#+begin_src python
+  def hello_world(name):
+      return "Hello {}".format(name)
+
+  def test_hello():
+      assert hello_world("World!") == "Hello World!"
+#+end_src
+
+Running =pytest hello.py= should now return:
+
+#+begin_src shell
+  collected 1 item
+  hello.py .                       [100%]
+
+  ==================== 1 passed in 0.04 seconds ======================
+#+end_src
+
+As you can see, it's pretty easy to get started with testing in python
+with pytest. Now that we have everything set up, we'll be going into
+more advanced features as the series continues.

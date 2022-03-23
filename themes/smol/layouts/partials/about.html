@@ -1,0 +1,9 @@
+<p>{{ .Site.Params.about | .RenderString }}</p>
+
+<ul>
+  {{ range $links := .Site.Params.links }} {{- range $links.link -}}
+  <li>
+    <a href="{{ .href }}"> {{- .name -}} </a>
+  </li>
+  {{- end -}} {{ end }}
+</ul>

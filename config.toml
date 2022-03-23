@@ -1,23 +1,28 @@
 baseurl = "https://wangonya.com"
 languageCode = "en-us"
 title = "Kelvin Wangonya"
-theme = "hugo-rocinante"
+theme = "smol"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
+pluralizeListTitles = false
 
 [permalinks]
     posts = "blog/:slug/"
     pinned = "blog/pinned/:slug/"
 
-[author]
-  name = "Kelvin Wangonya"
-
-
 [params]
     email = "kwangonya@gmail.com"
-    about = "Software engineer. Mostly backend related stuff with Python."
+    about = "Software engineer. Mostly backend work with Python."
     meta = "Wangonya's blog. | Software engineer. Mostly backend related stuff with Python."
+    author = "Kelvin Wangonya"
 
+# Header
+[menu]
+  [[menu.main]]
+        identifier = "blog"
+        name = "Blog"
+        url = "/blog/"
+        weight = 1
 
 [[params.links]]
     [[params.links.link]]
@@ -36,7 +41,7 @@ footnotereturnlinkcontents = "↩"
 
 [markup]
   [markup.highlight]
-    style = "monokailight"
+    style = "algol_nu"
     tabWidth = 2
   [markup.goldmark.renderer]
     unsafe= true

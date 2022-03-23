@@ -1,0 +1,71 @@
+#+title: Setting up MariaDB on Arch Linux
+#+author: Kelvin Wangonya
+#+date: 2021-10-15T15:56:36+03:00
+#+tags[]: reference linux db mysql
+
+[[https://wiki.archlinux.org/title/MariaDB][Arch Linux MariaDB docs]]
+
+#+begin_quote
+  MariaDB is a reliable, high performance and full-featured database
+  server which aims to be an 'always Free, backward compatible, drop-in'
+  replacement of MySQL. Since 2013 MariaDB is Arch Linux's default
+  implementation of MySQL.
+#+end_quote
+
+** Install
+   :PROPERTIES:
+   :CUSTOM_ID: install
+   :END:
+#+begin_src sh
+  $ sudo pacman -S mariadb
+#+end_src
+
+** Setup the data directory
+   :PROPERTIES:
+   :CUSTOM_ID: setup-the-data-directory
+   :END:
+#+begin_src sh
+  $ sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
+#+end_src
+
+** Start mariadb.service
+   :PROPERTIES:
+   :CUSTOM_ID: start-mariadb.service
+   :END:
+#+begin_src sh
+  $ systemctl start mariadb.service
+  $ systemctl enable mariadb.service
+#+end_src
+
+** Add user
+   :PROPERTIES:
+   :CUSTOM_ID: add-user
+   :END:
+
+#+begin_quote
+  In the below example, the user monty with some_pass as password is
+  being created, then granted full permissions to the database mydb:
+#+end_quote
+
+#+begin_src sh
+  $ sudo mysql -u root -p
+
+  MariaDB> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
+  MariaDB> GRANT ALL PRIVILEGES ON mydb.* TO 'monty'@'localhost';
+  MariaDB> FLUSH PRIVILEGES;
+  MariaDB> quit
+#+end_src
+
+** Logging into MariaDB
+   :PROPERTIES:
+   :CUSTOM_ID: logging-into-mariadb
+   :END:
+#+begin_src sh
+  mysql -u //user_name// -p -h //ip_address// //db_name//
+#+end_src
+
+Eg:
+
+#+begin_src sh
+  mysql -u username -ppassword -h localhost database_name
+#+end_src

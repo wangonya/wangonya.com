@@ -1,0 +1,71 @@
+#+title: Processing iterators in parallel
+#+author: Kelvin Wangonya
+#+date: 2021-11-03T06:13:46+03:00
+#+tags[]: python
+
+Use [[https://docs.python.org/3/library/functions.html#zip][zip]]
+
+#+begin_quote
+  =zip(*iterables, strict=False)=
+
+  Iterate over several iterables in parallel, producing tuples with an
+  item from each one.
+#+end_quote
+
+*** Examples
+    :PROPERTIES:
+    :CUSTOM_ID: examples
+    :END:
+**** Without zip
+     :PROPERTIES:
+     :CUSTOM_ID: without-zip
+     :END:
+#+begin_src python
+  countries = ["Kenya", "Tanzania", "Uganda"]
+  capitals = ["Nairobi", "Dodoma", "Kampala"]
+
+  print("=== using range ===")
+  for i in range(len(countries)):
+      country, capital = countries[i], capitals[i]
+      print(f"Country: {country}, Capital: {capital}")
+
+  print("=== using enumerate ===")
+  for i, country in enumerate(countries):
+      country, capital = countries[i], capitals[i]
+      print(f"Country: {country}, Capital: {capital}")
+#+end_src
+
+Output:
+
+#+begin_src sh
+  === using range ===
+  Country: Kenya, Capital: Nairobi
+  Country: Tanzania, Capital: Dodoma
+  Country: Uganda, Capital: Kampala
+
+  === using enumerate ===
+  Country: Kenya, Capital: Nairobi
+  Country: Tanzania, Capital: Dodoma
+  Country: Uganda, Capital: Kampala
+#+end_src
+
+**** With zip
+     :PROPERTIES:
+     :CUSTOM_ID: with-zip
+     :END:
+#+begin_src python
+  print("=== using zip ===")
+  for country, capital in zip(countries, capitals):
+      print(f"Country: {country}, Capital: {capital}")
+#+end_src
+
+Output:
+
+#+begin_src sh
+  === using zip ===
+  Country: Kenya, Capital: Nairobi
+  Country: Tanzania, Capital: Dodoma
+  Country: Uganda, Capital: Kampala
+#+end_src
+
+Same result, but more elegant.

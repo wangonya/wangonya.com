@@ -1,0 +1,18 @@
+{{ define "main" }}
+	<main>
+		<article>
+			<h1>{{ .Title }}</h1>
+			<b><time class="link-list">{{ .Date.Format "2006-01-02" }}</time></b>
+		       {{ range .Params.tags }}
+		           <a class="link-list" href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+        	       {{ end }}
+
+			<div>
+				{{ .Content }}
+			</div>
+{{ with .NextInSection }}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
+		</article>
+	</main>
+{{ end }}
