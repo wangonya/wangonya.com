@@ -59,6 +59,10 @@ blockquote {
   border-left: 0.25em solid #eee;
   color: #666;
 }
+ul {
+    margin-left: 15px; /* To remove default bottom margin */
+    padding-left: 15px; /* To remove default left padding */
+}
 li > p {
   margin: 2px 0;
 }
