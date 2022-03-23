@@ -1,5 +1,6 @@
 #+title: Coding interview question patterns
 #+author: Kelvin Wangonya
+#+draft: true
 #+tags[]: cheatsheet reference
 
 | Problem                                                                                                    | Category              | Notes                                                                                                                                             |
