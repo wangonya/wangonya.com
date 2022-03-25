@@ -54,6 +54,7 @@ img {
   margin: auto;
 }
 blockquote {
+  margin-left: 25px;
   padding-left: 1.25em;
   padding-right: 1.5em;
   border-left: 0.25em solid #eee;
@@ -65,6 +66,23 @@ ul {
 }
 li > p {
   margin: 2px 0;
+}
+table {
+  margin-top: 20px;
+  border: thin solid grey;
+  font-size: 14.5px;
+  border-collapse: collapse;
+}
+table thead th {
+  text-align: left;
+}
+table caption {
+  padding:.5em;
+}
+table th,
+table td {
+  padding: .5em;
+  border: 1px solid lightgrey;
 }
 .link-list {
   padding-right: 5px;
