@@ -29,8 +29,7 @@ code {
 pre code {
   background: #f9f9f9;
   display: block;
-  margin: 1em 0;
-  padding: 0.75em 1em;
+  padding: 0.75em;
   color: inherit;
 }
 .center {
@@ -85,7 +84,7 @@ table td {
   border: 1px solid lightgrey;
 }
 .link-list {
-  padding-right: 5px;
+  padding-right: 4px;
 }
 .footnote-definition * {
   display: inline;
