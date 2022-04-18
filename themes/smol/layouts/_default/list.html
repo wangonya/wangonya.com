@@ -1,18 +1,14 @@
 {{ define "main" }}
 <main>
-  <div class="post-title">
-    {{ range (.Pages).GroupByDate "2006" -}}
-    <div class="title">
-      <h4>{{ .Key }}</h4>
-    </div>
-    <ul>
-      {{ range .Pages }}
-      <li>
-        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      </li>
-      {{ end }}
-    </ul>
+  {{ range (.Pages).GroupByDate "2006" -}}
+  <h4>{{ .Key }}</h4>
+  <ul>
+    {{ range .Pages }}
+    <li>
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </li>
     {{ end }}
-  </div>
+  </ul>
+  {{ end }}
 </main>
 {{ end }}

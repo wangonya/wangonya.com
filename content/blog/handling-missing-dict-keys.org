@@ -3,8 +3,8 @@
 #+date: 2022-02-10T06:10:15+03:00
 #+tags[]: python
 
-Trying to access a non-existent key using this notation raises a
-=KeyError=: =dict[key]=. An easy workaround for this is to use
+Trying to access a non-existent key using this notation: =dict[key]=
+raises a =KeyError=. An easy workaround for this is to use
 =get(key)= instead, which returns =None= if =key= isn't found, or
 =get(key, default)= which returns =default= if =key= isn't found.
 
@@ -36,7 +36,7 @@ a couple of ways to do that.
    :END:
 
 #+begin_quote
-  setdefault(key[, default])
+  =setdefault(key[, default])=
       :PROPERTIES:
       :CUSTOM_ID: setdefaultkey-default
       :END:
@@ -62,7 +62,7 @@ a couple of ways to do that.
    :END:
 
 #+begin_quote
-  class collections.defaultdict(default_factory=None, /[, ...])
+  =class collections.defaultdict(default_factory=None, /[, ...])=
       :PROPERTIES:
       :CUSTOM_ID: class-collections.defaultdictdefault_factorynone
       :END:

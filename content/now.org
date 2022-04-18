@@ -15,4 +15,4 @@ Here's an overview of what I'm doing now:
 - Reading:
   - Effective Python - /Brett Slatkin/
   - [[https://runestone.academy/ns/books/published/pythonds3/index.html][Problem Solving with Algorithms and Data Structures using Python]]
-  - A Short History of Nearly Everything - /Bill Bryson/
+  - Practical Python Design Patterns - /Wessel Badenhorst/
