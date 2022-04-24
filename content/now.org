@@ -12,7 +12,6 @@ Here's an overview of what I'm doing now:
     - Django (DRF, Postgres, etc)
   - Some frontend work
     - React, Typescript
+- Learning Go
 - Reading:
-  - Effective Python - /Brett Slatkin/
-  - [[https://runestone.academy/ns/books/published/pythonds3/index.html][Problem Solving with Algorithms and Data Structures using Python]]
-  - Practical Python Design Patterns - /Wessel Badenhorst/
+  - [[https://www.packtpub.com/product/go-building-web-applications/9781787123496][Go: Building Web Applications]]
