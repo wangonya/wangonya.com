@@ -1,0 +1,14 @@
+{{ define "main" }}
+<div class="page-header">
+                                <div class="page-meta">{{ .Date.Format "2006-01-02" }}</div>
+                                <h1>{{ .Title }}</h1>
+                              </div>
+<div id="content">
+  <div class="page-tags">
+{{ range .Params.tags }}
+  <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+  {{ end }}
+  </div>
+{{ .Content }}
+</div>
+{{ end }}

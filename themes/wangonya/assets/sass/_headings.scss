@@ -1,0 +1,50 @@
+// Headings for the post and index pages
+
+// Default face and margins
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: $title-font;
+  font-weight: normal;
+  margin-bottom: 0;
+  margin-top: 40px;
+}
+
+// Override sizes
+h1 * {
+  font-size: 30px;
+}
+
+h2 * {
+  font-size: 24px;
+}
+
+h3 * {
+  font-size: 20px;
+}
+
+h4 *, h5 *, h6 * {
+  font-size: 18px;
+}
+
+// Section numbers
+.section-number-1,
+.section-number-2,
+.section-number-3,
+.section-number-4,
+.section-number-5,
+.section-number-6 {
+  @include light-meta();
+  color: $back-medium;
+  // margin-left: -1em;
+  // text-align: right;
+  // direction: rtl;
+  line-height: 1;
+  @media (min-width: 700px) {
+    position: absolute; // to remove the bounding box
+    transform: translateX(-100%) translateX(-10px);
+  }
+}

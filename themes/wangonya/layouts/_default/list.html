@@ -1,7 +1,7 @@
 {{ define "main" }}
-<main>
+<div id="content">
   {{ range (.Pages).GroupByDate "2006" -}}
-  <h4>{{ .Key }}</h4>
+  <h1>{{ .Key }}</h1>
   <ul>
     {{ range .Pages }}
     <li>
@@ -10,5 +10,5 @@
     {{ end }}
   </ul>
   {{ end }}
-</main>
+</div>
 {{ end }}

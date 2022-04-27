@@ -1,0 +1,27 @@
+// Link and buttons
+
+figcaption a,
+p a,
+.page-tags a,
+table a,
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a,
+li a {
+  @include link-underline($back-white, $text-dark);
+
+  &:hover {
+    @include link-underline($back-light, $text-dark);
+  }
+}
+
+.footnotes a {
+  @include link-underline($back-white, $text-gray);
+
+  &:hover {
+    @include link-underline($back-light, $text-gray);
+  }
+}

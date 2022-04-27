@@ -1,19 +1,18 @@
 baseurl = "https://wangonya.com"
 languageCode = "en-us"
 title = "Kelvin Wangonya"
-theme = "smol"
+theme = "wangonya"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
 
 [permalinks]
     posts = "blog/:slug/"
-    pinned = "blog/pinned/:slug/"
 
 [params]
     email = "kwangonya@gmail.com"
     about = "Software engineer. Mostly backend work with Python."
-    meta = "Wangonya's blog. | Software engineer. Mostly backend related stuff with Python."
+    meta = "Wangonya's blog. | Software engineer. Mostly backend work with Python."
     author = "Kelvin Wangonya"
 
 # Header
@@ -21,13 +20,13 @@ pluralizeListTitles = false
   [[menu.main]]
         identifier = "blog"
         name = "Blog"
-        url = "/blog/"
-        weight = 1
+        url = "/blog"
+  [[menu.main]]
+        identifier = "now"
+        name = "Now"
+        url = "/now"
 
 [[params.links]]
-    [[params.links.link]]
-      name = "Now"
-      href = "/now"
     [[params.links.link]]
       name = "Github"
       href = "https://github.com/wangonya"
@@ -37,11 +36,10 @@ pluralizeListTitles = false
     [[params.links.link]]
       name = "Email"
       href = "mailto:kwangonya@gmail.com"
-      smart_email_link = true
 
 [markup]
   [markup.highlight]
-    style = "algol_nu"
+    style = "bw"
     tabWidth = 2
   [markup.goldmark.renderer]
     unsafe= true
