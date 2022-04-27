@@ -1,10 +1,13 @@
 // Lists
-ul, ol, dl {
-  list-style: none;
+ul,
+ol,
+dl {
+  //list-style: none;
   list-style-position: outside;
-  padding-left: 15px;
+  padding-left: 20px;
 
-  li::before, dt::before {
+  li::before,
+  dt::before {
     display: inline-block;
     width: 1em;
     @include light-para(15px);
@@ -12,34 +15,13 @@ ul, ol, dl {
 
   li {
     margin: 5px 0;
-    font-size: 14px;
+    font-size: 15px;
 
     p {
       // Revert inside p
-	font-size: 15px;
-	margin: 0;
+      font-size: 15px;
+      margin: 0;
     }
-  }
-}
-
-ul {
-  li::before {
-    content: "•";
-    margin-left: -1em;
-  }
-}
-
-ol {
-  counter-reset: li;
-  li::before {
-    content: counter(li);
-    margin-left: -1.5em;
-    margin-right: 0.5em;
-    text-align: right;
-    direction: rtl;
-  }
-  li {
-    counter-increment: li;
   }
 }
 

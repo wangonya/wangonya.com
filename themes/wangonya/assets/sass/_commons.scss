@@ -38,18 +38,10 @@ $title-font: $fonts;
 $code-font: ui-monospace, monospace;
 
 @mixin text-underline-crop($background) {
-  text-shadow: .03em 0 $background,
-  -.03em 0 $background,
-  0 .03em $background,
-  0 -.03em $background,
-  .06em 0 $background,
-  -.06em 0 $background,
-  .09em 0 $background,
-  -.09em 0 $background,
-  .12em 0 $background,
-  -.12em 0 $background,
-  .15em 0 $background,
-  -.15em 0 $background;
+  text-shadow: 0.03em 0 $background, -0.03em 0 $background, 0 0.03em $background,
+    0 -0.03em $background, 0.06em 0 $background, -0.06em 0 $background,
+    0.09em 0 $background, -0.09em 0 $background, 0.12em 0 $background,
+    -0.12em 0 $background, 0.15em 0 $background, -0.15em 0 $background;
 }
 
 @mixin text-background($color-bg, $color-text) {
@@ -164,8 +156,6 @@ $code-font: ui-monospace, monospace;
   border-left-style: solid;
   border-left-width: 1px;
   border-left-color: $back-medium;
-  margin: 20px 0;
-  padding: 0;
   padding-left: 15px;
 }
 

@@ -2,17 +2,21 @@
 
 pre {
   @include left-line();
-  font-family: $code-font;
-  font-size: 14px;
-  line-height: 1.9;
-  overflow-x: auto;
+  line-height: 1.4;
   box-shadow: none;
   padding: 0;
+  &.example {
+    padding-left: 15px;
+  }
 }
 
+pre,
 code {
   font-family: $code-font;
   color: $code-foreground;
   font-size: 14px;
-  padding: 0 2px;
+  overflow-x: auto;
+}
+pre code {
+  display: block;
 }

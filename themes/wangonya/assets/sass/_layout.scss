@@ -1,6 +1,7 @@
 // Basic layout
 
-html, body {
+html,
+body {
   height: 100%;
 }
 
@@ -15,7 +16,6 @@ body {
 
 header {
   margin: 35px 0;
-  flex: 1 0 auto;
 }
 
 #content {
@@ -26,7 +26,8 @@ header {
   clear: both;
 }
 
-.clearfix::before, .clearfix::after {
+.clearfix::before,
+.clearfix::after {
   content: " ";
   display: table;
 }
@@ -45,7 +46,7 @@ header {
   .site-nav {
     @include light-meta();
     font-weight: bold;
-    line-height: 2.0;
+    line-height: 2;
     a {
       color: $text-light;
       text-decoration: none;
@@ -122,5 +123,13 @@ header > div {
       float: right;
       margin-top: 0;
     }
+  }
+}
+
+#content {
+  p,
+  li,
+  dd {
+    line-height: 1.6;
   }
 }

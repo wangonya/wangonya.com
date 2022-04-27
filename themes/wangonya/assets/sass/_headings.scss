@@ -10,41 +10,36 @@ h6 {
   font-family: $title-font;
   font-weight: normal;
   margin-bottom: 0;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 
 // Override sizes
-h1 * {
+h1,
+h1 code {
   font-size: 30px;
 }
 
-h2 * {
+h2,
+h2 code {
   font-size: 24px;
 }
 
-h3 * {
+h3,
+h3 code {
   font-size: 20px;
 }
 
-h4 *, h5 *, h6 * {
+h4,
+h4 code {
   font-size: 18px;
 }
 
-// Section numbers
-.section-number-1,
-.section-number-2,
-.section-number-3,
-.section-number-4,
-.section-number-5,
-.section-number-6 {
-  @include light-meta();
-  color: $back-medium;
-  // margin-left: -1em;
-  // text-align: right;
-  // direction: rtl;
-  line-height: 1;
-  @media (min-width: 700px) {
-    position: absolute; // to remove the bounding box
-    transform: translateX(-100%) translateX(-10px);
-  }
+h5,
+h5 code {
+  font-size: 18px;
+}
+
+h6,
+h6 code {
+  font-size: 18px;
 }

@@ -11,8 +11,8 @@ pluralizeListTitles = false
 
 [params]
     email = "kwangonya@gmail.com"
-    about = "Software engineer. Mostly backend work with Python."
-    meta = "Wangonya's blog. | Software engineer. Mostly backend work with Python."
+    about = "Software engineer. Mostly doing backend work with Python."
+    meta = "Wangonya's blog. | Software engineer. Mostly doing backend work with Python."
     author = "Kelvin Wangonya"
 
 # Header
@@ -21,10 +21,17 @@ pluralizeListTitles = false
         identifier = "blog"
         name = "Blog"
         url = "/blog"
+	weight = 1
+  [[menu.main]]
+        identifier = "til"
+        name = "TIL"
+        url = "/til"
+	weight = 2
   [[menu.main]]
         identifier = "now"
         name = "Now"
         url = "/now"
+	weight = 3
 
 [[params.links]]
     [[params.links.link]]
@@ -39,6 +46,7 @@ pluralizeListTitles = false
 
 [markup]
   [markup.highlight]
+    noClasses = true
     style = "bw"
     tabWidth = 2
   [markup.goldmark.renderer]

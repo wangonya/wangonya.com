@@ -9,6 +9,9 @@
   <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
   {{ end }}
   </div>
-{{ .Content }}
+  {{ .Content }}
+  {{ with .NextInSection }}
+  <a href="{{ .Permalink }}">{{ .Title }}</a>
+{{ end }}
 </div>
 {{ end }}
