@@ -2,7 +2,7 @@
 ul, ol, dl {
   list-style: none;
   list-style-position: outside;
-  padding: 0;
+  padding-left: 15px;
 
   li::before, dt::before {
     display: inline-block;
@@ -16,7 +16,8 @@ ul, ol, dl {
 
     p {
       // Revert inside p
-      font-size: 15px;
+	font-size: 15px;
+	margin: 0;
     }
   }
 }
@@ -40,15 +41,6 @@ ol {
   li {
     counter-increment: li;
   }
-}
-
-ul ul, ol ol {
-  padding-left: 0px;
-}
-
-// Only go three levels deep
-ul ul ul, ol ol ol {
-  padding-left: 30px;
 }
 
 li p:first-child {
