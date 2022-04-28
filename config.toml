@@ -5,6 +5,7 @@ theme = "wangonya"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
+enableGitInfo = true
 
 [permalinks]
     posts = "blog/:slug/"
