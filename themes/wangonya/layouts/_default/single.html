@@ -4,7 +4,7 @@
   {{ $lastmod := .Lastmod.Format "Jan 02, 2006" }}
   <div class="page-meta">
     {{ if eq .RelPermalink "/now/" }}
-      Last Modified: {{ $lastmod }}
+      Last Updated: {{ $lastmod }}
     {{ else }}
       {{ $date }}
     {{ end }}
