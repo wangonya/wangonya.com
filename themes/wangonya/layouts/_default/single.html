@@ -1,11 +1,12 @@
 {{ define "main" }}
 <div class="page-header">
-  {{ $date := .Date.Format "2006-01-02" }}
-  {{ $lastmod := .Lastmod.Format "2006-01-02" }}
+  {{ $date := .Date.Format "Jan 02, 2006" }}
+  {{ $lastmod := .Lastmod.Format "Jan 02, 2006" }}
   <div class="page-meta">
-    <p>Published {{ .Date.Format "Jan 2, 2006" }}</p>
-    {{ if ne $lastmod $date }}
-      <p>Last Modified {{ .Lastmod.Format "Jan 2, 2006" }}</p>
+    {{ if eq .RelPermalink "/now/" }}
+      Last Modified: {{ $lastmod }}
+    {{ else }}
+      {{ $date }}
     {{ end }}
   </div>
   <h1>{{ .Title }}</h1>

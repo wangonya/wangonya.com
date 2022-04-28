@@ -3,4 +3,6 @@
 #+date: <2022-04-27 Wed>
 #+tags[]: productivity
 
-*TODO*: Start updating this asap.
+#+begin_quote
+This page is a work in progress
+#+end_quote
