@@ -24,9 +24,9 @@ enableGitInfo = true
         url = "/blog"
 	weight = 1
   [[menu.main]]
-        identifier = "til"
-        name = "TIL"
-        url = "/til"
+        identifier = "links"
+        name = "Links"
+        url = "/links"
 	weight = 2
   [[menu.main]]
         identifier = "now"
@@ -48,7 +48,7 @@ enableGitInfo = true
 [markup]
   [markup.highlight]
     noClasses = true
-    style = "bw"
+    style = "lovelace"
     tabWidth = 2
   [markup.goldmark.renderer]
     unsafe= true
