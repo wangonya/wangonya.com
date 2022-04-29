@@ -5,36 +5,11 @@ dl {
   padding-left: 20px;
 
   li {
-    margin: 5px 0;
     font-size: 15px;
 
     p {
-      // Revert inside p
-      font-size: 15px;
-      margin: 0;
+      font-size: inherit;
+      margin: inherit;
     }
-  }
-}
-
-li p:first-child {
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-// Definition lists
-dl {
-  dt::before {
-    content: "•";
-    margin-left: -1em;
-  }
-
-  dt {
-    font-weight: normal;
-    margin-bottom: 10px;
-  }
-
-  dd {
-    font-style: italic;
-    margin-bottom: 20px;
   }
 }
