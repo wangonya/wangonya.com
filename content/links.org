@@ -3,20 +3,30 @@
 #+date: 2022-04-29T12:00:01+03:00
 #+tags[]: productivity reference
 
+* Blog posts
+
+- [[https://earthly.dev/blog/golang-streamers/][Watch People Doing the Thing]]
+- [[https://joshbranchaud.com/blog/write-it-down-find-the-gaps][Write it down, find out what you don't know]]
+- [[https://engineering.gusto.com/a-developers-second-brain-on-plaintext/][A Developer's Second Brain on Plaintext]]
+- [[https://jeffhuang.com/productivity_text_file/][My productivity app for the past 14 years has been a single .txt file]]
+- [[https://www.calnewport.com/blog/2008/11/11/plantxt-the-most-effective-productivity-tool-that-youve-never-heard-of/][Plan.txt : The Most Effective Productivity Tool That You’ve Never Heard Of]]
+- [[https://www.calnewport.com/blog/2015/10/27/deep-habits-workingmemory-txt-the-most-important-productivity-tool-youve-never-heard-of/][Deep Habits: WorkingMemory.txt (The Most Important Productivity Tool You’ve Never Heard Of)]]
+
 * Books / resources
 
 - [[https://ebook-dl.com/][Ebook-dl]]
 - [[https://edu.anarcho-copy.org/][edu.anarcho-copy.org]]
+
+* Coding tutorials
+
+- [[https://golangbyexample.com/golang-comprehensive-tutorial/][Golang Comprehensive Tutorial Series]]
 
 * Databases / SQL
 
 - [[https://use-the-index-luke.com/][Use The Index, Luke]]
 - [[https://modern-sql.com/][Modern SQL]]
 
-* Interesting blog posts
+* System Design
 
-- [[https://earthly.dev/blog/golang-streamers/][Watch People Doing the Thing]]
+- [[https://github.com/donnemartin/system-design-primer][donnemartin/system-design-primer]]
 
-* Coding tutorials
-
-- [[https://golangbyexample.com/golang-comprehensive-tutorial/][Golang Comprehensive Tutorial Series]]
