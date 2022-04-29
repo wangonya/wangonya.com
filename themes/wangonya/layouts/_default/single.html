@@ -3,10 +3,10 @@
   {{ $date := .Date.Format "Jan 02, 2006" }}
   {{ $lastmod := .Lastmod.Format "Jan 02, 2006" }}
   <div class="page-meta">
-    {{ if eq .RelPermalink "/now/" }}
-      Last Updated: {{ $lastmod }}
-    {{ else }}
+    {{ if in .RelPermalink "blog" }}
       {{ $date }}
+    {{ else }}
+      Last Updated: {{ $lastmod }}
     {{ end }}
   </div>
   <h1>{{ .Title }}</h1>
