@@ -1,0 +1,22 @@
+#+title: Links
+#+author: Kelvin Wangonya
+#+date: 2022-04-29T12:00:01+03:00
+#+tags[]: productivity reference
+
+* Books / resources
+
+- [[https://ebook-dl.com/][Ebook-dl]]
+- [[https://edu.anarcho-copy.org/][edu.anarcho-copy.org]]
+
+* Databases / SQL
+
+- [[https://use-the-index-luke.com/][Use The Index, Luke]]
+- [[https://modern-sql.com/][Modern SQL]]
+
+* Interesting blog posts
+
+- [[https://earthly.dev/blog/golang-streamers/][Watch People Doing the Thing]]
+
+* Coding tutorials
+
+- [[https://golangbyexample.com/golang-comprehensive-tutorial/][Golang Comprehensive Tutorial Series]]
