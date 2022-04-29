@@ -3,8 +3,6 @@
 #+date: 2021-10-24T17:42:19+03:00
 #+tags[]: python
 
-[[https://wangonya.com/blog/go-version/][Again]], might come in handy while debugging.
-
 #+begin_src python
   import sys
 

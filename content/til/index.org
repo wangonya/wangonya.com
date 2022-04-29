@@ -1,8 +1,0 @@
-#+title: Today I Learned
-#+author: Kelvin Wangonya
-#+date: <2022-04-27 Wed>
-#+tags[]: productivity
-
-#+begin_quote
-This page is a work in progress
-#+end_quote
