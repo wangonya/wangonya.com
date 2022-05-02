@@ -133,3 +133,13 @@ header > div {
     line-height: 1.6;
   }
 }
+
+.archive-item {
+  margin: 30px 0;
+
+  .archive-title {
+    font-size: 20px;
+    margin: 1px 0;
+    @include link-reset();
+  }
+}
