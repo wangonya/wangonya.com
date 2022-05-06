@@ -21,10 +21,12 @@
 
 - [[https://golangbyexample.com/golang-comprehensive-tutorial/][Golang Comprehensive Tutorial Series]]
 
-* Databases / SQL
+* Database
 
 - [[https://use-the-index-luke.com/][Use The Index, Luke]]
 - [[https://modern-sql.com/][Modern SQL]]
+- [[https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b][PostgreSQL at Scale: Database Schema Changes Without Downtime]]
+- [[http://johnemb.blogspot.com/2014/09/adding-or-removing-individual-sql-modes.html][Adding or removing individual SQL modes in MySQL's sql_mode variable]]
 
 * System design
 
