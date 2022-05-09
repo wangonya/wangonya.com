@@ -2,3 +2,4 @@
 #+author: Kelvin Wangonya
 #+date:  {{ .Date }}
 #+tags[]: 
+#+default: true
