@@ -9,6 +9,8 @@
 - [[https://github.com/labuladong/fucking-algorithm/tree/english][labuladong/fucking-algorithm]]
 - [[https://github.com/jwasham/coding-interview-university][jwasham/coding-interview-university]]
 - [[https://github.com/kamyu104/LeetCode-Solutions][kamyu104/LeetCode-Solutions]]
+- [[https://algotree.org/][AlgoTree]]
+- [[https://shanzi.gitbooks.io/algorithm-notes/content][Algorithm Notes]]
   
 
 * Blog posts
