@@ -3,6 +3,14 @@
 #+date: 2022-04-29T12:00:01+03:00
 #+tags[]: productivity reference
 
+* Algorithms
+
+- [[https://the-algorithms.com/][The Algorithms]]
+- [[https://github.com/labuladong/fucking-algorithm/tree/english][labuladong/fucking-algorithm]]
+- [[https://github.com/jwasham/coding-interview-university][jwasham/coding-interview-university]]
+- [[https://github.com/kamyu104/LeetCode-Solutions][kamyu104/LeetCode-Solutions]]
+  
+
 * Blog posts
 
 - [[https://earthly.dev/blog/golang-streamers/][Watch People Doing the Thing]]
@@ -12,15 +20,18 @@
 - [[https://www.calnewport.com/blog/2008/11/11/plantxt-the-most-effective-productivity-tool-that-youve-never-heard-of/][Plan.txt : The Most Effective Productivity Tool That You’ve Never Heard Of]]
 - [[https://www.calnewport.com/blog/2015/10/27/deep-habits-workingmemory-txt-the-most-important-productivity-tool-youve-never-heard-of/][Deep Habits: WorkingMemory.txt (The Most Important Productivity Tool You’ve Never Heard Of)]]
 
+  
 * Books / resources
 
 - [[https://ebook-dl.com/][Ebook-dl]]
 - [[https://edu.anarcho-copy.org/][edu.anarcho-copy.org]]
 
+  
 * Coding tutorials
 
 - [[https://golangbyexample.com/golang-comprehensive-tutorial/][Golang Comprehensive Tutorial Series]]
 
+  
 * Database
 
 - [[https://use-the-index-luke.com/][Use The Index, Luke]]
@@ -28,6 +39,7 @@
 - [[https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b][PostgreSQL at Scale: Database Schema Changes Without Downtime]]
 - [[http://johnemb.blogspot.com/2014/09/adding-or-removing-individual-sql-modes.html][Adding or removing individual SQL modes in MySQL's sql_mode variable]]
 
+  
 * System design
 
 - [[https://github.com/donnemartin/system-design-primer][donnemartin/system-design-primer]]
