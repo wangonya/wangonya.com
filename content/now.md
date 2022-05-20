@@ -20,5 +20,5 @@ Here\'s an overview of what I\'m doing now:
     - React, Typescript
 - Learning Go
 - Reading:
-  - [Go: Building Web
-    Applications](https://www.packtpub.com/product/go-building-web-applications/9781787123496)
+  - The Algorithm Design Manual - _Steven S. Skiena_
+  - Go: Building Web Applications - _Nathan Kozyra , Mat Ryer_
