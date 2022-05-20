@@ -95,7 +95,7 @@ in this case).
 Running `add.delay(4, 4)` like before now gives the following
 output on the celery terminal:
 
-```{.bash org-language="sh"}
+```shell
 [2020-11-03 07:23:19,183: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 07:23:19,184: INFO/ForkPoolWorker-2] Task tasks.add[1ef11c46-f461-4eb8-84ca-5c5cdab62a74] succeeded in 0.0016491969999998801s: 8
 ```
@@ -126,7 +126,7 @@ def task_postrun_notifier(sender=None, **kwargs):
 
 Running this should give the following result:
 
-```{.bash org-language="sh"}
+```shell
 [2020-11-03 17:03:51,655: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 17:03:51,656: INFO/ForkPoolWorker-2] Task tasks.add[7da6ee71-1941-4a87-b993-8136d94ac067] succeeded in 0.0017917519999999243s: 8
 [2020-11-03 17:03:51,657: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, done!
@@ -161,7 +161,7 @@ def task_success_notifier(sender=None, **kwargs):
 
 Result:
 
-```{.bash org-language="sh"}
+```shell
 [2020-11-03 17:40:47,276: INFO/MainProcess] Received task: tasks.add[6603eb49-75ab-4653-b32f-ebe760a52de0]
 [2020-11-03 17:40:47,279: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 17:40:47,281: WARNING/ForkPoolWorker-2] From task_success_notifier ==> Task run successfully!
@@ -198,7 +198,7 @@ def task_failure_notifier(sender=None, **kwargs):
 
 Result:
 
-```{.bash org-language="sh"}
+```shell
 [2020-11-03 17:44:36,082: INFO/MainProcess] Received task: tasks.add[da4a03e8-5530-4c9e-afeb-75f8e0b1be5d]
 [2020-11-03 17:44:36,085: WARNING/ForkPoolWorker-2] From task_prerun_notifier ==> Running just before add() executes
 [2020-11-03 17:44:36,096: WARNING/ForkPoolWorker-2] From task_failure_notifier ==> Task failed successfully! 😅

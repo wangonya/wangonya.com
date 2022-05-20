@@ -28,7 +28,7 @@ four parameters:
 
 An example from the docs:
 
-```{.bash org-language="sh"}
+```shell
 Python 3.7.3
 
 >>> from difflib import get_close_matches

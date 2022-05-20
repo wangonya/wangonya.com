@@ -45,7 +45,7 @@ that folder is a Python package. The `__init__.py` doesn\'t
 have to contain any code -- sometimes it does -- it just has to be there
 for Python take that particular folder as a package.
 
-```{.bash org-language="sh"}
+```shell
 📁 my_package
     |- __init__.py
     |- module.py

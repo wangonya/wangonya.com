@@ -34,7 +34,7 @@ for i, country in enumerate(countries):
 
 Output:
 
-```{.bash org-language="sh"}
+```shell
 === using range ===
 Country: Kenya, Capital: Nairobi
 Country: Tanzania, Capital: Dodoma
@@ -56,7 +56,7 @@ for country, capital in zip(countries, capitals):
 
 Output:
 
-```{.bash org-language="sh"}
+```shell
 === using zip ===
 Country: Kenya, Capital: Nairobi
 Country: Tanzania, Capital: Dodoma

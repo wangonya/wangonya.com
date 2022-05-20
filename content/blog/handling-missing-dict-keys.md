@@ -13,7 +13,7 @@ returns `None` if `key` isn\'t found, or
 `get(key, default)` which returns `default` if
 `key` isn\'t found.
 
-```{.bash org-language="sh"}
+```shell
 >>> d = {}
 >>> d
 {}
@@ -45,7 +45,7 @@ a couple of ways to do that.
 >
 > [docs](https://docs.python.org/3/library/stdtypes.html#dict.setdefault)
 
-```{.bash org-language="sh"}
+```shell
 >>> d
 {}
 >>> d.setdefault("x","y")
@@ -68,7 +68,7 @@ a couple of ways to do that.
 >
 > [docs](https://docs.python.org/3/library/collections.html#collections.defaultdict)
 
-```{.bash org-language="sh"}
+```shell
 >>> from collections import defaultdict
 >>> i = defaultdict(int)
 >>> i
@@ -103,7 +103,7 @@ Further reading:
 This is actually what `defaultdict` does behind the scenes.
 Use this when `defaultdict` doesn\'t fit your usecase.
 
-```{.bash org-language="sh"}
+```shell
 >>> class M(dict):
 ...     def __missing__(self, key):
 ...             value = "my default value"

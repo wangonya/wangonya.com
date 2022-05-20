@@ -10,7 +10,7 @@ tags:
 Running `\?` within a psql database gives a whole list of
 commands that come in handy when performing various kinds of tasks.
 
-```{.bash org-language="sh"}
+```shell
 $ psql
 psql (13.0)
 Type "help" for help.
@@ -33,7 +33,7 @@ then uploads the backups to an external server.
 Running `\dn` gives a list of schemas but it also gives the
 owners, which I didn\'t need in my case.
 
-```{.bash org-language="sh"}
+```shell
 wangonya=# \dn
   List of schemas
   Name  |  Owner
@@ -59,7 +59,7 @@ From the psql [docs](https://www.postgresql.org/docs/13/app-psql.html):
 Running psql with the `-E` flag then running the
 `/dn` command gives this result:
 
-```{.bash org-language="sh"}
+```shell
 $ psql -E
 
 wangonya-# \dn

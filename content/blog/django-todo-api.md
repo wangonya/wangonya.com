@@ -15,7 +15,7 @@ Django 2.
 
 Create a virtual environment and install Django.
 
-```{.bash org-language="sh"}
+```shell
 $ virtualenv venv # creates a virtual environment
 $ source venv/bin/activate # activates the virtual environment
 (venv)$ pip install Django
@@ -28,14 +28,14 @@ That\'s all we\'ll need for now.
 Use the Django `startproject` command to create the project
 we\'ll be working on.
 
-```{.bash org-language="sh"}
+```shell
 $ django-admin startproject todoapi
 ```
 
 This creates a `todoapi` directory with generated files to
 start us off. The directory should look something like this:
 
-```{.bash org-language="sh"}
+```shell
 manage.py
 todoapi/
     __init__.py
@@ -68,14 +68,14 @@ DATABASES = {
 To create models for our database, we first need to create a todos
 \"app\". This is where we\'ll implement our features.
 
-```{.bash org-language="sh"}
+```shell
 $ python manage.py startapp todos
 ```
 
 This will create a `todos` directory with the following
 files:
 
-```{.bash org-language="sh"}
+```shell
 migrations/
     __init__.py
 __init__.py
@@ -121,7 +121,7 @@ Now all we need to do is run `makemigrations` to notify
 Django of our models, and `migrate` to do the actual
 migration.
 
-```{.bash org-language="sh"}
+```shell
 $ python manage.py makemigrations todos
 $ python manage.py migrate
 ```
@@ -195,7 +195,7 @@ urlpatterns = [
 
 Create a superuser:
 
-```{.bash org-language="sh"}
+```shell
 $ python manage.py createsuperuser
 ```
 

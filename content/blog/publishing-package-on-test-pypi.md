@@ -73,14 +73,14 @@ docs](https://setuptools.readthedocs.io/en/latest/setuptools.html#new-and-change
 
 In the root directory, run:
 
-```{.bash org-language="sh"}
+```shell
 (env) $ python setup.py sdist bdist_wheel
 ```
 
 This will generate a `dist` folder with the distribution
 packages:
 
-```{.bash org-language="sh"}
+```shell
 dist/
 ├── contacts-0.1.0-py3-none-any.whl
 └── contacts-0.1.0.tar.gz
@@ -90,13 +90,13 @@ dist/
 
 Install twine:
 
-```{.bash org-language="sh"}
+```shell
 $ pip install twine
 ```
 
 Upload your package:
 
-```{.bash org-language="sh"}
+```shell
 $ twine upload --repository-url https://test.pypi.org/legacy/ dist/*
 Enter your username: wangonya
 Enter your password:
@@ -111,7 +111,7 @@ The package should now be uploaded on your account.
 
 To install the package locally from TestPyPi, run:
 
-```{.bash org-language="sh"}
+```shell
 $ pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple your-package
 ```
 

@@ -18,19 +18,19 @@ tags:
 
 ## Install
 
-```{.bash org-language="sh"}
+```shell
 $ sudo pacman -S mariadb
 ```
 
 ## Setup the data directory
 
-```{.bash org-language="sh"}
+```shell
 $ sudo mariadb-install-db --user=mysql --basedir=/usr --datadir=/var/lib/mysql
 ```
 
 ## Start mariadb.service
 
-```{.bash org-language="sh"}
+```shell
 $ systemctl start mariadb.service
 $ systemctl enable mariadb.service
 ```
@@ -40,7 +40,7 @@ $ systemctl enable mariadb.service
 > In the below example, the user monty with some~pass~ as password is
 > being created, then granted full permissions to the database mydb:
 
-```{.bash org-language="sh"}
+```shell
 $ sudo mysql -u root -p
 
 MariaDB> CREATE USER 'monty'@'localhost' IDENTIFIED BY 'some_pass';
@@ -51,12 +51,12 @@ MariaDB> quit
 
 ## Logging into MariaDB
 
-```{.bash org-language="sh"}
+```shell
 mysql -u //user_name// -p -h //ip_address// //db_name//
 ```
 
 Eg:
 
-```{.bash org-language="sh"}
+```shell
 mysql -u username -ppassword -h localhost database_name
 ```

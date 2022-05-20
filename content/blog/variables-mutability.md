@@ -22,7 +22,7 @@ fn main() {
 
 The rust compiler gives a clear output of what went wrong:
 
-```{.bash org-language="sh"}
+```shell
 error[E0384]: cannot assign twice to immutable variable `var`
   |
 2 |     let var = 10;
@@ -95,7 +95,7 @@ hello = hello.len();
 
 Output:
 
-```{.bash org-language="sh"}
+```shell
 error[E0308]: mismatched types
   |
 3 |     hello = hello.len();

@@ -9,7 +9,7 @@ tags:
 What happens when a variable is assigned to another variable in python?
 For example:
 
-```{.bash org-language="sh"}
+```shell
 >>> x = 5
 >>> y = x
 ```
@@ -21,7 +21,7 @@ Instead, an **alias** for `x` was created. That is,
 `y` points to the memory location of `x`. It does
 not have it\'s own memory location - yet.
 
-```{.bash org-language="sh"}
+```shell
 >>> id(x)
 140428600776960
 >>> id(y)
@@ -34,7 +34,7 @@ You may never have any problems with this when working with [immutable
 types](https://stackoverflow.com/a/23715872) because the alias is broken
 as soon as either of the two variables change.
 
-```{.bash org-language="sh"}
+```shell
 >>> x += 2
 >>> x
 7
@@ -52,7 +52,7 @@ But when working with mutable types, the alias is not broken when the
 original is updated. This means changes in `x` would reflect
 in `y`.
 
-```{.bash org-language="sh"}
+```shell
 >>> x = [1,2,3]
 >>> y = x
 >>> x
@@ -86,7 +86,7 @@ of the _objects_ in the original object. Continuing with the previous
 example, a shallow copy can be created using either the
 `list()` or `copy()` command.
 
-```{.bash org-language="sh"}
+```shell
 >>> z = list(x)
 >>> z
 [1, 2, 3, 4, 5]
@@ -95,7 +95,7 @@ example, a shallow copy can be created using either the
 Now if some more values are appended to `x`, `y`
 will still be affected by `z` will not.
 
-```{.bash org-language="sh"}
+```shell
 >>> x.append(6)
 >>> x.append(7)
 >>> x
@@ -115,7 +115,7 @@ As it is currently, updating `x[0]` would not affect
 broken. But, if we were dealing with a list of lists, an update in
 `x[0]` would affect `z[0]`.
 
-```{.bash org-language="sh"}
+```shell
 >>> x = [[1,2], [3,4]]
 >>> y = x
 >>> z = list(x)
@@ -149,7 +149,7 @@ objects in it. That is, a deep copied object is completely independent
 of the original. Updating objects in the original would not affect the
 deep copied object since there\'s no longer any connection.
 
-```{.bash org-language="sh"}
+```shell
 >>> import copy
 >>> x = [[1,2], [3,4]]
 >>> z = copy.deepcopy(x)

@@ -35,7 +35,7 @@ Sometimes, only data for one sheet is required. Other times, data for
 all the sheets is fetched. So the endpoints end up being broken down
 like this:
 
-```{.bash org-language="sh"}
+```shell
 /report/sheet-a
 /report/sheet-b
 /report/sheet-c
@@ -149,7 +149,7 @@ reduces duplication while maintaining readability.
 
 Running the tests gives this output:
 
-```{.bash org-language="sh"}
+```shell
 test_reports.py::test_report_sheets_return_200[sheet-a] PASSED
 test_reports.py::test_report_sheets_return_200[sheet-b] PASSED
 test_reports.py::test_report_sheets_return_200[sheet-c] PASSED

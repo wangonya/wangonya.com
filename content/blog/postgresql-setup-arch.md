@@ -14,20 +14,20 @@ docs](https://wiki.archlinux.org/title/PostgreSQL)
 
 ## Install
 
-```{.bash org-language="sh"}
+```shell
 $ sudo pacman -S postgresql
 ```
 
 ## Setup the data directory
 
-```{.bash org-language="sh"}
+```shell
 $ sudo -iu postgres
 [postgres]$ initdb -D /var/lib/postgres/data
 ```
 
 ## Start postgresql.service
 
-```{.bash org-language="sh"}
+```shell
 $ systemctl start postgresql.service
 $ systemctl enable postgresql.service
 ```
@@ -38,6 +38,6 @@ $ systemctl enable postgresql.service
 
 ## Create db
 
-```{.bash org-language="sh"}
+```shell
 $ createdb myDatabaseName
 ```

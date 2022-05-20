@@ -54,7 +54,7 @@ def test_add():
 
 To run the test, run `pytest` on the terminal:
 
-```{.bash org-language="sh"}
+```shell
 (env) $ pytest
 ================== test session starts ====================
 platform linux -- Python 3.7.3, pytest-5.1.0, py-1.8.0, pluggy-0.12.0
