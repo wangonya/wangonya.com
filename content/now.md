@@ -20,5 +20,6 @@ Here\'s an overview of what I\'m doing now:
     - React, Typescript
 - Learning Go
 - Reading:
-  - The Algorithm Design Manual - _Steven S. Skiena_
+  <!-- - The Algorithm Design Manual - _Steven S. Skiena_ -->
+  - Grokking Algorithms - _Aditya Bhargava_
   - Go: Building Web Applications - _Nathan Kozyra , Mat Ryer_
