@@ -52,9 +52,9 @@ if __name__ == "__main__":
 
 ## Arrays
 
-> Rendom access. Fast reads, slow writes.
+> Random access. Fast reads, slow writes.
 
-With arrays, data is stored contiguously (right next to each other) in memory. If more data needs to be added and there's not enough space for it to be stored contiguosly in the current location, everything needs to be moved to a different location that will allow this to be done. Inserting data into the middle of an array also requires moving everything else to the right to make space for the new item. Adding data can therefore be quite slow. While it's possible to reserve slots as a workaround for having to change locations, the reserved slots end up being wasted in case they're not used. Deleting is also slow as everything needs to be moved up to fill the empty space (assuming the deletion was done in the middle).
+With arrays, data is stored contiguously (right next to each other) in memory. If more data needs to be added and there's not enough space for it to be stored contiguously in the current location, everything needs to be moved to a different location that will allow this to be done. Inserting data into the middle of an array also requires moving everything else to the right to make space for the new item. Adding data can therefore be quite slow. While it's possible to reserve slots as a workaround for having to change locations, the reserved slots end up being wasted in case they're not used. Deleting is also slow as everything needs to be moved up to fill the empty space (assuming the deletion was done in the middle).
 
 ## Linked lists
 
@@ -67,6 +67,28 @@ Data can be saved anywhere in memory. Each item stores the address of the next i
 > Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation! - [https://stackoverflow.com/a/72694/9312256](https://stackoverflow.com/a/72694/9312256)
 
 Every recursive function has two parts: the base case, and the recursive case.
+
+> **Tip** 💡
+>
+> When you’re writing a recursive function involving an array, the base case is often an empty array or an array with one element.
+
+> **Exercise**
+>
+> Find the total of a list of numbers using recursion.
+
+```python
+def _sum(_list):
+    if not _list:
+        return 0
+
+    if len(_list) == 1:
+        return _list[0]
+    else:
+        return _list.pop() + _sum(_list)
+
+print(_sum([1,2,3,4,5])) # => 15
+print(_sum([2,4,6])) # => 12
+```
 
 ## The stack
 
@@ -115,6 +137,8 @@ To solve a problem using D&C, there are two steps:
 1. Figure out the base case. This should be the simplest possible case.
 2. Divide or decrease your problem until it becomes the base case.
 
+> **Exercise**
+>
 > Suppose you’re a farmer with a plot of land - 1680 \* 640 meters. You want to divide this farm evenly into square plots. You want the plots to be as big as possible. How do you figure out the largest square size you can use for a plot of land?
 
 ```python
@@ -123,13 +147,15 @@ def divide_land(a, b):
     smaller_side = min(a,b)
 
     if smaller_side * 2 == bigger_side:
-        return (bigger_side, smaller_side)
+        return (smaller_side, smaller_side)
     else:
         rem = bigger_side % smaller_side
         return divide_land(rem, smaller_side)
 
-print(divide_land(1680, 640)) # => (160, 80)
-print(divide_land(400, 640)) # => (160, 80)
+print(divide_land(1680, 640)) # => (80, 80)
+print(divide_land(400, 640)) # => (80, 80)
 ```
 
 # Quicksort
+
+Uses divide & conquer.

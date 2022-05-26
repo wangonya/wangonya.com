@@ -14,8 +14,8 @@ tags:
 - [jwasham/coding-interview-university](https://github.com/jwasham/coding-interview-university)
 - [kamyu104/LeetCode-Solutions](https://github.com/kamyu104/LeetCode-Solutions)
 - [AlgoTree](https://algotree.org/)
-- [Algorithm
-  Notes](https://shanzi.gitbooks.io/algorithm-notes/content)
+- [Algorithm Notes](https://shanzi.gitbooks.io/algorithm-notes/content)
+- [Top 25 Algorithms Every Programmer Should Know](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b)
 
 # Blog posts
 
@@ -38,6 +38,8 @@ tags:
 
 - [Ebook-dl](https://ebook-dl.com/)
 - [edu.anarcho-copy.org](https://edu.anarcho-copy.org/)
+- [ivanarandac/Free-Algorithm-Books-1](https://github.com/ivanarandac/Free-Algorithm-Books-1)
+- [kapcino/programming-ebooks](https://github.com/kapcino/programming-ebooks)
 
 # Coding tutorials
 
@@ -50,7 +52,7 @@ tags:
 - [Modern SQL](https://modern-sql.com/)
 - [PostgreSQL at Scale: Database Schema Changes Without
   Downtime](https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b)
-- [Adding or removing individual SQL modes in MySQL\'s sql~mode~
+- [Adding or removing individual SQL modes in MySQL\'s sql_mode
   variable](http://johnemb.blogspot.com/2014/09/adding-or-removing-individual-sql-modes.html)
 
 # System design
