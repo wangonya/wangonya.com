@@ -159,3 +159,89 @@ print(divide_land(400, 640)) # => (80, 80)
 # Quicksort
 
 Uses divide & conquer.
+
+## Sorting an array of numbers with quick sort
+
+Base case: empty array or array with one element.
+
+For bigger arrays, choose an element from the array (pivot) and find elements smaller that the pivot and larger than it. All smaller elements go to the left of the pivot. Bigger elements go to the right of the pivot. Recurse until array is sorted.
+
+```python
+def quicksort(array):
+    if len(array) < 2:
+        return array
+    pivot = array[0]
+    less = [i for i in array[1:] if i < pivot]
+    equal = [i for i in array[1:] if i == pivot]
+    greater = [i for i in array[1:] if i > pivot]
+
+    return quicksort(less) + equal + [pivot] + quicksort(greater)
+
+
+print(quicksort([10, 2, 3, 7, 12, 2, 5, 1, 3])) # => [1, 2, 2, 3, 3, 5, 7, 10, 12]
+```
+
+The performance of quicksort heavily depends on the pivot choosen. If the first element is the pivot and quicksort is called with an array that is already sorted it doesn’t check to see whether the input array is already sorted. So it will still try to sort it.
+
+Middle pivots work better. In the worst case (first item as pivot), the stack size is O(_n_). In the best case (middle pivot), the stack size is O(log _n_).
+
+The overall complexity of quicksort is O(_n_ log _n_)
+
+# Graphs
+
+A graph models a set of connections / how different things are connected to one another. It's made up of nodes and edges. A node can be directly connected to many other nodes. Those nodes are called its neighbors.
+
+## Breadth-first search
+
+Used to find the shortest path to a target. It can help answer two types of questions:
+
+- Is there a path from node A to node B?
+- What is the shortest path from node A to node B?
+
+> **Example**
+>
+> Suppose you’re the proud owner of a mango farm. You’re looking for a mango seller who can sell your mangoes. Are you connected to a mango seller on Facebook? Well, you can search through your friends.
+>
+> First, make a list of friends to search. Now, go to each person in the list and check whether that person sells mangoes. Suppose none of your friends are mango sellers. Now you have to search through your friends’ friends. Each time you search for someone from the list, add all of their friends to the list. This way, you not only search your friends, but you search their friends too.
+>
+> First should be searched first before friends of friends. To keep this order, you need a queue.
+
+```python
+from collections import deque
+
+graph = dict()
+graph["you"] = ["alice", "bob", "claire"]
+graph["bob"] = ["anuj", "peggy"]
+graph["alice"] = ["peggy"]
+graph["claire"] = ["tom mango seller", "jonny"]
+graph["anuj"] = []
+graph["peggy"] = []
+graph["tom mango seller"] = []
+graph["jonny"] = []
+
+
+def search(name):
+    search_queue = deque()
+    search_queue += graph[name]
+    searched = []
+
+    while search_queue:
+        person = search_queue.popleft()
+        if not person in searched:
+            if "mango seller" in person:
+                return person
+            else:
+                search_queue += graph[person]
+                searched.append(person)
+    return False
+
+print(search("you")) # => tom mango seller
+```
+
+Running time: O(V+E) (V for number of vertices, E for number of edges).
+
+> **Tip** 💡
+>
+> If you have a problem like “find the shortest X,” try modeling your problem as a graph, and use breadth-first search to solve.
+
+## Dijkstra’s algorithm
