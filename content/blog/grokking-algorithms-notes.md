@@ -9,6 +9,12 @@ tags:
 
 Book: [https://www.manning.com/books/grokking-algorithms](https://www.manning.com/books/grokking-algorithms)
 
+# The Feynman algorithm
+
+1. Write down the problem.
+2. Think real hard.
+3. Write down the solution.
+
 # Binary search
 
 Use if the input is sorted.
@@ -245,3 +251,34 @@ Running time: O(V+E) (V for number of vertices, E for number of edges).
 > If you have a problem like “find the shortest X,” try modeling your problem as a graph, and use breadth-first search to solve.
 
 ## Dijkstra’s algorithm
+
+BFS gets the shortest path to a target, in terms of number of nodes that have to be accessed before reaching the target. Dijkstra's algorithm gets the **fastest** path to a target, even though the path may not necessarily be the shortest.
+
+To calculate the shortest path in an unweighted graph, use breadth-first search. To calculate the shortest path in a weighted graph, use Dijkstra’s algorithm.
+
+Steps:
+
+1. Find the “cheapest” node. This is the node that can be accessed in the least amount of time.
+2. Update the costs of the neighbors of this node.
+3. Repeat until this has been done for every node in the graph.
+4. Calculate the final path.
+
+```python
+# TODO: implementation
+```
+
+> **Note** 🐛
+>
+> You can’t use Dijkstra’s algorithm if you have negative-weight edges as they break the algorithm.
+>
+> For a graph with negative-weight edges, use _[Bellman-Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)_.
+
+# Greedy algorithms
+
+A greedy algorithm is simple: at each step, pick the optimal move. In technical terms: at each step, pick the locally optimal solution, and in the end you’re left with the globally optimal solution. It doesn't always get the most optimal solution, but it comes close enough.
+
+# Dynamic programming
+
+Dynamic programming starts by solving subproblems and builds up to solving the big problem.
+
+Useful when trying to optimize something given a constraint.
