@@ -1,5 +1,5 @@
 ---
-title: "Grokking Algorithms Notes [WIP]"
+title: "Grokking Algorithms Notes"
 date: 2022-05-21T12:03:23+03:00
 tags:
   - algorithms
@@ -48,10 +48,6 @@ def binary_search(_list, item):
 if __name__ == "__main__":
     position = binary_search([2, 3, 5, 7, 8, 9, 12, 24, 32], 12)
     print(position)
-```
-
-```go
-// TODO: Go implementation
 ```
 
 # Arrays & linked lists
@@ -248,7 +244,7 @@ Running time: O(V+E) (V for number of vertices, E for number of edges).
 
 > **Tip** 💡
 >
-> If you have a problem like “find the shortest X,” try modeling your problem as a graph, and use breadth-first search to solve.
+> If you have a problem like “find the shortest X,” try modeling your problem as a graph and use breadth-first search to solve.
 
 ## Dijkstra’s algorithm
 
