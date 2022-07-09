@@ -52,10 +52,10 @@ body {
 }
 
 a:link {
-  color: var(--base0A);
+  color: var(--base05);
 }
 a:visited {
-  color: var(--base0A);
+  color: var(--base05);
 }
 a:hover {
   color: var(--base06);
@@ -73,7 +73,7 @@ pre {
   border-width: 0;
   border-left-style: solid;
   border-left-width: 1px;
-  border-left-color: var(--base01);
+  border-left-color: var(--base02);
   box-shadow: none;
   padding: 3px 15px;
 }
@@ -88,6 +88,18 @@ pre code {
 
 blockquote {
   margin: 0;
+}
+
+table {
+  border: solid 1px var(--base02);
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+thead th,
+tbody td {
+  border: solid 1px var(--base02);
+  padding: 10px;
+  text-align: left;
 }
 
 #blog-list {
