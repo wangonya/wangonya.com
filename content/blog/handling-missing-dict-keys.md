@@ -60,7 +60,7 @@ a couple of ways to do that.
 > `class collections.defaultdict(default_factory=None, /[, ...])`
 >
 > The first argument provides the initial value for the
-> [default~factory~](https://docs.python.org/3/library/collections.html#collections.defaultdict.default_factory)
+> [default factory](https://docs.python.org/3/library/collections.html#collections.defaultdict.default_factory)
 > attribute; it defaults to `None`. All remaining arguments
 > are treated the same as if they were passed to the
 > [dict](https://docs.python.org/3/library/stdtypes.html#dict)
@@ -92,10 +92,8 @@ instead, the default value would be `[]`, an so on.
 
 Further reading:
 
-- [defaultdict
-  Examples](https://docs.python.org/3/library/collections.html#defaultdict-examples)
-- [Use cases for the \'setdefault\' dict
-  method](https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict-method)
+- [defaultdict examples](https://docs.python.org/3/library/collections.html#defaultdict-examples)
+- [Use cases for the \'setdefault\' dict method](https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict-method)
   (vs defaultdict)
 
 ## 3. Implement `__missing__`

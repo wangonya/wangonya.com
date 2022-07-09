@@ -55,7 +55,7 @@ a:link {
   color: var(--base0A);
 }
 a:visited {
-  color: var(--base06);
+  color: var(--base0A);
 }
 a:hover {
   color: var(--base06);
@@ -79,11 +79,11 @@ pre {
 }
 pre,
 code {
-  padding-left: 15px;
   overflow-x: auto;
 }
 pre code {
   display: block;
+  font-size: large;
 }
 
 blockquote {
