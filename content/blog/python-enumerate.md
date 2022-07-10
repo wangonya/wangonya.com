@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: 2020-01-26
-title: When to use python\'s enumerate() instead of range() in loops
+title: When to use python's enumerate() instead of range() in loops
 tags:
   - python
 ---
