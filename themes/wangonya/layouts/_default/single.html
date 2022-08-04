@@ -3,15 +3,18 @@
   {{ $date := .Date.Format "2006-01-01" }}
   {{ $lastmod := .Lastmod.Format "2006-01-01" }}
 
-  {{ if in .RelPermalink "blog" }}
-    {{ $date }}
-  {{ else }}
-    Last Updated: {{ $lastmod }}
-  {{ end }}
+  <span class="space-right meta">
+    {{ if in .RelPermalink "blog" }}
+      {{ $date }}
+    {{ else }}
+      Last Updated: {{ $lastmod }}
+    {{ end }}
 
-  {{ range .Params.tags }}
-    <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
-  {{ end }}
+    {{ range .Params.tags }}
+      <a href="{{ "/tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+    {{ end }}
+  </span>
+
 
 <div id="content">
   {{ .Content }}
