@@ -3,7 +3,7 @@
   <ul id="blog-list">
     {{ range .Pages }}
     <li>
-      <span class="">{{ .Date.Format "2006-01-01" }}</span>
+      <span class="space-right meta">{{ .Date.Format "2006-01-01" }}</span>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
