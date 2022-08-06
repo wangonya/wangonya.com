@@ -1,21 +1,9 @@
-/* catppuccin mocha */
 :root {
-  --bg: #1e1e2e;
-  --bg-alt: #45475a;
-  --fg: #cdd6f4;
-  --fg-alt: #bac2de;
-  --blue: #89b4fa;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    /* catppuccin latte */
-    --bg: #eff1f5;
-    --bg-alt: #5c5f77;
-    --fg: #4c4f69;
-    --fg-alt: #acb0be;
-    --blue: #1e66f5;
-  }
+  --bg: #202020;
+  --bg-alt: #282828;
+  --fg: #e5e5e5;
+  --blue: #8f8aac;
+  --blue-alt: #a39ec4;
 }
 
 * {
@@ -26,29 +14,12 @@
 
 @font-face {
   font-family: "body";
-  font-style: normal;
-  src: url("GoogleSans-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "body";
-  font-style: italic;
-  src: url("GoogleSans-Italic.ttf") format("truetype");
-}
-@font-face {
-  font-family: "body";
-  font-style: oblique;
-  src: url("GoogleSans-Bold.ttf") format("truetype");
+  src: url("DMSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "mono";
-  font-style: normal;
   src: url("DMMono-Regular.ttf") format("truetype");
-}
-@font-face {
-  font-family: "mono";
-  font-style: oblique;
-  src: url("DMMono-Medium.ttf") format("truetype");
 }
 
 body {
@@ -67,7 +38,7 @@ a:visited {
   color: var(--blue);
 }
 a:hover {
-  color: var(--fg);
+  color: var(--blue-alt);
 }
 
 header {
@@ -90,7 +61,7 @@ code {
 }
 pre code {
   display: block;
-  font-size: large;
+  font-size: medium;
 }
 
 blockquote {
