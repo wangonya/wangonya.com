@@ -1,9 +1,9 @@
 :root {
-  --bg: #0f0f0f;
+  --bg: #000000;
   --bg-alt: #262626;
-  --fg: #f5f5f5;
-  --blue: #8f8aac;
-  --blue-alt: #a39ec4;
+  --fg: #c1c1c1;
+  --blue: #7799bb;
+  --blue-alt: #556677;
 }
 
 * {
@@ -96,4 +96,5 @@ tbody td {
 .meta {
   color: var(--fg-alt);
   font-family: mono, monospace;
+  font-size: medium;
 }
