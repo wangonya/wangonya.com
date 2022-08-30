@@ -19,5 +19,5 @@ Here's an overview of what I'm doing now:
 - Reading:
   <!-- - The Algorithm Design Manual - _Steven S. Skiena_ -->
   <!-- - Algorithms - _Jeff Erickson_ -->
-  - Pro Go - _Adam Freeman_
+  - Hands-On Systems Programming with Go - _Alex Guerrieri_
   - How To Solve It - _G. Polya_

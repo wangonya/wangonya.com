@@ -1,10 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans&display=swap');
+
 :root {
-  --bg: #000000;
-  --bg-alt: #262626;
-  --fg: #c1c1c1;
-  --blue: #7799bb;
-  --blue-alt: #556677;
+  --bg: #eff0f1;
+  --bg-alt: #c7c7c6;
+  --fg: #31363b;
+  --fg-alt: #4b4b4b;
 }
+
 
 * {
   -moz-box-sizing: border-box;
@@ -12,33 +14,13 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "body";
-  src: url("DMSans-Regular.ttf") format("truetype");
-}
-
-@font-face {
-  font-family: "mono";
-  src: url("DMMono-Regular.ttf") format("truetype");
-}
-
 body {
-  font: 18px/28px body, sans-serif;
+  font: 18px/28px 'DM Sans', sans-serif;
   background-color: var(--bg);
   color: var(--fg);
   max-width: 850px;
   margin: 100px auto 100px auto;
   padding: 0 25px;
-}
-
-a:link {
-  color: var(--blue);
-}
-a:visited {
-  color: var(--blue);
-}
-a:hover {
-  color: var(--blue-alt);
 }
 
 header {
@@ -54,11 +36,13 @@ pre {
   box-shadow: none;
   padding: 3px 15px;
 }
+
 pre,
 code {
   overflow-x: auto;
-  font-family: mono, monospace;
+  font-family: 'DM Mono', monospace;
 }
+
 pre code {
   display: block;
   font-size: medium;
@@ -73,6 +57,7 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
 thead th,
 tbody td {
   border: solid 1px var(--bg-alt);
@@ -95,6 +80,6 @@ tbody td {
 
 .meta {
   color: var(--fg-alt);
-  font-family: mono, monospace;
+  font-family: 'DM Mono', monospace;
   font-size: medium;
 }
