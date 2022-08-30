@@ -13,9 +13,9 @@ Use [zip](https://docs.python.org/3/library/functions.html#zip)
 > Iterate over several iterables in parallel, producing tuples with an
 > item from each one.
 
-### Examples
+## Examples
 
-1.  Without zip
+### Without zip
 
 ```python
 countries = ["Kenya", "Tanzania", "Uganda"]
@@ -46,7 +46,7 @@ Country: Tanzania, Capital: Dodoma
 Country: Uganda, Capital: Kampala
 ```
 
-2.  With zip
+### With zip
 
 ```python
 print("=== using zip ===")
