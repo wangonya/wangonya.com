@@ -1,7 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Mono&family=DM+Sans&display=swap');
-
 :root {
-  --bg: #eff0f1;
   --bg-alt: #c7c7c6;
   --fg: #31363b;
   --fg-alt: #4b4b4b;
@@ -15,10 +12,8 @@
 }
 
 body {
-  font: 18px/28px 'DM Sans', sans-serif;
-  background-color: var(--bg);
   color: var(--fg);
-  max-width: 850px;
+  max-width: 750px;
   margin: 100px auto 100px auto;
   padding: 0 25px;
 }
@@ -40,12 +35,11 @@ pre {
 pre,
 code {
   overflow-x: auto;
-  font-family: 'DM Mono', monospace;
+  font-family: monospace;
 }
 
 pre code {
   display: block;
-  font-size: medium;
 }
 
 blockquote {
@@ -80,6 +74,5 @@ tbody td {
 
 .meta {
   color: var(--fg-alt);
-  font-family: 'DM Mono', monospace;
-  font-size: medium;
+  font-family: monospace;
 }

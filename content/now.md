@@ -17,7 +17,6 @@ Here's an overview of what I'm doing now:
     - React, Typescript
 - Learning Go
 - Reading:
-  <!-- - The Algorithm Design Manual - _Steven S. Skiena_ -->
-  <!-- - Algorithms - _Jeff Erickson_ -->
-  - Hands-On Systems Programming with Go - _Alex Guerrieri_
+  - [Go By Example](https://gobyexample.com/)
   - How To Solve It - _G. Polya_
+  - Ikigai: The Japanese Secret to a Long and Happy Life (Audiobook) - _Héctor García_

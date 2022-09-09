@@ -45,6 +45,7 @@ tags:
 
 - [Golang Comprehensive Tutorial
   Series](https://golangbyexample.com/golang-comprehensive-tutorial/)
+- [Go By Example](https://gobyexample.com/)
 
 # Database
 
@@ -66,7 +67,7 @@ tags:
 - [Stack Overflow: A Technical
   Deconstruction](https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/)
 
-Company blogs:
+## Company blogs:
 
 - [Uber Engineering](https://eng.uber.com/)
 - [Discord Engineering](https://discord.com/category/engineering)
