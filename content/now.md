@@ -18,5 +18,6 @@ Here's an overview of what I'm doing now:
 - Learning Go
 - Reading:
   - [Go By Example](https://gobyexample.com/)
+  - Web Development With Go - _Shiju Varghese_
   - How To Solve It - _G. Polya_
   - Ikigai: The Japanese Secret to a Long and Happy Life (Audiobook) - _Héctor García_
