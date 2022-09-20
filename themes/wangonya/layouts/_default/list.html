@@ -1,12 +1,14 @@
 {{ define "main" }}
 <div id="content">
+  {{ range (.Data.Pages.GroupByDate "2006") }}
+  <h1>{{ .Key }}</h2>
   <ul id="blog-list">
     {{ range .Pages }}
     <li>
-      <span class="space-right meta">{{ .Date.Format "2006-01-01" }}</span>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
     </li>
     {{ end }}
   </ul>
+  {{ end }}
 </div>
 {{ end }}

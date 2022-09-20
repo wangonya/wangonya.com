@@ -9,4 +9,3 @@ draft: true
 ---
 
 Book: [http://jeffe.cs.illinois.edu/teaching/algorithms/](http://jeffe.cs.illinois.edu/teaching/algorithms/)
-

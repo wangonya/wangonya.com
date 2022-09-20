@@ -7,7 +7,9 @@ tags:
   - reference
 ---
 
-# Algorithms
+Links to stuff I've found useful/interesting and/or want to remember/refer to later.
+
+## Algorithms
 
 - [The Algorithms](https://the-algorithms.com/)
 - [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm/tree/english)
@@ -17,57 +19,59 @@ tags:
 - [Algorithm Notes](https://shanzi.gitbooks.io/algorithm-notes/content)
 - [Top 25 Algorithms Every Programmer Should Know](https://medium.com/techie-delight/top-25-algorithms-every-programmer-should-know-373246b4881b)
 
-# Blog posts
+## Blog posts
 
-- [Watch People Doing the
-  Thing](https://earthly.dev/blog/golang-streamers/)
-- [Write it down, find out what you don\'t
-  know](https://joshbranchaud.com/blog/write-it-down-find-the-gaps)
-- [A Developer\'s Second Brain on
-  Plaintext](https://engineering.gusto.com/a-developers-second-brain-on-plaintext/)
-- [My productivity app for the past 14 years has been a single .txt
-  file](https://jeffhuang.com/productivity_text_file/)
-- [Plan.txt : The Most Effective Productivity Tool That You've Never
-  Heard
-  Of](https://www.calnewport.com/blog/2008/11/11/plantxt-the-most-effective-productivity-tool-that-youve-never-heard-of/)
-- [Deep Habits: WorkingMemory.txt (The Most Important Productivity
-  Tool You've Never Heard
-  Of)](https://www.calnewport.com/blog/2015/10/27/deep-habits-workingmemory-txt-the-most-important-productivity-tool-youve-never-heard-of/)
+### Productivity
 
-# Books / resources
+- [Watch People Doing the Thing](https://earthly.dev/blog/golang-streamers/)
+- [Write it down, find out what you don't know](https://joshbranchaud.com/blog/write-it-down-find-the-gaps)
+- [A Developer's Second Brain on Plaintext](https://engineering.gusto.com/a-developers-second-brain-on-plaintext/)
+- [My productivity app for the past 14 years has been a single .txt file](https://jeffhuang.com/productivity_text_file/)
+- [Plan.txt : The Most Effective Productivity Tool That You've Never Heard Of](https://www.calnewport.com/blog/2008/11/11/plantxt-the-most-effective-productivity-tool-that-youve-never-heard-of/)
+- [Deep Habits: WorkingMemory.txt (The Most Important Productivity Tool You've Never Heard Of)](https://www.calnewport.com/blog/2015/10/27/deep-habits-workingmemory-txt-the-most-important-productivity-tool-youve-never-heard-of/)
+
+### Code
+
+- [Exceptions — And Why Odin Will Never Have Them](https://www.gingerbill.org/article/2018/09/05/exceptions-and-why-odin-will-never-have-them/)
+- [Init Is Bad and You Should Feel Bad](https://npf.io/2019/04/init-is-bad-and-you-should-feel-bad/)
+- [The self-fulfilling prophecy of React](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react)
+- [Logging is a code smell](https://dave.autonoma.ca/blog/2022/01/08/logging-code-smell/)
+- [Notes on the Go translation of Reposurgeon](http://www.catb.org/~esr/reposurgeon/GoNotes.html)
+
+### Random [Uncategorized]
+
+- [Keep Your Identity Small](http://www.paulgraham.com/identity.html)
+- [Chesterton’s Fence: A Lesson in Second Order Thinking](https://fs.blog/chestertons-fence/)
+
+## Books / resources
 
 - [Ebook-dl](https://ebook-dl.com/)
 - [edu.anarcho-copy.org](https://edu.anarcho-copy.org/)
 - [ivanarandac/Free-Algorithm-Books-1](https://github.com/ivanarandac/Free-Algorithm-Books-1)
 - [kapcino/programming-ebooks](https://github.com/kapcino/programming-ebooks)
+- [Oh Shit, Git!?!](https://ohshitgit.com/)
 
-# Coding tutorials
+## Coding tutorials
 
-- [Golang Comprehensive Tutorial
-  Series](https://golangbyexample.com/golang-comprehensive-tutorial/)
+- [Golang Comprehensive Tutorial Series](https://golangbyexample.com/golang-comprehensive-tutorial/)
 - [Go By Example](https://gobyexample.com/)
 
-# Database
+## Database
 
 - [Use The Index, Luke](https://use-the-index-luke.com/)
 - [Modern SQL](https://modern-sql.com/)
-- [PostgreSQL at Scale: Database Schema Changes Without
-  Downtime](https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b)
-- [Adding or removing individual SQL modes in MySQL\'s sql_mode
-  variable](http://johnemb.blogspot.com/2014/09/adding-or-removing-individual-sql-modes.html)
+- [PostgreSQL at Scale: Database Schema Changes Without Downtime](https://gist.github.com/jcoleman/1e6ad1bf8de454c166da94b67537758b)
+- [Adding or removing individual SQL modes in MySQL\'s sql_mode variable](http://johnemb.blogspot.com/2014/09/adding-or-removing-individual-sql-modes.html)
 
-# System design
+## System design
 
 - [donnemartin/system-design-primer](https://github.com/donnemartin/system-design-primer)
 - [Big Ball of Mud](http://www.laputan.org/mud/)
-- [HighScalability All Time
-  Favorites](http://highscalability.com/all-time-favorites/)
-- [The Architecture of Open Source
-  Applications](http://aosabook.org/en/index.html)
-- [Stack Overflow: A Technical
-  Deconstruction](https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/)
+- [HighScalability All Time Favorites](http://highscalability.com/all-time-favorites/)
+- [The Architecture of Open Source Applications](http://aosabook.org/en/index.html)
+- [Stack Overflow: A Technical Deconstruction](https://nickcraver.com/blog/2016/02/03/stack-overflow-a-technical-deconstruction/)
 
-## Company blogs:
+### Company blogs
 
 - [Uber Engineering](https://eng.uber.com/)
 - [Discord Engineering](https://discord.com/category/engineering)

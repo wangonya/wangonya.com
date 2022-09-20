@@ -19,5 +19,5 @@ Here's an overview of what I'm doing now:
 - Reading:
   - [Go By Example](https://gobyexample.com/)
   - Web Development With Go - _Shiju Varghese_
-  - How To Solve It - _G. Polya_
-  - Ikigai: The Japanese Secret to a Long and Happy Life (Audiobook) - _Héctor García_
+  - Never Split the Difference: Negotiating As If Your Life Depended On It (Audiobook) - _Chris Voss_
+  - Think Like a Programmer: An Introduction to Creative Problem Solving - _V. Anton Spraul_
