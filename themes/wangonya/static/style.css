@@ -34,36 +34,6 @@ h6 {
   font-size: 1.2rem;
 }
 
-h1::before {
-  content: "# ";
-  color: #c7c7c6;
-}
-
-h2::before {
-  content: "## ";
-  color: #c7c7c6;
-}
-
-h3::before {
-  content: "### ";
-  color: #c7c7c6;
-}
-
-h4::before {
-  content: "#### ";
-  color: #c7c7c6;
-}
-
-h5::before {
-  content: "##### ";
-  color: #c7c7c6;
-}
-
-h6::before {
-  content: "###### ";
-  color: #c7c7c6;
-}
-
 header {
   padding-bottom: 20px;
 }
