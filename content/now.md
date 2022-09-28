@@ -15,9 +15,7 @@ Here's an overview of what I'm doing now:
     - Django (DRF, Postgres, etc)
   - Some frontend work
     - React, Typescript
-- Learning Go
+- Learning OCaml
 - Reading:
-  - [Go By Example](https://gobyexample.com/)
-  - Web Development With Go - _Shiju Varghese_
   - Never Split the Difference: Negotiating As If Your Life Depended On It (Audiobook) - _Chris Voss_
   - Think Like a Programmer: An Introduction to Creative Problem Solving - _V. Anton Spraul_
