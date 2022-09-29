@@ -18,4 +18,4 @@ Here's an overview of what I'm doing now:
 - Learning OCaml
 - Reading:
   - Never Split the Difference: Negotiating As If Your Life Depended On It (Audiobook) - _Chris Voss_
-  - Think Like a Programmer: An Introduction to Creative Problem Solving - _V. Anton Spraul_
+  - Algorithmic Thinking - _Daniel Zingaro_
