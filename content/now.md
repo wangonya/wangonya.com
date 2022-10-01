@@ -17,5 +17,5 @@ Here's an overview of what I'm doing now:
     - React, Typescript
 - Learning OCaml
 - Reading:
-  - Never Split the Difference: Negotiating As If Your Life Depended On It (Audiobook) - _Chris Voss_
+  - Principles (Audiobook) - _Ray Dalio_
   - Algorithmic Thinking - _Daniel Zingaro_

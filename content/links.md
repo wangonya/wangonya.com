@@ -37,6 +37,7 @@ Links to stuff I've found useful/interesting and/or want to remember/refer to la
 - [The self-fulfilling prophecy of React](https://joshcollinsworth.com/blog/self-fulfilling-prophecy-of-react)
 - [Logging is a code smell](https://dave.autonoma.ca/blog/2022/01/08/logging-code-smell/)
 - [Notes on the Go translation of Reposurgeon](http://www.catb.org/~esr/reposurgeon/GoNotes.html)
+- [What is your most productive shortcut with Vim?](https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim)
 
 ### Random [Uncategorized]
 
