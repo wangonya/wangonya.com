@@ -19,3 +19,4 @@ Here's an overview of what I'm doing now:
 - Reading:
   - Principles (Audiobook) - _Ray Dalio_
   - Algorithmic Thinking - _Daniel Zingaro_
+  - [Real World OCaml](https://dev.realworldocaml.org/index.html)
