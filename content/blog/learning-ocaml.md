@@ -117,3 +117,40 @@ val factorial : int -> int = <fun>
 ```
 
 ## Lists
+
+Elements are separated with semicolons. All elements must have the same type.
+
+```ocaml
+let x = [1;2;3];;
+val x : int list = [1; 2; 3]
+
+let x = [1;2;'a'];;
+Error: This expression has type char but an expression was expected of type int
+
+let x = ['a';2;3];;
+Error: This expression has type int but an expression was expected of type char
+```
+
+### Cons (`::`)
+
+Used to add a single elemt to the front of an existing list. The operation is done in constant time.
+
+```ocaml
+false :: [true; false];;
+- : bool list = [false; true; false]
+```
+
+### Append (`@`)
+
+Used to combine two lists. This is done in O(_n_) time.
+
+```ocaml
+let x = [1;2];;
+val x : int list = [1; 2]
+
+let y = [3;4];;
+val y : int list = [3; 4]
+
+let z = x @ y;;
+val z : int list = [1; 2; 3; 4]
+```
