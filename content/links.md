@@ -38,6 +38,7 @@ Links to stuff I've found useful/interesting and/or want to remember/refer to la
 - [Logging is a code smell](https://dave.autonoma.ca/blog/2022/01/08/logging-code-smell/)
 - [Notes on the Go translation of Reposurgeon](http://www.catb.org/~esr/reposurgeon/GoNotes.html)
 - [What is your most productive shortcut with Vim?](https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim)
+- [Rich Programmer Food](https://steve-yegge.blogspot.com/2007/06/rich-programmer-food.html)
 
 ### Random [Uncategorized]
 
