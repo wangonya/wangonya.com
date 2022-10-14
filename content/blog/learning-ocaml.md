@@ -11,7 +11,7 @@ draft: true
 - [OCaml for the Skeptical](https://www2.lib.uchicago.edu/keith/ocaml-class/why.html)
 - [Why OCaml? , Why not OCaml?](https://www.imsc.res.in/~rsidd/ocaml.html)
 
-Below are a few notes I jotted down while learning Ocaml.
+Below are a few notes I jotted down while learning OCaml.
 
 ## Setup (Arch linux)
 
@@ -154,3 +154,31 @@ val y : int list = [3; 4]
 let z = x @ y;;
 val z : int list = [1; 2; 3; 4]
 ```
+
+### Reversing a list:
+
+```ocaml
+# let rec rev l = 
+      match l with [] -> []
+      | h::t -> rev t @ [h];;
+
+# rev [1;2;3;4];;
+- : int list = [4; 3; 2; 1]
+```
+
+Here's how the evaluation proceeds:
+
+```ocaml
+rev [1; 2; 3; 4]
+
+rev [2; 3; 4] @ [1]
+
+(rev [3; 4] @ [2]) @ [1]
+
+((rev [4] @ [3]) @ [2]) @ [1]
+
+(((rev [] @ [4]) @ [3]) @ [2]) @ [1]
+
+((([] @ [4]) @ [3]) @ [2]) @ [1]
+```
+
