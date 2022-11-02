@@ -34,15 +34,15 @@ Enter #help;; for help.
 ```
 
 ```sh
-~ > utop                                                                                           
+~ > utop
 ───────────────────┬──────────────────────────────────────────────────────────────┬────────────────────
-                   │ Welcome to utop version 2.10.0 (using OCaml version 4.14.0)! │                    
-                   └──────────────────────────────────────────────────────────────┘                    
+                   │ Welcome to utop version 2.10.0 (using OCaml version 4.14.0)! │
+                   └──────────────────────────────────────────────────────────────┘
 
 Type #utop_help for help about using utop.
 
 ─( 06:46:02 )─< command 0 >─────────────────────────────────────────────────────────────{ counter: 0 }─
-utop # 
+utop #
 ┌───┬─────┬───────────┬──────────────┬──────┬────────┬────┬──────┬─────┬───────────┬────────┬─────────┐
 │Arg│Array│ArrayLabels│Assert_failure│Atomic│Bigarray│Bool│Buffer│Bytes│BytesLabels│Callback│Camlinter│
 └───┴─────┴───────────┴──────────────┴──────┴────────┴────┴──────┴─────┴───────────┴────────┴─────────┘
@@ -158,7 +158,7 @@ val z : int list = [1; 2; 3; 4]
 ### Reversing a list:
 
 ```ocaml
-# let rec rev l = 
+# let rec rev l =
       match l with [] -> []
       | h::t -> rev t @ [h];;
 
@@ -181,4 +181,3 @@ rev [2; 3; 4] @ [1]
 
 ((([] @ [4]) @ [3]) @ [2]) @ [1]
 ```
-

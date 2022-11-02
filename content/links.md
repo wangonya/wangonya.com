@@ -45,18 +45,9 @@ Links to stuff I've found useful/interesting and/or want to remember/refer to la
 - [Keep Your Identity Small](http://www.paulgraham.com/identity.html)
 - [Chesterton’s Fence: A Lesson in Second Order Thinking](https://fs.blog/chestertons-fence/)
 
-## Books / resources
+## Books / reference
 
-- [Ebook-dl](https://ebook-dl.com/)
-- [edu.anarcho-copy.org](https://edu.anarcho-copy.org/)
-- [ivanarandac/Free-Algorithm-Books-1](https://github.com/ivanarandac/Free-Algorithm-Books-1)
-- [kapcino/programming-ebooks](https://github.com/kapcino/programming-ebooks)
 - [Oh Shit, Git!?!](https://ohshitgit.com/)
-
-## Coding tutorials
-
-- [Golang Comprehensive Tutorial Series](https://golangbyexample.com/golang-comprehensive-tutorial/)
-- [Go By Example](https://gobyexample.com/)
 
 ## Database
 
