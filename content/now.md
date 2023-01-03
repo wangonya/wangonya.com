@@ -15,8 +15,5 @@ Here's an overview of what I'm doing now:
     - Django (DRF, Postgres, etc)
   - Some frontend work
     - React, Typescript
-- Learning OCaml
 - Reading:
-  - Principles (Audiobook) - _Ray Dalio_
-  - Algorithmic Thinking - _Daniel Zingaro_
-  - [OCaml from the Very Beginning](https://johnwhitington.net/ocamlfromtheverybeginning/index.html)
+  - Can't Hurt Me - _David Goggins_
