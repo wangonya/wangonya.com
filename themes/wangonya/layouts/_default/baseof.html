@@ -8,9 +8,6 @@
 	{{ with .Site.Params.meta }}<meta name="description" content="{{ . }}">{{ end }}
 	{{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
 	<link rel="stylesheet" href="{{ "style.css" | relURL }}">
-    <style type="text/css" media="screen">
-        {{ partial "highlight.css" . | safeCSS }}
-    </style>
 	{{ with .OutputFormats.Get "RSS" -}}
 		{{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .RelPermalink $.Site.Title | safeHTML }}
 	{{- end }}
