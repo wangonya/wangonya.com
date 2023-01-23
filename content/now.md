@@ -16,4 +16,4 @@ Here's an overview of what I'm doing now:
   - Some frontend work
     - React, Typescript
 - Reading:
-  - Can't Hurt Me - _David Goggins_
+  - Practical Python Design Patterns - _Wessel Badenhorst_
