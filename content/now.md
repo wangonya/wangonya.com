@@ -17,3 +17,4 @@ Here's an overview of what I'm doing now:
     - React, Typescript
 - Reading:
   - Practical Python Design Patterns - _Wessel Badenhorst_
+	- The Boy Who Could Change the World: The Writings of Aaron Swartz - _Aaron Swartz_
