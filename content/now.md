@@ -9,12 +9,13 @@ tags:
 Here's an overview of what I'm doing now:
 
 - Engineering at [Jenga](https://www.jenga-agency.com/)
-  - Mostly backend web development
-    - FastApi (MySQL, SQLAlchemy, Alembic, Pydantic, etc)
+  - Mostly backend work
+    - Maintaining and refactoring a large legacy Flask project
+    - FastApi (MySQL, SQLAlchemy, Pydantic, etc)
     - GCP (App Engine, CloudSql, Bigquery, etc)
-    - Django (DRF, Postgres, etc)
+    - Some data engineering
   - Some frontend work
     - React, Typescript
+- [Learning Ocaml](https://cs3110.github.io/textbook/index.html) (for real this time)
 - Reading:
-  - Practical Python Design Patterns - _Wessel Badenhorst_
-	- The Boy Who Could Change the World: The Writings of Aaron Swartz - _Aaron Swartz_
+  - Scott Adams and Philosophy (Popular Culture and Philosophy, 118)
