@@ -18,4 +18,4 @@ Here's an overview of what I'm doing now:
     - React, Typescript
 - [Learning Ocaml](https://cs3110.github.io/textbook/index.html) (for real this time)
 - Reading:
-  - Scott Adams and Philosophy (Popular Culture and Philosophy, 118)
+  - The Way of Men - _Jack Donovan_
