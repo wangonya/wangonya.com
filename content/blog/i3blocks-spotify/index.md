@@ -7,6 +7,10 @@ tags:
   - i3wm
 ---
 
+<style>
+  img {width: 60%}
+</style>
+
 I like seeing what's playing without having to bring up the Spotify app every time. If I can also control playback without bring up the app, even better.
 [i3blocks](https://github.com/vivien/i3blocks) makes doing this on i3 trivial.
 
@@ -18,4 +22,47 @@ By default, i3 comes with [i3bar](https://i3wm.org/i3bar/). I'm sure I could ach
 
 ## Adding the blocklet
 
-Assuming i3blocks is already running,
+The simplest way to do this is to add the `spotifycli` command directly in the i3blocks config:
+
+```ini
+[spotify]
+command=spotifycli --status
+color=#00FFB3
+interval=2
+```
+
+![screenshot_1](1.png)
+
+I've opted to create a separate script file so I can handle mouse clicks.
+
+```sh
+#!/usr/bin/env bash
+
+# i3blocks spotify script
+
+spotifycli --statusshort
+
+case $BLOCK_BUTTON in
+  1) spotifycli --prev ;;  # left click, previous
+  2) spotifycli --playpause ;; # middle click, play/pause
+  3) spotifycli --next ;; # right click, next
+esac
+```
+
+```ini
+; i3blocks config
+
+[spotify-playback-status]
+command=spotifycli --playbackstatus
+color=#00FFB3
+interval=2
+separator=false
+
+[spotify]
+command=~/.config/i3blocks/scripts/spotify
+color=#00FFB3
+interval=2
+```
+
+![screenshot_2](2.png)
+![screenshot_3](3.png)
