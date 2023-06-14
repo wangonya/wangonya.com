@@ -40,7 +40,7 @@ I've opted to create a separate script file so I can handle mouse clicks.
 
 # i3blocks spotify script
 
-spotifycli --statusshort
+spotifycli --status
 
 case $BLOCK_BUTTON in
   1) spotifycli --prev ;;  # left click, previous
