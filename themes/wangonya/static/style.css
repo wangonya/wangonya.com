@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:wght@400;500;700&display=swap");
 
 * {
   -webkit-box-sizing: border-box;
@@ -17,7 +17,7 @@ body {
   line-height: 20px;
   font-weight: normal;
   font-style: normal;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Inter", sans-serif;
   color: #333333;
   max-width: 750px;
   padding: 20px;
@@ -40,6 +40,7 @@ h6 {
   line-height: 1.25;
   color: #313131;
 }
+
 h1 {
   font-size: 2rem;
 }
@@ -76,7 +77,8 @@ pre {
 }
 
 pre,
-code {
+code,
+.meta {
   overflow-x: auto;
   font-family: "IBM Plex Mono", monospace;
   font-size: small;
@@ -114,10 +116,4 @@ tbody td {
 
 .space-right {
   padding-right: 10px;
-}
-
-.meta {
-  color: #4b4b4b;
-  font-family: Consolas, monaco, monospace;
-  font-size: small;
 }
