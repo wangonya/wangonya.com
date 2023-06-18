@@ -16,6 +16,6 @@ Here's an overview of what I'm doing now:
     - Some data engineering
   - Some frontend work
     - React, Typescript
-- [Learning Ocaml](https://cs3110.github.io/textbook/index.html) (for real this time)
+- Learning C (why not?)
 - Reading:
-  - The Way of Men - _Jack Donovan_
+  - The C Programming Language - _K&R_
