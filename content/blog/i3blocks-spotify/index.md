@@ -20,6 +20,8 @@ By default, i3 comes with [i3bar](https://i3wm.org/i3bar/). I'm sure I could ach
 
 [spotify-cli-linux](https://github.com/pwittchen/spotify-cli-linux) works well for this. It also provides a good [list of options](https://github.com/pwittchen/spotify-cli-linux#usage) to control playback and do a lot more.
 
+[playerctl](https://github.com/altdesktop/playerctl) works just as well.
+
 ## Adding the blocklet
 
 The simplest way to do this is to add the `spotifycli` command directly in the i3blocks config:
