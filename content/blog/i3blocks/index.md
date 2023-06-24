@@ -14,7 +14,7 @@ tags:
 This was initially a post about adding what's playing on Spotify to [i3blocks](https://github.com/vivien/i3blocks). I had just started using i3blocks then and thought it was pretty cool how easy it was to do. 
 I've since discovered the possibilities are endless. You can add pretty much anything that outputs text to the statusbar.
 
-Below are just examples of some of what's possible.
+Below are some examples of what's possible.
 
 ## Showing and controlling music
 
