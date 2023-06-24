@@ -1,5 +1,5 @@
 ---
-title: "Adding a Spotify blocklet to i3blocks"
+title: "Adding anything to i3blocks"
 date: 2023-06-14T21:34:04+03:00
 draft: false
 tags:
@@ -11,20 +11,20 @@ tags:
   img {width: 60%}
 </style>
 
+This was initially a post about adding what's playing on Spotify to [i3blocks](https://github.com/vivien/i3blocks). I had just started using i3blocks then and thought it was pretty cool how easy it was to do. 
+I've since discovered the possibilities are endless. You can add pretty much anything that outputs text to the statusbar.
+
+Below are just examples of some of what's possible.
+
+## Showing and controlling music
+
 I like seeing what's playing without having to bring up the Spotify app every time. If I can also control playback without bring up the app, even better.
-[i3blocks](https://github.com/vivien/i3blocks) makes doing this on i3 trivial.
 
 By default, i3 comes with [i3bar](https://i3wm.org/i3bar/). I'm sure I could achieve the same thing on i3bar [with enough time and effort](https://i3wm.org/docs/i3status.html#_external_scripts_programs_with_i3status), but its just much easier to do it with i3blocks.
 
-## Getting song info
+Info on what's playing can be gotten using [playerctl](https://github.com/altdesktop/playerctl) or [spotify-cli-linux](https://github.com/pwittchen/spotify-cli-linux).
 
-[spotify-cli-linux](https://github.com/pwittchen/spotify-cli-linux) works well for this. It also provides a good [list of options](https://github.com/pwittchen/spotify-cli-linux#usage) to control playback and do a lot more.
-
-[playerctl](https://github.com/altdesktop/playerctl) works just as well.
-
-## Adding the blocklet
-
-The simplest way to do this is to add the `spotifycli` command directly in the i3blocks config:
+Then add the command to the i3blocks config:
 
 ```ini
 [spotify]
@@ -68,3 +68,24 @@ interval=2
 
 ![screenshot_2](2.png)
 ![screenshot_3](3.png)
+
+I also tried this on Strawberry player using playerctl and it worked just as well.
+
+![screenshot_4](4.png)
+
+## Showing [Wakatime](https://wakatime.com/) stats
+
+Using [wakatime-cli](https://github.com/wakatime/wakatime-cli):
+
+```ini
+; i3blocks config
+
+[wakatime]
+label= 
+command=wakatime-cli --today
+color=#3daee9
+interval=300
+```
+
+![screenshot_5](5.png)
+
