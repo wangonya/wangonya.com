@@ -6,12 +6,6 @@
   box-sizing: border-box;
 }
 
-html {
-  margin: 0;
-  padding: 0;
-  height: 100%;
-}
-
 body {
   font-size: 15px;
   line-height: 25px;
@@ -116,4 +110,12 @@ tbody td {
 
 .space-right {
   padding-right: 10px;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  visibility: visible;
+  opacity: 1;
 }
