@@ -16,7 +16,7 @@ It usually goes something like this:
 - Try `C`. Nothing.
 - At this point I'm already tired so I think to myself, "`A` seems like a pretty good idea. Why didn't it work? Let's try it again.".
 - Oh, that's why `A` didn't work. Of course.
-- Try variation of `B`.
+- Try some variation of `B`.
 - Try `C` again.
 - Think about `A` some more...
 
@@ -26,4 +26,4 @@ If notes are taken at each step of the way, it's clear what works and what doesn
 
 As much as I plan to mostly use pen and paper for this, it should also give me ample opportunity to blog more. Many problems should be general enough for someone[^1] else out there to benefit from.
 
-[^1]: Barely anyone reads my blog, I know, but it will at least act as a backup to my pen and paper.
+[^1]: Barely anyone reads my blog, I know, but it should at least act as a backup to my pen and paper.
