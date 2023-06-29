@@ -19,3 +19,4 @@ Here's an overview of what I'm doing now:
 - Learning C (why not?)
 - Reading:
   - The C Programming Language - _K&R_
+  - A Short History of Nearly Everything - _Bill Bryson_
