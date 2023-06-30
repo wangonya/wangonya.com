@@ -11,7 +11,7 @@ tags:
   img {width: 60%}
 </style>
 
-This was initially a post about adding what's playing on Spotify to [i3blocks](https://github.com/vivien/i3blocks). I had just started using i3blocks then and thought it was pretty cool how easy it was to do. 
+This was initially a post about adding what's playing on Spotify to [i3blocks](https://github.com/vivien/i3blocks). I had just started using i3blocks then and thought it was pretty cool how easy it was to do.
 I've since discovered the possibilities are endless. You can add pretty much anything that outputs text to the statusbar.
 
 Below are some examples of what's possible.
@@ -81,11 +81,10 @@ Using [wakatime-cli](https://github.com/wakatime/wakatime-cli):
 ; i3blocks config
 
 [wakatime]
-label= 
+label=
 command=wakatime-cli --today
 color=#3daee9
 interval=300
 ```
 
 ![screenshot_5](5.png)
-

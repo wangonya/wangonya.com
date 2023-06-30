@@ -10,6 +10,7 @@ I need to get in the habit of taking notes while I work. Especially when I'm deb
 I've noticed a poor habit reoccur when I'm working on a particularly difficult problem.
 
 It usually goes something like this:
+
 - Start working on problem. Do some research. Try out `A`.
 - `A` doesn't work. Do some more research. Try `B`.
 - `B` doesn't work.
