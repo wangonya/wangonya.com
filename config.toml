@@ -42,6 +42,6 @@ enableGitInfo = true
 
 [markup]
   [markup.highlight]
-    style = "abap"
+    style = "github"
   [markup.goldmark.renderer]
     unsafe = true
