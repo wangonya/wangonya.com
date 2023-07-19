@@ -16,8 +16,5 @@ Here's an overview of what I'm doing now:
     - Some data engineering
   - Some frontend work
     - React, Typescript
-- Learning C (why not?)
 - Reading:
-  - The C Programming Language - _K&R_
-  - Tiny C Projects - _Dan Gookin_
   - A Short History of Nearly Everything - _Bill Bryson_
