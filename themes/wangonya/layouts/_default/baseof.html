@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ .Site.LanguageCode | default "en-us" }}">
+<html lang="en-us">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -15,9 +15,6 @@
 	<link rel="stylesheet" href="{{ $styleCSS.Permalink }}">
 </head>
 <body>
-	<div id="content">
-		{{ partial "header" . }}
-		{{ block "main" . }}{{ end }}
-	</div>
+	{{ block "main" . }}{{ end }}
 </body>
 </html>

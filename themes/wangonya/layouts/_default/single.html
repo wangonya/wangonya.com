@@ -18,9 +18,10 @@
       </small>
     </span>
 
-    {{ .Content }}
+    {{ partial "headline-hash.html" .Content }}
     <!-- {{ with .NextInSection }} -->
     <!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
     <!-- {{ end }} -->
   </article>
+	{{ partial "footer" . }}
 {{ end }}

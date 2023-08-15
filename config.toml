@@ -7,41 +7,43 @@ footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
 enableGitInfo = true
 
-[permalinks]
-    posts = "blog/:slug/"
+[permafooter]
+posts = "blog/:slug/"
 
 [params]
-    email = "kwangonya@gmail.com"
-    about = "Software engineer. Mostly doing backend work with Python."
-    meta = "Wangonya's blog. | Software engineer. Mostly doing backend work with Python."
-    author = "Kelvin Wangonya"
+about = "Software engineer. Mostly doing backend work with Python."
+meta = "Wangonya's blog. | Software engineer. Mostly doing backend work with Python."
+author = "Kelvin Wangonya"
 
-# Header
-[menu]
-  [[menu.main]]
-        identifier = "blog"
-        name = "Blog"
-        url = "/blog"
-	weight = 1
-  [[menu.main]]
-        identifier = "now"
-        name = "Now"
-        url = "/now"
-	weight = 2
 
-[[params.links]]
-    [[params.links.link]]
-      name = "Github"
-      href = "https://github.com/wangonya"
-    [[params.links.link]]
-      name = "LinkedIn"
-      href = "https://www.linkedin.com/in/wangonya/"
-    [[params.links.link]]
-      name = "Email"
-      href = "mailto:kwangonya@gmail.com"
+[[params.footer]]
+[[params.footer.link]]
+name = "Home"
+href = "/"
+[[params.footer.link]]
+name = "Blog"
+href = "/blog"
+[[params.footer.link]]
+name = "Reading"
+href = "/reading"
+[[params.footer.link]]
+name = "Links"
+href = "/links"
+[[params.footer.link]]
+name = "Github"
+href = "https://github.com/wangonya"
+[[params.footer.link]]
+name = "LinkedIn"
+href = "https://www.linkedin.com/in/wangonya/"
+[[params.footer.link]]
+name = "Email"
+href = "mailto:kwangonya@gmail.com"
+[[params.footer.link]]
+name = "RSS"
+href = "/index.xml"
 
 [markup]
-  [markup.highlight]
-    style = "github"
-  [markup.goldmark.renderer]
-    unsafe = true
+[markup.highlight]
+style = "github"
+[markup.goldmark.renderer]
+unsafe = true

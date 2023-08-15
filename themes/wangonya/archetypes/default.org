@@ -1,5 +1,0 @@
-#+title: {{ replace .Name "-" " " | title }}
-#+author: Kelvin Wangonya
-#+date:  {{ .Date }}
-#+tags[]: 
-#+default: true

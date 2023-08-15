@@ -1,8 +1,7 @@
 {{ define "main" }}
-<section>
   {{ range (.Data.Pages.GroupByDate "2006") }}
-  <h4 class="code">{{ .Key }}</h2>
-  <ul id="blog-list">
+  <h4>{{ .Key }}</h2>
+  <ul class="blog-list">
     {{ range .Pages }}
     <li>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
@@ -10,5 +9,5 @@
     {{ end }}
   </ul>
   {{ end }}
-</section>
-{{ end }}
+	{{ partial "footer" . }}
+  {{ end }}
