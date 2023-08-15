@@ -7,7 +7,7 @@ footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
 enableGitInfo = true
 
-[permafooter]
+[permalinks]
 posts = "blog/:slug/"
 
 [params]
