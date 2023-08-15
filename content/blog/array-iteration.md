@@ -55,11 +55,11 @@ characters:
 
 ```javascript
 ["Stewie", "Meg", "Quagmire", "Cleveland"].every(
-  (contact) => contact.length >= 4
+  (contact) => contact.length >= 4,
 ); // false
 
 ["Stewie", "Megan", "Quagmire", "Cleveland"].every(
-  (contact) => contact.length >= 4
+  (contact) => contact.length >= 4,
 ); // true
 ```
 

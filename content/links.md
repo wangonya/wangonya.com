@@ -1,5 +1,7 @@
 # Links
+
 ## Websites
+
 - [sizeof(cat)][sizeof(cat)]
 - [starbreaker.org][starbreaker.org]
 - [Minutes to Midnight][Minutes to Midnight]
@@ -18,6 +20,7 @@
 - [Sebastian De Deyne][Sebastian De Deyne]
 
 ## Articles
+
 - [Watch People Doing the Thing][Watch People Doing the Thing]
 - [My productivity app is a never-ending .txt file][My productivity app is a never-ending .txt file]
 - [The Grug Brained Developer][The Grug Brained Developer]
@@ -38,7 +41,6 @@
 [writing.as.amit]: https://amitg.blog
 [PJ Onori’s blog]: https://pjonori.blog
 [Sebastian De Deyne]: https://sebastiandedeyne.com
-
 [Watch People Doing the Thing]: https://earthly.dev/blog/golang-streamers/
 [My productivity app is a never-ending .txt file]: https://jeffhuang.com/productivity_text_file/
 [The Grug Brained Developer]: https://grugbrain.dev/

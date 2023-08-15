@@ -1,5 +1,2 @@
-{{ define "main" }}
-    {{ with $.Site.GetPage "page" "about" }}
-        {{.Content}}
-    {{end}}
-{{ end }}
+{{ define "main" }} {{ with $.Site.GetPage "page" "about" }} {{.Content}}
+{{end}} {{ end }}

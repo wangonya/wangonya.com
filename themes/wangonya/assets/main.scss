@@ -2,9 +2,21 @@ html {
   max-width: 700px;
   font-size: 14px;
   line-height: 25px;
-  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI,
-    Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", Segoe UI Symbol, "Noto Color Emoji";
+  font-family:
+    ui-sans-serif,
+    system-ui,
+    -apple-system,
+    BlinkMacSystemFont,
+    Segoe UI,
+    Roboto,
+    Helvetica Neue,
+    Arial,
+    Noto Sans,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    Segoe UI Symbol,
+    "Noto Color Emoji";
   color: #333333;
   padding: 50px 20px;
   margin: auto;
@@ -57,7 +69,7 @@ pre,
 .code,
 .footnotes {
   font-family: Consolas, monaco, monospace;
-  font-size: .9rem;
+  font-size: 0.9rem;
 }
 
 pre {
@@ -113,27 +125,33 @@ li {
 hr {
   border: 0;
   background: #ddd;
-  background: -webkit-gradient(linear,
-      left top,
-      right top,
-      from(rgba(255, 255, 255, 0)),
-      color-stop(#ccc),
-      to(rgba(255, 255, 255, 0)));
-  background: -webkit-linear-gradient(left,
-      rgba(255, 255, 255, 0),
-      #ccc,
-      rgba(255, 255, 255, 0));
-  background: linear-gradient(to right,
-      rgba(255, 255, 255, 0),
-      #ccc,
-      rgba(255, 255, 255, 0));
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    from(rgba(255, 255, 255, 0)),
+    color-stop(#ccc),
+    to(rgba(255, 255, 255, 0))
+  );
+  background: -webkit-linear-gradient(
+    left,
+    rgba(255, 255, 255, 0),
+    #ccc,
+    rgba(255, 255, 255, 0)
+  );
+  background: linear-gradient(
+    to right,
+    rgba(255, 255, 255, 0),
+    #ccc,
+    rgba(255, 255, 255, 0)
+  );
   height: 1px;
   margin: 2em 0;
 }
 
 footer {
   display: flex;
-  font-size: .8rem;
+  font-size: 0.8rem;
   flex-wrap: wrap;
   gap: 15px;
   justify-content: center;

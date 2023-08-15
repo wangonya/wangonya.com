@@ -1,6 +1,6 @@
-<hr>
+<hr />
 <footer>
   {{ range $footer := .Site.Params.footer }} {{- range $footer.link -}}
-    <a href="{{ .href }}"> {{- .name -}} </a>
+  <a href="{{ .href }}"> {{- .name -}} </a>
   {{- end -}} {{ end }}
 </footer>
