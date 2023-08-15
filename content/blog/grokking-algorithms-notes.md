@@ -9,13 +9,13 @@ tags:
 
 Book: [https://www.manning.com/books/grokking-algorithms](https://www.manning.com/books/grokking-algorithms)
 
-# The Feynman algorithm
+## The Feynman algorithm
 
 1. Write down the problem.
 2. Think real hard.
 3. Write down the solution.
 
-# Binary search
+## Binary search
 
 Use if the input is sorted.
 
@@ -50,21 +50,21 @@ if __name__ == "__main__":
     print(position)
 ```
 
-# Arrays & linked lists
+## Arrays & linked lists
 
-## Arrays
+### Arrays
 
 > Random access. Fast reads, slow writes.
 
 With arrays, data is stored contiguously (right next to each other) in memory. If more data needs to be added and there's not enough space for it to be stored contiguously in the current location, everything needs to be moved to a different location that will allow this to be done. Inserting data into the middle of an array also requires moving everything else to the right to make space for the new item. Adding data can therefore be quite slow. While it's possible to reserve slots as a workaround for having to change locations, the reserved slots end up being wasted in case they're not used. Deleting is also slow as everything needs to be moved up to fill the empty space (assuming the deletion was done in the middle).
 
-## Linked lists
+### Linked lists
 
 > Sequential access. Fast writes, slow reads.
 
 Data can be saved anywhere in memory. Each item stores the address of the next item in the list. This solves the problem of needing to store everything together, but is slow when reading data. To read the last item in the list, all previous items will have to be accessed. Adding and deleting is fast as it only requires a change in the next address pointed to.
 
-# Recursion
+## Recursion
 
 > Loops may achieve a performance gain for your program. Recursion may achieve a performance gain for your programmer. Choose which is more important in your situation! - [https://stackoverflow.com/a/72694/9312256](https://stackoverflow.com/a/72694/9312256)
 
@@ -92,11 +92,11 @@ print(_sum([1,2,3,4,5])) # => 15
 print(_sum([2,4,6])) # => 12
 ```
 
-## The stack
+### The stack
 
 Items are added at the top (push) and removed from the top (pop). FILO.
 
-### The call stack with recursion
+#### The call stack with recursion
 
 Example using factorial calculation:
 
@@ -130,7 +130,7 @@ Call stack:
 
 Each call to `fact` has its own copy of `x`. You can’t access a different function’s copy of `x`.
 
-# Divide & conquer
+## Divide & conquer
 
 D&C algorithms are recursive algorithms.
 
@@ -158,11 +158,11 @@ print(divide_land(1680, 640)) # => (80, 80)
 print(divide_land(400, 640)) # => (80, 80)
 ```
 
-# Quicksort
+## Quicksort
 
 Uses divide & conquer.
 
-## Sorting an array of numbers with quick sort
+### Sorting an array of numbers with quick sort
 
 Base case: empty array or array with one element.
 
@@ -189,11 +189,11 @@ Middle pivots work better. In the worst case (first item as pivot), the stack si
 
 The overall complexity of quicksort is O(_n_ log _n_)
 
-# Graphs
+## Graphs
 
 A graph models a set of connections / how different things are connected to one another. It's made up of nodes and edges. A node can be directly connected to many other nodes. Those nodes are called its neighbors.
 
-## Breadth-first search
+### Breadth-first search
 
 Used to find the shortest path to a target. It can help answer two types of questions:
 
@@ -246,7 +246,7 @@ Running time: O(V+E) (V for number of vertices, E for number of edges).
 >
 > If you have a problem like “find the shortest X,” try modeling your problem as a graph and use breadth-first search to solve.
 
-## Dijkstra’s algorithm
+### Dijkstra’s algorithm
 
 BFS gets the shortest path to a target, in terms of number of nodes that have to be accessed before reaching the target. Dijkstra's algorithm gets the **fastest** path to a target, even though the path may not necessarily be the shortest.
 
@@ -269,11 +269,11 @@ Steps:
 >
 > For a graph with negative-weight edges, use _[Bellman-Ford algorithm](https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm)_.
 
-# Greedy algorithms
+## Greedy algorithms
 
 A greedy algorithm is simple: at each step, pick the optimal move. In technical terms: at each step, pick the locally optimal solution, and in the end you’re left with the globally optimal solution. It doesn't always get the most optimal solution, but it comes close enough.
 
-# Dynamic programming
+## Dynamic programming
 
 Dynamic programming starts by solving subproblems and builds up to solving the big problem.
 

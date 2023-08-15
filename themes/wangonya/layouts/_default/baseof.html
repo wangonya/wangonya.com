@@ -15,9 +15,6 @@
 	<link rel="stylesheet" href="{{ $styleCSS.Permalink }}">
 </head>
 <body>
-	<div id="content">
-		{{ partial "header" . }}
-		{{ block "main" . }}{{ end }}
-	</div>
+	{{ block "main" . }}{{ end }}
 </body>
 </html>

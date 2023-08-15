@@ -1,3 +1,2 @@
-{{ define "main" }}
-<div id="content">{{- partial "about.html" . -}}</div>
-{{ end }}
+{{ define "main" }} {{ with $.Site.GetPage "page" "about" }} {{.Content}}
+{{end}} {{ end }}
