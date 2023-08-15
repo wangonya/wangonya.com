@@ -40,7 +40,7 @@ name = "Email"
 href = "mailto:kwangonya@gmail.com"
 [[params.footer.link]]
 name = "RSS"
-href = "/index.xml"
+href = "/blog/index.xml"
 
 [markup]
 [markup.highlight]

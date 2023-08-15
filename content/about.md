@@ -28,7 +28,7 @@ You can subscribe to this site via [rss][rss].
 [reading]: /reading
 [links]: /links
 [email]: mailto:kwangonya@gmail.com
-[rss]: /index.xml
+[rss]: /blog/index.xml
 [jenga]: https://jenga-agency.com/
 [artefact]: https://www.artefact.com/
 [github]: https://github.com/wangonya
