@@ -14,6 +14,5 @@ Apparently, some good memory optimization can be done by using it in classes.
 
 I've not had a need for it yet, but it's a good thing to keep in mind for when I do end up needing it.
 
-
 [python mastery]: https://github.com/dabeaz-course/python-mastery
 [__slots__ explanation]: https://stackoverflow.com/a/28059785/9312256
