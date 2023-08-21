@@ -16,7 +16,7 @@ Sometimes I [write][blog] about stuff I've learned, personal projects, and anyth
 
 Other times, I [read][reading]. I've read a lot of books but I've never been keen on keeping a record. I decided to start keeping this record on `2023-08-14`, so everything on that page is as from this date.
 
-When I want to read something other than books, I like browsing the web - the old fashioned way. I keep a list of my favorite websites and articles [here][links].
+When I want to read something other than books, I like browsing the web - the old fashioned way (rss and whatnot). I keep a list of my favorite websites and articles [here][links].
 
 The fastest way to reach me is through [email][email].
 
