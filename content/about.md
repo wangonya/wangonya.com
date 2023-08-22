@@ -12,6 +12,8 @@ My current day-to-day at work involves:
 - some data engineering (Bigquery)
 - some frontend work (React, Typescript)
 
+You can view my resume [here][resume] to see more about my professional career so far.
+
 Sometimes I [write][blog] about stuff I've learned, personal projects, and anything else I find interesting.
 
 Other times, I [read][reading]. I've read a lot of books but I've never been keen on keeping a record. I decided to start keeping this record on `2023-08-14`, so everything on that page is as from this date.
@@ -24,6 +26,7 @@ You may also be interested in viewing my [Github][github] and [LinkedIn][linkedi
 
 You can subscribe to this site via [rss][rss].
 
+[resume]: /resume
 [blog]: /blog
 [reading]: /reading
 [links]: /links
