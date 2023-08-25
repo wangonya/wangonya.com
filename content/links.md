@@ -27,6 +27,8 @@ title: Links
 - [Watch People Doing the Thing][Watch People Doing the Thing]
 - [My productivity app is a never-ending .txt file][My productivity app is a never-ending .txt file]
 - [The Grug Brained Developer][The Grug Brained Developer]
+- [Cool Things People Do With Their Blogs][Cool Things People Do With Their Blogs]
+- [What is your most productive shortcut with Vim?][What is your most productive shortcut with Vim?]
 
 [sizeof(cat)]: https://sizeof.cat/
 [starbreaker.org]: https://starbreaker.org
@@ -47,3 +49,5 @@ title: Links
 [Watch People Doing the Thing]: https://earthly.dev/blog/golang-streamers/
 [My productivity app is a never-ending .txt file]: https://jeffhuang.com/productivity_text_file/
 [The Grug Brained Developer]: https://grugbrain.dev/
+[Cool Things People Do With Their Blogs]: https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/
+[What is your most productive shortcut with Vim?]: https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
