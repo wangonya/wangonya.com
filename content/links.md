@@ -21,6 +21,10 @@ title: Links
 - [writing.as.amit][writing.as.amit]
 - [PJ Onori’s blog][PJ Onori’s blog]
 - [Sebastian De Deyne][Sebastian De Deyne]
+- [Basta's Notes][Basta's Notes]
+- [Tinkering Down Under][thomask]
+- [Code with Jason][codewithjason]
+- [Robert Heaton][robertheaton]
 
 ## Articles
 
@@ -51,3 +55,7 @@ title: Links
 [The Grug Brained Developer]: https://grugbrain.dev/
 [Cool Things People Do With Their Blogs]: https://brainbaking.com/post/2022/04/cool-things-people-do-with-their-blogs/
 [What is your most productive shortcut with Vim?]: https://stackoverflow.com/questions/1218390/what-is-your-most-productive-shortcut-with-vim/1220118#1220118
+[Basta's Notes]: https://basta.substack.com/archive
+[thomask]: https://thomask.sdf.org/
+[codewithjason]: https://www.codewithjason.com/articles/
+[robertheaton]: https://robertheaton.com/
