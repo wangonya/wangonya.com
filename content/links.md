@@ -25,6 +25,7 @@ title: Links
 - [Tinkering Down Under][thomask]
 - [Code with Jason][codewithjason]
 - [Robert Heaton][robertheaton]
+- [benkuhn.net][benkuhn]
 
 ## Articles
 
@@ -59,3 +60,4 @@ title: Links
 [thomask]: https://thomask.sdf.org/
 [codewithjason]: https://www.codewithjason.com/articles/
 [robertheaton]: https://robertheaton.com/
+[benkuhn]: https://www.benkuhn.net/
