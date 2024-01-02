@@ -6,9 +6,10 @@ title: Reading
 ## Currently reading
 
 - A Short History of Nearly Everything - Bill Bryson
+- Facing Mt. Kenya - Jomo Kenyatta
 
 ## Read
 
-### 2023
+### 2024
 
 - ...
