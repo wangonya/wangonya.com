@@ -80,3 +80,27 @@ From the [docs](https://docs.pydantic.dev/latest/errors/errors/):
 
 The important thing to remember is that this only happens for validation errors (i.e errors raised through `ValueError` or `AssertionError`).
 This is why the `IndexError` was always raised immediately it happened.
+
+## How to stop validation on the first error
+
+According to [this answer](https://stackoverflow.com/a/69538066/9312256):
+
+> If you have checks, the failure of which should interrupt the further validation, then put them in the `pre=True` root validator. Because field validation will not occur if `pre=True` root validators raise an error.
+>
+> For example:
+>
+> ```py
+> class PayloadValidator(BaseModel):
+>    emailId: List[str]
+>    role: str
+>
+>    @root_validator(pre=True)
+>    def root_validate(cls, values):
+>        if not values['emailId']:
+>            raise ValueError("Email list is empty.")
+>        return values
+>
+>    @validator("emailId")
+>    def valid_domains(cls, emailId):
+>        return emailId
+> ```
