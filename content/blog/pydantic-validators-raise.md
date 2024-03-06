@@ -25,17 +25,17 @@ class Schema(BaseModel):
     @validator("start_date")
     def set_start_date(cls, v, values):
         # some logic here that expects `dates` to exist
-        v = values['date_range'][0]
+        v = values['dates'][0]
         return v
 
     @validator("end_date")
     def set_end_date(cls, v, values):
         # some logic here that expects `dates` to exist
-        v = values['date_range'][-1]
+        v = values['dates'][-1]
         return v
 ```
 
-My assumption in the last two validators was that date would always be available because it's a required field.
+My assumption in the last two validators was that `dates` would always be available because it's a required field.
 To my surprise, an `IndexError` was always raised on `set_start_date`.
 
 So I thought, ok, I'll raise a `ValueError` myself on `update_date_format` since the required field check doesn't seem to be working.
@@ -56,13 +56,13 @@ class Schema(BaseModel):
     @validator("start_date")
     def set_start_date(cls, v, values):
         # some logic here that expects `dates` to exist
-        v = values['date_range'][0]
+        v = values['dates'][0]
         return v
 
     @validator("end_date")
     def set_end_date(cls, v, values):
         # some logic here that expects `dates` to exist
-        v = values['date_range'][-1]
+        v = values['dates'][-1]
         return v
 ```
 
