@@ -1,0 +1,37 @@
+[
+  {
+    "year": "2024",
+    "books": [
+      {
+        "title": "A Short History of Nearly Everything",
+        "author": "Bill Bryson"
+      },
+      {
+        "title": "What They Don't Teach You About Money",
+        "author": "Claer Barrett"
+      },
+      {
+        "title": "Pro Git",
+        "author": "Scott Chacon and Ben Straub"
+      },
+      {
+        "title": "Boss Dog: A Story of Provence",
+        "author": "M.F.K. Fisher",
+        "finishedOn": "2024-03-22",
+        "rating": "2"
+      },
+      {
+        "title": "Meditations",
+        "author": "Marcus Aurelius",
+        "finishedOn": "2024-03-18",
+        "rating": "3"
+      },
+      {
+        "title": "Facing Mt. Kenya",
+        "author": "Jomo Kenyatta",
+        "finishedOn": "2024-01-26",
+        "rating": "5"
+      }
+    ]
+  }
+]
