@@ -1,6 +1,7 @@
-# Kelvin Wangonya
-
-## Software Engineer
+---
+author: Kelvin Wangonya
+title: About
+---
 
 I'm currently working at [Jenga][jenga] as a backend developer for [Artefact][artefact] - a global data & AI consulting company.
 
@@ -16,22 +17,8 @@ You can view my resume [here][resume] to see more about my professional career s
 
 Sometimes I [write][blog] about stuff I've learned, personal projects, and anything else I find interesting.
 
-Other times, I [read][reading]. I've read a lot of books but I've never been keen on keeping a record. I decided to start keeping this record on `2023-08-14`, so everything on that page is as from this date.
-
-When I want to read something other than books, I like browsing the web - the old fashioned way (rss and whatnot). I keep a list of my favorite websites and articles [here][links].
-
-The fastest way to reach me is through [email][email].
-
-You may also be interested in viewing my [Github][github] and [LinkedIn][linkedin] profiles.
-
-You can subscribe to this site via [rss][rss].
-
 [resume]: /resume
 [blog]: /blog
-[reading]: /reading
-[links]: /links
-[email]: mailto:kwangonya@gmail.com
-[rss]: /blog/index.xml
 [jenga]: https://jenga-agency.com/
 [artefact]: https://www.artefact.com/
 [github]: https://github.com/wangonya
