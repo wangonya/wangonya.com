@@ -1,0 +1,3 @@
+[submodule "themes/zweifel"]
+	path = themes/zweifel
+	url = https://github.com/wangonya/zweifel.git
