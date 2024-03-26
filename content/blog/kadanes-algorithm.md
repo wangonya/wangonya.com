@@ -10,7 +10,7 @@ tags:
 Possible usecase: [Maximum subarray
 problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem).
 
-# Steps
+## Steps
 
 1.  Initialize two variables: `max_sum = current_sum = 0`
 2.  Loop through numbers in list
@@ -18,7 +18,7 @@ problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem).
     - Set `max_sum = max(max_sum, current_sum)`
 3.  Return `max_sum`
 
-# Caveats [^1], [^2]
+## Caveats [^1], [^2]
 
 - Kadane\'s Algorithm requires at least one positive number, so an
   input of all negative numbers would be invalid.
@@ -29,7 +29,7 @@ problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem).
   the empty subarray (which has sum 0), if it is permitted).
 - Several different sub-arrays may have the same maximum sum.
 
-## Solving [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) with Kadane\'s Algorithm
+### Solving [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) with Kadane\'s Algorithm
 
 Slightly tweak the algorithm to track max profit and min price.
 
