@@ -1,7 +1,7 @@
 baseurl = "https://wangonya.com"
 languageCode = "en-us"
 title = "Kelvin Wangonya"
-theme = "wangonya"
+theme = "zweifel"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
@@ -14,36 +14,66 @@ posts = "blog/:slug/"
 about = "Software engineer. Mostly doing backend work with Python."
 meta = "Wangonya's blog. | Software engineer. Mostly doing backend work with Python."
 author = "Kelvin Wangonya"
+authorTitle = "Software Engineer"
+numberOfPostsInHomePage = 10
 
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 1
 
-[[params.footer]]
-[[params.footer.link]]
-name = "Home"
-href = "/"
-[[params.footer.link]]
-name = "Blog"
-href = "/blog"
-[[params.footer.link]]
-name = "Reading"
-href = "/reading"
-[[params.footer.link]]
-name = "Links"
-href = "/links"
-[[params.footer.link]]
+[[menus.main]]
+name = 'Blog'
+pageRef = '/blog'
+weight = 2
+
+[[menus.main]]
+name = 'Reading'
+pageRef = '/reading'
+weight = 3
+
+[[menus.socials]]
 name = "Github"
-href = "https://github.com/wangonya"
-[[params.footer.link]]
+url = "https://github.com/wangonya"
+weight = 1
+
+[[menus.socials]]
 name = "LinkedIn"
-href = "https://www.linkedin.com/in/wangonya/"
-[[params.footer.link]]
+url = "https://www.linkedin.com/in/wangonya/"
+weight = 2
+
+[[menus.socials]]
 name = "Email"
-href = "mailto:kwangonya@gmail.com"
-[[params.footer.link]]
-name = "RSS"
-href = "/blog/index.xml"
+url = "mailto:kwangonya@gmail.com"
+weight = 3
+
+[[menus.footer]]
+name = 'Github'
+url = "https://github.com/wangonya"
+weight = 1
+
+[[menus.footer]]
+name = 'LinkedIn'
+url = "https://www.linkedin.com/in/wangonya/"
+weight = 2
+
+[[menus.footer]]
+name = 'Email'
+url = "mailto:kwangonya@gmail.com"
+weight = 3
+
+[[menus.footer]]
+name = 'RSS'
+url = "/index.xml"
+
+
+[module]
+[module.hugoVersion]
+extended = false
+min = "0.116.0"
 
 [markup]
 [markup.highlight]
-style = "github"
+style = "borland"
 [markup.goldmark.renderer]
 unsafe = true
