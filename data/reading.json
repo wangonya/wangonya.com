@@ -7,14 +7,10 @@
         "author": "Bill Bryson"
       },
       {
-        "title": "What They Don't Teach You About Money",
-        "author": "Claer Barrett",
-        "finishedOn": "2024-03-27",
-        "rating": "4"
-      },
-      {
         "title": "Pro Git",
-        "author": "Scott Chacon and Ben Straub"
+        "author": "Scott Chacon and Ben Straub",
+        "finishedOn": "2024-03-27",
+        "rating": 5
       },
       {
         "title": "Boss Dog: A Story of Provence",
@@ -33,6 +29,12 @@
         "author": "Jomo Kenyatta",
         "finishedOn": "2024-01-26",
         "rating": "5"
+      },
+      {
+        "title": "What They Don't Teach You About Money",
+        "author": "Claer Barrett",
+        "finishedOn": "2024-03-27",
+        "rating": "4"
       }
     ]
   }
