@@ -1,7 +1,10 @@
-+++
-title = 'On embracing asynchronous communication'
-date = 2024-03-27T12:12:34+03:00
-+++
+---
+title: "On embracing asynchronous communication"
+date: 2024-03-27T12:12:34+03:00
+draft: false
+tags:
+  - personal
+---
 
 I've been trying to improve my workflows this year. One thing I've known for a while, but never really got
 serious about implementing, is defaulting to asynchronous communication. I first learned about this concept
