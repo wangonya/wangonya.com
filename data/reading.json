@@ -4,7 +4,9 @@
     "books": [
       {
         "title": "A Short History of Nearly Everything",
-        "author": "Bill Bryson"
+        "author": "Bill Bryson",
+        "finishedOn": "2024-04-07",
+        "rating": 5
       },
       {
         "title": "Pro Git",
