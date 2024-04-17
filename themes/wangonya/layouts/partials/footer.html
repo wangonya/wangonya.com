@@ -1,6 +1,10 @@
-<hr />
-<footer>
-  {{ range $footer := .Site.Params.footer }} {{- range $footer.link -}}
-  <a href="{{ .href }}"> {{- .name -}} </a>
-  {{- end -}} {{ end }}
-</footer>
+<nav class="mx-auto">
+  <div class="inline-flex flex-wrap space-x-4 text-slate-600">
+    {{- range .Site.Menus.footer }}
+      <a href="{{ .URL }}" class="underline hover:no-underline">
+        {{ .Name }}
+      </a>
+    {{- end }}
+  </div>
+</nav>
+<div class="mt-3 text-xs text-slate-500">{{ site.Title }}</div>

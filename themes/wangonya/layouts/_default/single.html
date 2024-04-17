@@ -1,29 +1,30 @@
 {{ define "main" }}
-  <article>
+  <article class="js-article-body prose prose-base prose-h1:mb-3">
     <h1>{{ .Title }}</h1>
-    <small class="meta">
-      <span>
-        {{ $date := .Date.Format "2 January, 2006" }}
-        {{ $lastmod := .Lastmod.Format "2 January, 2006" }}
 
-        {{ if in .RelPermalink "blog" }}
-          Posted on {{ $date }}
-        {{ else }}
-          Last Updated on {{ $lastmod }}
+    {{ if .Date }}
+      {{ $dateMachine := .Date | time.Format
+        "2006-01-02T15:04:05-07:00"
+      }}
+      {{ $dateHuman := .Date | time.Format
+        ":date_long"
+      }}
+      <div class="text-sm text-gray-700 font-semibold mb-4">
+        <time class="dt-published" datetime="{{ $dateMachine }}"
+          >{{ $dateHuman }}</time
+        >
+        <span> • {{ .ReadingTime }} min read</span>
+      </div>
+    {{ end }}
+    {{ .Content }}
+    <div class="text-sm mt-8">
+      {{ if .Params.tags }}🏷&nbsp;{{ end }}
+      {{ range $key, $value := .Params.tags }}
+        <a href="/tags/{{ $value | urlize }}">{{ $value }}</a
+        >{{ if ne $key (sub (len $.Params.tags) 1) }}
+          ,
         {{ end }}
-      </span>
-
-      <span id="tags">
-        {{ if .Params.tags }}🏷&nbsp;{{ end }}
-        {{ range $key, $value := .Params.tags }}
-          <a href="/tags/{{ $value | urlize }}">{{ $value }}</a>{{ if ne $key (sub (len $.Params.tags) 1) }}, {{ else }}{{ end }}
-        {{ end }}
-      </span>
-    </small>
-
-    {{ .Content | replaceRE "(<h[1-6]\\sid=\"([^\"]+)\"\\s?>)(.+)(</h[1-6]+>)" "${1}<a href=\"#${2}\">${3}</a>${4}" | safeHTML }}
-    <!-- {{ with .NextInSection }} -->
-    <!-- <a href="{{ .Permalink }}">{{ .Title }}</a> -->
-    <!-- {{ end }} -->
+      {{ end }}
+    </div>
   </article>
 {{ end }}

@@ -4,4 +4,6 @@ title: Reading
 layout: reading
 ---
 
-I’ve read a lot of books but I’ve never been keen on keeping a record. I decided to start keeping this record on `2023-08-14`, so everything here is as of this date.
+I’ve read a lot of books but I’ve never been keen on keeping a record.
+
+I decided to start keeping this record on `2023-08-14`, so everything here is as of this date.
