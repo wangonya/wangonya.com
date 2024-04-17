@@ -1,7 +1,7 @@
 [
   {
     "year": "2024",
-    "books": [
+    "reading": [
       {
         "title": "A Short History of Nearly Everything",
         "author": "Bill Bryson",
@@ -36,6 +36,14 @@
         "title": "What They Don't Teach You About Money",
         "author": "Claer Barrett",
         "finishedOn": "2024-03-27",
+        "rating": "4"
+      }
+    ],
+    "watching": [
+      {
+        "title": "Oppenheimer",
+        "imdbLink": "https://www.imdb.com/title/tt15398776/",
+        "finishedOn": "2024-04-06",
         "rating": "4"
       }
     ]

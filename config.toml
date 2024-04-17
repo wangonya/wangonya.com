@@ -1,7 +1,7 @@
 baseurl = "https://wangonya.com"
 languageCode = "en-us"
 title = "Kelvin Wangonya"
-theme = "zweifel"
+theme = "wangonya"
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
@@ -31,6 +31,11 @@ weight = 2
 name = 'Reading'
 pageRef = '/reading'
 weight = 3
+
+[[menus.main]]
+name = 'Watching'
+pageRef = '/watching'
+weight = 4
 
 [[menus.socials]]
 name = "Github"
