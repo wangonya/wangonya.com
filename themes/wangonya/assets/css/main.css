@@ -23,10 +23,10 @@ html,
     ui-sans-serif,
     system-ui,
     sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
+    apple color emoji,
+    segoe ui emoji,
     Segoe UI Symbol,
-    "Noto Color Emoji";
+    noto color emoji;
   font-feature-settings: normal;
   font-variation-settings: normal;
   -webkit-tap-highlight-color: transparent;
@@ -113,71 +113,6 @@ table {
   border-collapse: collapse;
 }
 
-button,
-input,
-optgroup,
-select,
-textarea {
-  font-family: inherit;
-  font-feature-settings: inherit;
-  font-variation-settings: inherit;
-  font-size: 100%;
-  font-weight: inherit;
-  line-height: inherit;
-  color: inherit;
-  margin: 0;
-  padding: 0;
-}
-
-button,
-select {
-  text-transform: none;
-}
-
-button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
-  background-color: transparent;
-  background-image: none;
-}
-
-:-moz-focusring {
-  outline: auto;
-}
-
-:-moz-ui-invalid {
-  box-shadow: none;
-}
-
-progress {
-  vertical-align: baseline;
-}
-
-::-webkit-inner-spin-button,
-::-webkit-outer-spin-button {
-  height: auto;
-}
-
-[type="search"] {
-  -webkit-appearance: textfield;
-  outline-offset: -2px;
-}
-
-::-webkit-search-decoration {
-  -webkit-appearance: none;
-}
-
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  font: inherit;
-}
-
-summary {
-  display: list-item;
-}
-
 blockquote,
 dl,
 dd,
@@ -215,31 +150,6 @@ dialog {
   padding: 0;
 }
 
-textarea {
-  resize: vertical;
-}
-
-input::-moz-placeholder,
-textarea::-moz-placeholder {
-  opacity: 1;
-  color: #9ca3af;
-}
-
-input::placeholder,
-textarea::placeholder {
-  opacity: 1;
-  color: #9ca3af;
-}
-
-button,
-[role="button"] {
-  cursor: pointer;
-}
-
-:disabled {
-  cursor: default;
-}
-
 img,
 svg,
 video,
@@ -249,7 +159,6 @@ iframe,
 embed,
 object {
   display: block;
-  vertical-align: middle;
 }
 
 img,
@@ -333,8 +242,8 @@ video {
   --tw-backdrop-invert: ;
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia:        
-  ;
+  --tw-backdrop-sepia:  
+;
 }
 
 ::backdrop {
@@ -384,8 +293,8 @@ video {
   --tw-backdrop-invert: ;
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
-  --tw-backdrop-sepia:        
-  ;
+  --tw-backdrop-sepia:  
+;
 }
 
 .container {
@@ -507,14 +416,14 @@ video {
 }
 
 .prose
-  :where(ol[type="A" s]):not(
+  :where(ol[type="As"]):not(
     :where([class~="not-prose"], [class~="not-prose"] *)
   ) {
   list-style-type: upper-alpha;
 }
 
 .prose
-  :where(ol[type="a" s]):not(
+  :where(ol[type="as"]):not(
     :where([class~="not-prose"], [class~="not-prose"] *)
   ) {
   list-style-type: lower-alpha;
@@ -535,14 +444,14 @@ video {
 }
 
 .prose
-  :where(ol[type="I" s]):not(
+  :where(ol[type="Is"]):not(
     :where([class~="not-prose"], [class~="not-prose"] *)
   ) {
   list-style-type: upper-roman;
 }
 
 .prose
-  :where(ol[type="i" s]):not(
+  :where(ol[type="is"]):not(
     :where([class~="not-prose"], [class~="not-prose"] *)
   ) {
   list-style-type: lower-roman;
@@ -679,7 +588,7 @@ video {
   color: var(--tw-prose-kbd);
   box-shadow:
     0 0 0 1px rgb(var(--tw-prose-kbd-shadows) / 10%),
-    0 3px 0 rgb(var(--tw-prose-kbd-shadows) / 10%);
+    0 3px rgb(var(--tw-prose-kbd-shadows) / 10%);
   font-size: 0.875em;
   border-radius: 0.3125rem;
   padding: 0.1875em 0.375em;
@@ -1668,7 +1577,7 @@ video {
 }
 
 .left-0 {
-  left: 0px;
+  left: 0;
 }
 
 .left-\[-999px\] {
@@ -1676,7 +1585,7 @@ video {
 }
 
 .top-0 {
-  top: 0px;
+  top: 0;
 }
 
 .top-auto {
@@ -1918,11 +1827,11 @@ video {
 @keyframes gradient-river {
   0%,
   to {
-    background-position: 0% 50%;
+    background-position: 0;
   }
 
   50% {
-    background-position: 100% 50%;
+    background-position: 100%;
   }
 }
 
@@ -2105,7 +2014,7 @@ video {
 .bg-gradient-pride {
   background-image: linear-gradient(
     90deg,
-    rgb(239 68 68 / 0%),
+    rgb(239 68 68/0%),
     #ef4444,
     #f97316,
     #eab308,
@@ -2118,7 +2027,7 @@ video {
     #6366f1,
     #c084fc,
     #a855f7,
-    rgb(168 85 247 / 0%)
+    rgb(168 85 247/0%)
   );
 }
 
@@ -2209,10 +2118,10 @@ video {
     ui-sans-serif,
     system-ui,
     sans-serif,
-    "Apple Color Emoji",
-    "Segoe UI Emoji",
+    apple color emoji,
+    segoe ui emoji,
     Segoe UI Symbol,
-    "Noto Color Emoji";
+    noto color emoji;
 }
 
 .text-2xl {

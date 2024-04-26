@@ -1,9 +1,7 @@
 <nav class="mx-auto">
   <div class="inline-flex flex-wrap space-x-4 text-slate-600">
     {{- range .Site.Menus.footer }}
-      <a href="{{ .URL }}" class="underline hover:no-underline">
-        {{ .Name }}
-      </a>
+    <a href="{{ .URL }}" class="underline hover:no-underline"> {{ .Name }} </a>
     {{- end }}
   </div>
 </nav>
