@@ -47,6 +47,14 @@
       {
         "title": "Hyperfocus: How to Work Less to Achieve More",
         "author": "Chris Bailey"
+      },
+      {
+        "title": "How Money works: Facts visually explained",
+        "author": "DK"
+      },
+      {
+        "title": "Be Water, My Friend: The Teachings of Bruce Lee",
+        "author": "Shannon Lee"
       }
     ],
     "watching": [
@@ -55,6 +63,12 @@
         "imdbLink": "https://www.imdb.com/title/tt15398776/",
         "finishedOn": "2024-04-06",
         "rating": "4"
+      },
+      {
+        "title": "The Antisocial Network: Memes to Mayhem",
+        "imdbLink": "https://www.imdb.com/title/tt31189868/",
+        "finishedOn": "2024-05-05",
+        "rating": "3"
       }
     ]
   }
