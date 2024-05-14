@@ -18,35 +18,37 @@
         "title": "Boss Dog: A Story of Provence",
         "author": "M.F.K. Fisher",
         "finishedOn": "2024-03-22",
-        "rating": "2"
+        "rating": 2
       },
       {
         "title": "Meditations",
         "author": "Marcus Aurelius",
         "finishedOn": "2024-03-18",
-        "rating": "3"
+        "rating": 3
       },
       {
         "title": "Facing Mt. Kenya",
         "author": "Jomo Kenyatta",
         "finishedOn": "2024-01-26",
-        "rating": "5"
+        "rating": 5
       },
       {
         "title": "What They Don't Teach You About Money",
         "author": "Claer Barrett",
         "finishedOn": "2024-03-27",
-        "rating": "4"
+        "rating": 4
       },
       {
         "title": "The Mountain Is You: Transforming Self-Sabotage Into Self-Mastery",
         "author": "Brianna Wiest",
         "finishedOn": "2024-04-26",
-        "rating": "2"
+        "rating": 2
       },
       {
         "title": "Hyperfocus: How to Work Less to Achieve More",
-        "author": "Chris Bailey"
+        "author": "Chris Bailey",
+        "finishedOn": "2024-05-14",
+        "rating": 5
       },
       {
         "title": "How Money works: Facts visually explained",
@@ -60,15 +62,21 @@
     "watching": [
       {
         "title": "Oppenheimer",
-        "imdbLink": "https://www.imdb.com/title/tt15398776/",
+        "imdb": "tt15398776",
         "finishedOn": "2024-04-06",
-        "rating": "4"
+        "rating": 4
       },
       {
         "title": "The Antisocial Network: Memes to Mayhem",
-        "imdbLink": "https://www.imdb.com/title/tt31189868/",
+        "imdb": "tt31189868",
         "finishedOn": "2024-05-05",
-        "rating": "3"
+        "rating": 3
+      },
+      {
+        "title": "Boyz n the Hood",
+        "imdb": "tt0101507",
+        "finishedOn": "2024-05-11",
+        "rating": 5
       }
     ]
   }

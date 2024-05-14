@@ -10,11 +10,11 @@
     {{ range sort .watching ".finishedOn" "desc" }}
     <article class="grid sm:grid-cols-9 gap-x-2 md:gap-y-2 text-sm" itemprop="mainEntity" itemscope=""
       itemtype="http://schema.org/Movie">
-      <div class="sm:col-span-2 font-semibold" itemprop="name">
+      <div class="sm:col-span-4 font-semibold" itemprop="name">
         {{ .title }}
       </div>
-      <div class="sm:col-span-4 truncate" itemprop="url" title="IMDb link">
-        <a href="{{ .imdbLink }}" class="underline"> {{ .imdbLink }} </a>
+      <div class="sm:col-span-2 truncate" itemprop="url" title="IMDb link">
+        <a href="https://www.imdb.com/title/{{ .imdb }}" class="underline"> {{ .imdb }} </a>
       </div>
       <div class="text-xs sm:text-sm sm:col-span-2 tabular-nums" itemprop="dateCreated">
         {{ index .finishedOn | default "Currently watching" }}
