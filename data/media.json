@@ -51,12 +51,14 @@
         "rating": 5
       },
       {
-        "title": "How Money works: Facts visually explained",
-        "author": "DK"
+        "title": "Be Water, My Friend: The Teachings of Bruce Lee",
+        "author": "Shannon Lee",
+        "finishedOn": "2024-05-27",
+        "rating": 3
       },
       {
-        "title": "Be Water, My Friend: The Teachings of Bruce Lee",
-        "author": "Shannon Lee"
+        "title": "How Money works: Facts visually explained",
+        "author": "DK"
       }
     ],
     "watching": [
@@ -77,6 +79,18 @@
         "imdb": "tt0101507",
         "finishedOn": "2024-05-11",
         "rating": 5
+      },
+      {
+        "title": "Clarkson's Farm",
+        "imdb": "tt10541088",
+        "finishedOn": "2024-05-25",
+        "rating": 5
+      },
+      {
+        "title": "Vince Staples: The Vince Staples Show",
+        "imdb": "tt21993130",
+        "finishedOn": "2024-05-26",
+        "rating": 3
       }
     ]
   }
