@@ -59,6 +59,10 @@
       {
         "title": "How Money works: Facts visually explained",
         "author": "DK"
+      },
+      {
+        "title": "Write Great Code: Volume 1: Understanding the Machine First Edition",
+        "author": "Randall Hyde"
       }
     ],
     "watching": [
@@ -91,6 +95,12 @@
         "imdb": "tt21993130",
         "finishedOn": "2024-05-26",
         "rating": 3
+      },
+      {
+        "title": "The Subtle Art of Not Giving a #@%!",
+        "imdb": "tt12380422",
+        "finishedOn": "2024-07-19",
+        "rating": 2
       }
     ]
   }
