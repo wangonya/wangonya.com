@@ -63,6 +63,16 @@
         "rating": 4
       },
       {
+        "title": "Who Moved My Cheese?",
+        "author": "Spencer Johnson",
+        "finishedOn": "2024-07-29",
+        "rating": 1
+      },
+      {
+        "title": "Sum: Forty Tales from the Afterlives",
+        "author": "David Eagleman"
+      },
+      {
         "title": "How Money works: Facts visually explained",
         "author": "DK"
       },
@@ -82,7 +92,7 @@
         "title": "The Antisocial Network: Memes to Mayhem",
         "imdb": "tt31189868",
         "finishedOn": "2024-05-05",
-        "rating": 3
+        "rating": 1
       },
       {
         "title": "Boyz n the Hood",
