@@ -8,8 +8,8 @@ tags:
 
 I now understand why I've always had a hard time getting into VIM.
 I've tried it on and off for years, and of everything I've read about it, I have not seen 'knowing to type properly'
-as a prerequisite. I think it is. 'Keeping your hands on the home row' is a big thing with it,
-but this doesn't help if you're not usually typing with your hands on the home row in the first place.
+as a prerequisite. I think it is. 'Keeping your fingers on the home row' is a big thing with it,
+but this doesn't help if you're not usually typing with your fingers on the home row in the first place.
 
 Anyway, VIM aside, I've decided to learn how to type properly. I can type pretty fast, but I only ever use my index and middle fingers.
 I also have to look at the keys when typing. I think this really limits my speed.
