@@ -81,6 +81,18 @@
         "rating": 4
       },
       {
+        "title": "The Whole Brain Child: 12 Revolutionary Strategies to Nurture Your Child's Developing Mind",
+        "author": "Daniel J. Siegel",
+        "finishedOn": "2024-08-31",
+        "rating": 3
+      },
+      {
+        "title": "Linchpin: Are You Indispensable?",
+        "author": "Seth Godin",
+        "finishedOn": "2024-09-21",
+        "rating": 4
+      },
+      {
         "title": "SQL Cookbook",
         "author": "Anthony Molinaro"
       },
@@ -125,6 +137,24 @@
         "imdb": "tt12380422",
         "finishedOn": "2024-07-19",
         "rating": 2
+      },
+      {
+        "title": "Once Upon a Time in Hollywood",
+        "imdb": "tt7131622",
+        "finishedOn": "2024-09-16",
+        "rating": 5
+      },
+      {
+        "title": "Kill Bill: Vol. 1",
+        "imdb": "tt0266697",
+        "finishedOn": "2024-09-19",
+        "rating": 4
+      },
+      {
+        "title": "Kill Bill: Vol. 2",
+        "imdb": "tt0378194",
+        "finishedOn": "2024-09-20",
+        "rating": 4
       }
     ]
   }
