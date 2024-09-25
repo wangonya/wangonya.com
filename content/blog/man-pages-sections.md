@@ -76,7 +76,7 @@ To check what sections are available for a command:
 ```
 man -f <command>
 
-# for example: 
+# for example:
 man -f printf
 printf (1)           - format and print data
 printf (1p)          - write formatted output

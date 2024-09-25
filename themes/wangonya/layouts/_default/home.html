@@ -1,5 +1,7 @@
 {{ define "main" }}
-<div class="prose prose-lead-mb-0 prose-a:text-slate-900 visited:prose-a:text-slate-900">
+<div
+  class="prose prose-lead-mb-0 prose-a:text-slate-900 visited:prose-a:text-slate-900"
+>
   {{ with $.Site.GetPage "page" "about" }} {{ .Content }} {{ end }}
 </div>
 
@@ -27,7 +29,9 @@
   <ul class="text-slate-800 space-y-2">
     {{ range $posts }} {{ if .Date }}
     <li class="flex">
-      <span class="shrink-0 grow-0 inline-block w-20 text-gray-500 tabular-nums">
+      <span
+        class="shrink-0 grow-0 inline-block w-20 text-gray-500 tabular-nums"
+      >
         {{ .Date.Format "01/2006" }}
       </span>
       <a href="{{ .RelPermalink }}" class="underline hover:no-underline">

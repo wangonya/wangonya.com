@@ -1,5 +1,5 @@
 ---
-title: 'Learning Touch Typing'
+title: "Learning Touch Typing"
 date: 2024-08-27T06:22:21+03:00
 tags:
   - personal
