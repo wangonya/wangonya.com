@@ -44,3 +44,8 @@ Write something down as clearly and precisely as you can and send it.
 Don't expect an immediate reply. Find something else to do in the meantime.
 
 I think that's a better way to work.
+
+## Update (2024-09-25)
+
+Found this link that I think supplements this post well:
+[No "Hello", No "Quick Call", and no Meetings Without an Agenda](https://switowski.com/blog/no-hello-no-quick-call-no-agendaless-meetings/)
