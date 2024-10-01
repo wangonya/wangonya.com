@@ -15,6 +15,6 @@ As far as I know, Spotify doesn't provide any way to batch delete things, so I c
 
 ![screenshot](Screenshot.png)
 
-I used it to just delete everything (all liked songs, albums, podcasts, and playlists), but it can also delete just a few selected items.
+I used it to delete everything (all liked songs, albums, podcasts, and playlists), but it can also delete just a few selected items.
 
 If this is something you feel might also be useful to you, check the [repo](https://github.com/wangonya/spotify-cleaner) for instructions on how to use it.
