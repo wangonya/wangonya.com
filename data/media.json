@@ -111,6 +111,10 @@
         "rating": 5
       },
       {
+        "title": "Learning Go",
+        "author": "Jon Bodner"
+      },
+      {
         "title": "SQL Cookbook",
         "author": "Anthony Molinaro"
       },
