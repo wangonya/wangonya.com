@@ -117,6 +117,12 @@
         "rating": 3
       },
       {
+        "title": "How to become a Lifelong Financial Success: Guide to Effective Personal Financial Management",
+        "author": "Manyara Kirago",
+        "finishedOn": "2024-12-28",
+        "rating": 5
+      },
+      {
         "title": "Learning Go",
         "author": "Jon Bodner"
       },
@@ -183,6 +189,18 @@
         "imdb": "tt0378194",
         "finishedOn": "2024-09-20",
         "rating": 4
+      },
+      {
+        "title": "American Gangster",
+        "imdb": "tt0765429",
+        "finishedOn": "2024-12-26",
+        "rating": 5
+      },
+      {
+        "title": "Carry-On",
+        "imdb": "tt21382296",
+        "finishedOn": "2024-12-30",
+        "rating": 2
       }
     ]
   }
