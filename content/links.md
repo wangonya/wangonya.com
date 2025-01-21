@@ -26,6 +26,10 @@ title: Links
 - [Code with Jason][codewithjason]
 - [Robert Heaton][robertheaton]
 - [benkuhn.net][benkuhn]
+- https://grantslatton.com/
+- https://scottwillsey.com/links/
+- https://coleb.blog/
+- https://www.brandons-journal.com/
 
 ## Articles
 
