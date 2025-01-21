@@ -123,16 +123,18 @@
         "rating": 5
       },
       {
+        "title": "How Money works: Facts visually explained",
+        "author": "DK",
+        "finishedOn": "2025-01-18",
+        "rating": 3
+      },
+      {
         "title": "Learning Go",
         "author": "Jon Bodner"
       },
       {
         "title": "SQL Cookbook",
         "author": "Anthony Molinaro"
-      },
-      {
-        "title": "How Money works: Facts visually explained",
-        "author": "DK"
       },
       {
         "title": "Cold Mountain",
