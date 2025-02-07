@@ -142,7 +142,9 @@
       },
       {
         "title": "Learning Go",
-        "author": "Jon Bodner"
+        "author": "Jon Bodner",
+        "finishedOn": "2025-02-07",
+        "rating": 5
       },
       {
         "title": "SQL Cookbook",
