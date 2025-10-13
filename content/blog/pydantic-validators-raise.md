@@ -69,7 +69,7 @@ class Schema(BaseModel):
 Again, an `IndexError` was raised on `set_start_date`. It's like my check on `update_date_format` was completely ignored.
 I even put a breakpoint on the line to make sure it was being hit. It was.
 
-And then it hit me. Validation errrors aren't raised immediately. They're collected and returned all at once in the response.
+Apparently, validation errrors aren't raised immediately. They're collected and returned all at once in the response.
 
 Despite seeing this countless times in `422` responses, I hadn't ever thought about it. It made perfect sense.
 You don't want to return one error at a time as an API response. It's much better to return a response detailing everything that's wrong with the payload.
