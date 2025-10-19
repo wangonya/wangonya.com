@@ -11,73 +11,48 @@ enableGitInfo = true
 posts = "blog/:slug/"
 
 [params]
-about = "Software engineer. Mostly doing backend work with Python."
-meta = "Wangonya's blog. | Software engineer. Mostly doing backend work with Python."
+about = "Software engineer. Mostly doing backend and data engineering work with Python."
+meta = "Kelvin Wangonya's blog. | Software engineer. Mostly doing backend and data engineering work with Python."
 author = "Kelvin Wangonya"
 authorTitle = "Software Engineer"
-numberOfPostsInHomePage = 10
 
-[[menus.main]]
+[[menus.footer]]
 name = 'Home'
-pageRef = '/'
+url = "/"
 weight = 1
 
-[[menus.main]]
+[[menus.footer]]
 name = 'Blog'
-pageRef = '/blog'
+url = "/blog"
 weight = 2
-
-[[menus.main]]
-name = 'Reading'
-pageRef = '/reading'
-weight = 3
-
-[[menus.main]]
-name = 'Watching'
-pageRef = '/watching'
-weight = 4
-
-[[menus.socials]]
-name = "Github"
-url = "https://github.com/wangonya"
-weight = 1
-
-[[menus.socials]]
-name = "LinkedIn"
-url = "https://www.linkedin.com/in/wangonya/"
-weight = 2
-
-[[menus.socials]]
-name = "Email"
-url = "mailto:kwangonya@gmail.com"
-weight = 3
 
 [[menus.footer]]
 name = 'Github'
 url = "https://github.com/wangonya"
-weight = 1
+weight = 3
 
 [[menus.footer]]
 name = 'LinkedIn'
 url = "https://www.linkedin.com/in/wangonya/"
-weight = 2
+weight = 4
 
 [[menus.footer]]
 name = 'Email'
 url = "mailto:kwangonya@gmail.com"
-weight = 3
+weight = 5
 
 [[menus.footer]]
 name = 'RSS'
 url = "/index.xml"
+weight = 6
 
 [module]
 [module.hugoVersion]
 extended = false
-min = "0.116.0"
+min = "0.146.0"
 
 [markup]
 [markup.highlight]
-style = "borland"
+style = "vs"
 [markup.goldmark.renderer]
 unsafe = true

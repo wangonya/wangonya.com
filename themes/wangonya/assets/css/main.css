@@ -1,0 +1,55 @@
+body {
+  color: #222;
+  font-family: serif;
+  line-height: 1.5;
+  margin: 1rem;
+  max-width: 768px;
+  margin: 0 auto;
+}
+
+header {
+  margin-bottom: 1rem;
+}
+
+pre,
+code {
+  font-family: monospace;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list-date {
+  padding-right: 5px;
+}
+
+.horizontal-list {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+}
