@@ -7,13 +7,13 @@ tags:
   - algorithms
 ---
 
-I\'ve been learning a lot about data structures and algorithms lately
-and I\'ve noticed in my reading that there aren\'t a lot of examples
-showing implementations of algorithms in Javascript. You\'ll mostly find
-examples in Java, Python, C, C++ etc. Maybe there\'s a reason for
-preferring these languages over Javascript? I\'m not sure.
+I've been learning a lot about data structures and algorithms lately
+and I've noticed in my reading that there aren't a lot of examples
+showing implementations of algorithms in Javascript. You'll mostly find
+examples in Java, Python, C, C++ etc. Maybe there's a reason for
+preferring these languages over Javascript? I'm not sure.
 
-In this first part, I\'m going to show Javascript implementations of
+In this first part, I'm going to show Javascript implementations of
 three sorting algorithms:
 
 - Merge sort
@@ -21,11 +21,11 @@ three sorting algorithms:
 - Bubble sort
 
 This is not intended to be an in-depth explanation on the ins and outs
-of how the algorithms work and their performance. If you\'d rather read
-about that, here\'s a nice resource I found: [Sorting
+of how the algorithms work and their performance. If you'd rather read
+about that, here's a nice resource I found: [Sorting
 Algorithms](https://brilliant.org/wiki/sorting-algorithms/)
 
-To keep things simple, I\'ll be sorting a simple list `list`
+To keep things simple, I'll be sorting a simple list `list`
 having only 5 elements `[4, 2, 3, 1, 5]`.
 
 ## Merge Sort
@@ -187,10 +187,10 @@ const sorted = bubbleSort(list);
 console.log(sorted);
 ```
 
-Thats it! And, incase you\'re wondering, I used
+Thats it! And, incase you're wondering, I used
 [this](https://visualgo.net/en/sorting) site to make the visuals.
 
-In the next part, I\'ll be going through:
+In the next part, I'll be going through:
 
 - Quick sort
 - Heap sort

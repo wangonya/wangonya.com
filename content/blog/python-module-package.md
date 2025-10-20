@@ -41,7 +41,7 @@ The same can be done in the interpreter:
 Packages are made up of multiple Python files (or modules), and can even
 include libraries written in different languages like C or C++. Seeing
 an `__init.py__` file in a folder typically tells you that
-that folder is a Python package. The `__init__.py` doesn\'t
+that folder is a Python package. The `__init__.py` doesn't
 have to contain any code -- sometimes it does -- it just has to be there
 for Python take that particular folder as a package.
 

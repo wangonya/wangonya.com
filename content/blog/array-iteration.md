@@ -6,12 +6,12 @@ tags:
   - javascript
 ---
 
-If you\'re using an array in your code, chances are, you\'ll need to
-iterate over the values in the array. There\'s a couple of ways you can
+If you're using an array in your code, chances are, you'll need to
+iterate over the values in the array. There's a couple of ways you can
 do that, some better and more efficient than others depending on what
 you want to accomplish.
 
-For this post, I\'ll focus on two ways: `some()` and
+For this post, I'll focus on two ways: `some()` and
 `every()`.
 
 ## `some()`
@@ -70,5 +70,5 @@ elements in the array have to be truthy for it to return
 the second test therefore returns `true`.
 
 These two methods can come in handy if you need to perform somewhat
-similar tasks as described above. But of course, they\'re not the only
+similar tasks as described above. But of course, they're not the only
 way.

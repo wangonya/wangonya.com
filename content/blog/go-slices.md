@@ -7,5 +7,5 @@ tags:
 draft: true
 ---
 
-One of the many questions I\'ve been having as I learn go is: is
+One of the many questions I've been having as I learn go is: is
 `slice` just another name for `array`?

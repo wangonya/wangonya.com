@@ -6,7 +6,7 @@ tags:
   - productivity
 ---
 
-I\'ve been reading the book \"Smarter Faster Better\" by Charles Duhigg
+I've been reading the book \"Smarter Faster Better\" by Charles Duhigg
 and in it, he gives a perspective on goal-setting that I found
 interesting.
 
@@ -29,17 +29,17 @@ focused on small daily \"wins\" that we lose focus on the larger
 picture.
 
 > "You get into this mindset where crossing things off your to-do list
-> becomes more important that asking yourself if you\'re doing the right
+> becomes more important that asking yourself if you're doing the right
 > things. - The book
 >
-> \"To-do lists are great if you\'re using them correctly. But when
-> people say things like \'I sometimes write down easy items I can cross
-> off right away, because it makes me feel good\', that\'s exactly the
-> _wrong_ way to create a to-do list. That signals you\'re using it for
+> \"To-do lists are great if you're using them correctly. But when
+> people say things like 'I sometimes write down easy items I can cross
+> off right away, because it makes me feel good', that's exactly the
+> _wrong_ way to create a to-do list. That signals you're using it for
 > mood repair, rather than to become productive.\" - Timothy Pychyl,
 > quoted in the book
 
-I think it\'s easier to fall into this trap than most of us would like
+I think it's easier to fall into this trap than most of us would like
 to admit.
 
 ### Combining SMART goals with Stretch goals
@@ -48,7 +48,7 @@ Stretch goals are goals that may be considered audacious, but
 achievable. These are the kind of goals you may think about when asked
 to \"dream big\". The point is to have one major goal that is not
 immediately achievable, then use the SMART strategy to form sub-goals
-that move you closer to achieving the main goal. Here\'s an example from
+that move you closer to achieving the main goal. Here's an example from
 the book:
 
 - Stretch goal: run a marathon

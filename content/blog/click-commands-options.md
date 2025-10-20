@@ -19,7 +19,7 @@ Options are used to alter the default behavior of commands. This is
 often accomplished by passing in parameters in the form of
 `--option` or `-o` for short.
 
-Let\'s assume that instead of just printing out \"Hello World!\", we
+Let's assume that instead of just printing out \"Hello World!\", we
 wanted to have the option of printing it in all lowercase characters or
 all uppercase characters. We can add this functionality by adding an
 `option()` decorator.
@@ -61,7 +61,7 @@ Error: Invalid value for "-c" / "--case": invalid choice: normal. (choose from u
 
 It gives us an error: `invalid choice: normal` and even
 guides us on the options to choose from
-`(choose from upper, lower)`, since that\'s what we specified
+`(choose from upper, lower)`, since that's what we specified
 `type=click.Choice(['upper', 'lower'])`. Error handling on
 that part is handled by default.
 
@@ -83,7 +83,7 @@ def hello(case):
         click.echo(response)
 ```
 
-All we\'ve done is add an `if-else` to check the option
+All we've done is add an `if-else` to check the option
 passed in, and return the text in either upper case, lower case, or just
 normal. Now when we install our app again and run it, we get these
 results:
@@ -99,5 +99,5 @@ HELLO WORLD!
 hello world!
 ```
 
-In the next post, we\'ll enhance our command even more by adding
+In the next post, we'll enhance our command even more by adding
 arguments.

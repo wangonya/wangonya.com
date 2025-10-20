@@ -8,7 +8,7 @@ tags:
   - tutorial
 ---
 
-In this tutorial, we\'ll create a simple todo api with Python 3 and
+In this tutorial, we'll create a simple todo api with Python 3 and
 Django 2.
 
 ## Installing the requirements
@@ -21,12 +21,12 @@ $ source venv/bin/activate # activates the virtual environment
 (venv)$ pip install Django
 ```
 
-That\'s all we\'ll need for now.
+That's all we'll need for now.
 
 ## Creating the project
 
 Use the Django `startproject` command to create the project
-we\'ll be working on.
+we'll be working on.
 
 ```shell
 $ django-admin startproject todoapi
@@ -46,8 +46,8 @@ todoapi/
 
 ## Database setup
 
-To keep things simple, we\'ll use the SQlite database, so we don\'t have
-to install anything since it comes with Python. In addition, that\'s
+To keep things simple, we'll use the SQlite database, so we don't have
+to install anything since it comes with Python. In addition, that's
 already setup for us in `todoapi/settings.py`. Have a look at
 the code and you should see something similar to this:
 
@@ -66,7 +66,7 @@ DATABASES = {
 ## Creating models
 
 To create models for our database, we first need to create a todos
-\"app\". This is where we\'ll implement our features.
+\"app\". This is where we'll implement our features.
 
 ```shell
 $ python manage.py startapp todos
@@ -96,7 +96,7 @@ INSTALLED_APPS = [
 ```
 
 Ok, now that Django knows about our app, open the `models.py`
-file to add the models. We\'ll only create one model called
+file to add the models. We'll only create one model called
 `Todo`:
 
 ```python
@@ -113,8 +113,8 @@ class Todo(models.Model):
 This model will create a table for us with `todo` and
 `done` columns to save our data. The `todo` column
 will save the actual todo, and the `done` column will save
-the status -- whether it\'s done or not. Notice that it is a
-`BooleanField`, meaning we\'ll save `True` when
+the status -- whether it's done or not. Notice that it is a
+`BooleanField`, meaning we'll save `True` when
 done or `False` when not done, which is the default.
 
 Now all we need to do is run `makemigrations` to notify
@@ -128,13 +128,13 @@ $ python manage.py migrate
 
 ## Creating the endpoints
 
-We\'ll have two endpoints for now:
+We'll have two endpoints for now:
 
 - `/todos` to `GET` a list of all our todos
 - `/todos/<id>` to `GET` the todo matching the
   id
 
-To test this out, we\'ll create two simple views in the
+To test this out, we'll create two simple views in the
 `todos/view.py` file.
 
 ```python
@@ -210,7 +210,7 @@ from .models import Todo
 admin.site.register(Todo)
 ```
 
-That\'s it! Now run the server and go to
+That's it! Now run the server and go to
 `http://127.0.0.1:8000/admin`. Log in with the details you
 registered for the superuser above to add your todos.
 

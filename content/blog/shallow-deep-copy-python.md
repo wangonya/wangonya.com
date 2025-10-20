@@ -19,7 +19,7 @@ Both `x` and `y` will have the value
 `y` was not created as a completely new/separate object.
 Instead, an **alias** for `x` was created. That is,
 `y` points to the memory location of `x`. It does
-not have it\'s own memory location - yet.
+not have it's own memory location - yet.
 
 ```shell
 >>> id(x)
@@ -106,7 +106,7 @@ will still be affected by `z` will not.
 [1, 2, 3, 4, 5]
 ```
 
-However, a shallow copy doesn\'t fully solve the problem because even
+However, a shallow copy doesn't fully solve the problem because even
 though a new list was created, the objects in the list are still
 references to the objects in `x`.
 
@@ -147,7 +147,7 @@ broken. But, if we were dealing with a list of lists, an update in
 A deep copy creates a new object, and completely new instances of the
 objects in it. That is, a deep copied object is completely independent
 of the original. Updating objects in the original would not affect the
-deep copied object since there\'s no longer any connection.
+deep copied object since there's no longer any connection.
 
 ```shell
 >>> import copy

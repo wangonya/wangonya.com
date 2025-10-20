@@ -9,9 +9,9 @@ tags:
 Trying to access a non-existent key using this notation:
 `dict[key]` raises a `KeyError`. An easy
 workaround for this is to use `get(key)` instead, which
-returns `None` if `key` isn\'t found, or
+returns `None` if `key` isn't found, or
 `get(key, default)` which returns `default` if
-`key` isn\'t found.
+`key` isn't found.
 
 ```shell
 >>> d = {}
@@ -93,13 +93,13 @@ instead, the default value would be `[]`, an so on.
 Further reading:
 
 - [defaultdict examples](https://docs.python.org/3/library/collections.html#defaultdict-examples)
-- [Use cases for the \'setdefault\' dict method](https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict-method)
+- [Use cases for the 'setdefault' dict method](https://stackoverflow.com/questions/3483520/use-cases-for-the-setdefault-dict-method)
   (vs defaultdict)
 
 ## 3. Implement `__missing__`
 
 This is actually what `defaultdict` does behind the scenes.
-Use this when `defaultdict` doesn\'t fit your usecase.
+Use this when `defaultdict` doesn't fit your usecase.
 
 ```shell
 >>> class M(dict):

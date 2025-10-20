@@ -27,7 +27,7 @@ function](http://pages.cs.wisc.edu/~calvin/cs110/RECURSION.html) to
 solve for `fib(n)`.
 
 **Note: Only use this to test for small numbers, preferably n \< 10.
-I\'ll explain later**
+I'll explain later**
 
 ```python
 def fib(n):
@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
 ### Why do we need a base case?
 
-It\'s easy enough to convert the formula directly into
+It's easy enough to convert the formula directly into
 
 ```python
 def fib(n):
@@ -50,7 +50,7 @@ def fib(n):
 
 The problem with this though is that when you run it, it throws a
 [`RecursionError`](https://docs.python.org/3/library/exceptions.html#RecursionError).
-This simply means that there\'s possibly an infinite loop in the
+This simply means that there's possibly an infinite loop in the
 program. A base case in a recursive function tells the function when to
 stop (to avoid going into an infinite loop) and is usually something
 that is already known or that can be solved for easily without needing
@@ -62,7 +62,7 @@ of the previous two. We use that to form our base case
 ## Making it more efficient
 
 Remember when I told you to only test the program with small values of
-`n`? Here\'s why.
+`n`? Here's why.
 
 As it stands, every call to `fib()` results in two more calls
 to `fib()` in the `return` statement. The call
@@ -78,7 +78,7 @@ for humans. You already have `2 x 2` memorized and can give
 the answer immediately without having to use a calculator.
 `799 x 377`? You probably need to use a calculator for that.
 If, for some reason, you find that you get asked `799 x 377`
-a lot, it would be nice to have it memorized so you don\'t have to
+a lot, it would be nice to have it memorized so you don't have to
 calculate it every other time. The value of `799 x 377` will
 always remain the same, so all you have to do is calculate it once, save
 the value in your \"cache\" (memory), and retrieve it every time you

@@ -17,9 +17,9 @@ they worked. As you might expect, I ended up running into some problems,
 especially with the `this` keyword.
 
 `this` can get a bit confusing sometimes as its value varies
-depending on the function\'s execution context, and on the mode (strict
+depending on the function's execution context, and on the mode (strict
 or non-strict). Much has been written about the ins and outs of that so
-I\'ll just focus on one thing:
+I'll just focus on one thing:
 
 ## How `this` works in arrow functions
 
@@ -39,7 +39,7 @@ const brunch = {
 Calling `brunch.order()` will return
 `"I'll have the Dim sum with Jasmine tea please."`
 
-Let\'s edit that and use an arrow function for `order:`:
+Let's edit that and use an arrow function for `order:`:
 
 ```javascript
 const brunch = {
@@ -56,7 +56,7 @@ This time, calling `brunch.order()` returns
 `this.food` and `this.beverage` return
 `undefined`.
 
-It worked with the normal function, so what\'s going on? In the normal
+It worked with the normal function, so what's going on? In the normal
 function, `this` was our `order` object. When
 using an arrow function, `this` is not bound to anything and
 it just inherits from the parent scope which in this case is the window.
@@ -67,7 +67,7 @@ which will obviously both be `undefined`.
 
 Arrow functions are therefor not suited as object methods.
 
-Another common problem area would be with event handlers. Here\'s an
+Another common problem area would be with event handlers. Here's an
 example:
 
 ```html
@@ -112,7 +112,7 @@ arrow function:
 </script>
 ```
 
-and `this` becomes the browser\'s `window`
+and `this` becomes the browser's `window`
 attribute. Clicking the button will give a `TypeError` error.
 If you rely on `this` in an event hanlder, a regular function
 may be necessary.

@@ -6,7 +6,7 @@ tags:
   - python
 ---
 
-A lot of times when I\'m using `if` in Python, I find myself
+A lot of times when I'm using `if` in Python, I find myself
 wondering whether to use `is` or `==` for the
 check.
 
@@ -20,13 +20,13 @@ if a == b:
     ...
 ```
 
-It can be a bit confusing if you\'re new to Python, and it\'s easy to
-assume the two can be used interchangeably. So, what\'s the difference?
+It can be a bit confusing if you're new to Python, and it's easy to
+assume the two can be used interchangeably. So, what's the difference?
 
 ## `is`
 
 The `is` operator checks if both elements point to the same
-object. Let\'s fire up a python console to help illustrate this:
+object. Let's fire up a python console to help illustrate this:
 
 ```shell
 $ python3
@@ -47,7 +47,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 >>>
 ```
 
-So, we\'ve declared three variables and assigned them values.
+So, we've declared three variables and assigned them values.
 `a` and `b` are both empty lists, and
 `c = a`. We can see that all three variables contain an empty
 list. Using `is` to compare them:
@@ -62,7 +62,7 @@ True
 ```
 
 Despite the fact that `a` and `b` seem identical
-(in that they\'re both empty lists), the variables `a` and
+(in that they're both empty lists), the variables `a` and
 `b` do not point to the same object, therefore
 `a is b` evaluates to `False`. The same goes for
 `b is c`.
@@ -74,7 +74,7 @@ Conversely, because we assigned the variable `a` to
 ## `==`
 
 `==` on the other hand checks if both elements contain equal
-values. Whether or not they point to the same object doesn\'t matter
+values. Whether or not they point to the same object doesn't matter
 here.
 
 ```shell
@@ -93,5 +93,5 @@ equal. If `d = [1, 2, 3]` is introduced, `a =` d=,
 `False`, because the values are not equal.
 
 So if you want to check that elements point to the same object, use
-`is`. If you\'re only interested in the equality of the
+`is`. If you're only interested in the equality of the
 values, use `==`.

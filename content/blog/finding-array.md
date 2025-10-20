@@ -6,9 +6,9 @@ tags:
   - javascript
 ---
 
-This\'ll be a quick one.
+This'll be a quick one.
 
-Say you want to check if a specific element exists in an array. There\'s
+Say you want to check if a specific element exists in an array. There's
 a couple of ways to do that:
 
 ## ES5

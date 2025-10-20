@@ -50,7 +50,7 @@ value although it gets redefined within `someFunction` and
 
 Now here is where it can get a bit tricky. With that knowledge in mind,
 it is easy to assume that this would always be the case whenever we have
-code blocks. Except, it doesn\'t work the same with `if/else`
+code blocks. Except, it doesn't work the same with `if/else`
 statements and `for` loops.
 
 ```javascript

@@ -19,15 +19,15 @@ If all this is completely new to you, take a look at the [mdn web
 docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions)
 for more info.
 
-For this post, I\'ll focus on one of the easier (and very useful) ways
+For this post, I'll focus on one of the easier (and very useful) ways
 you can use regex.
 
 ## Lookaheads: match a string depending on what follows it
 
 ### Format: `x(?=y)`
 
-`x(?=y)` matches \'x\' only if \'x\' is followed by \'y\'.
-Let\'s see an example:
+`x(?=y)` matches 'x' only if 'x' is followed by 'y'.
+Let's see an example:
 
 ```javascript
 // check to see if we have the right 'Kanye'
@@ -39,12 +39,12 @@ Let\'s see an example:
 ```
 
 You can also do `/Kanye(?` West \| East)/= to match Kanye if
-it\'s followed by either \'East\' or \'West\'.
+it's followed by either 'East' or 'West'.
 
 ### Format: `x(?!y)`
 
-`x(?!y)` performs the inverse operation, matching \'x\' only
-if \'x\' is **not** followed by \'y\'. This is called a negated
+`x(?!y)` performs the inverse operation, matching 'x' only
+if 'x' is **not** followed by 'y'. This is called a negated
 lookahead.
 
 ```javascript
@@ -64,7 +64,7 @@ lookahead.
 
 ### Format: `(?<=y)x`
 
-`(?<=y)x` matches \'x\' only if it\'s preceded by \'y\'
+`(?<=y)x` matches 'x' only if it's preceded by 'y'
 
 ```javascript
 // check to see if we have the right 'Kanye West'
@@ -77,8 +77,8 @@ lookahead.
 
 ### Format: `(?<!y)x`
 
-`(?<!y)x` matches \'x\' only if it\'s **not** preceded by
-\'y\'
+`(?<!y)x` matches 'x' only if it's **not** preceded by
+'y'
 
 ```javascript
 // check to see if we have another 'West'
@@ -89,5 +89,5 @@ lookahead.
 /(?<! Kanye) West/.test('I heard Kanye West will be performing tonight') // false
 ```
 
-Regex might be a bit hard to master, but once you do, you\'ll find that
+Regex might be a bit hard to master, but once you do, you'll find that
 it makes working with strings so much easier.

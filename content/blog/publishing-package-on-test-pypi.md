@@ -8,10 +8,10 @@ tags:
   - tutorial
 ---
 
-If you\'re just creating a package for learning purposes, there\'s no
+If you're just creating a package for learning purposes, there's no
 need (IMO) to pollute the official PyPi index with it. Also, you may
 want to release a package to a select number of users for testing before
-you actually release it officially. For these purposes, you\'re better
+you actually release it officially. For these purposes, you're better
 off using [TestPyPi](https://test.pypi.org/):
 
 > a separate instance of the Python Package Index that allows you to try
@@ -19,18 +19,18 @@ off using [TestPyPi](https://test.pypi.org/):
 
 ## Uploading to TestPyPi
 
-For the final part of this series, I\'ll upload the app we created on
+For the final part of this series, I'll upload the app we created on
 TestPyPi. Here are the steps to follow:
 
 ### 1. Create an account on TestPyPi
 
-You\'ll need an account to continue so head over to
+You'll need an account to continue so head over to
 <https://test.pypi.org/> and create one.
 
 ### 2. Update `setup.py`
 
 We kept the `setup.py` file very simple during development.
-Now we\'ll need to add some details to make it ready for publishing.
+Now we'll need to add some details to make it ready for publishing.
 
 ```python
 from setuptools import setup, find_packages

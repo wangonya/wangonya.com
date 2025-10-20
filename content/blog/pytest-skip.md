@@ -9,13 +9,13 @@ tags:
 ---
 
 Sometimes you might want to skip a particular test while executing
-others for some reason. Maybe the database guy isn\'t done setting up
+others for some reason. Maybe the database guy isn't done setting up
 and that particular test requires a database connection. Instead of
 having to wait, you can just write the test and instruct pytest to skip
-it, giving the appropriate reason so it doesn\'t look like you just
+it, giving the appropriate reason so it doesn't look like you just
 skipped a failing test to keep your test suite green.
 
-There\'s a couple of ways to do this.
+There's a couple of ways to do this.
 
 The simplest is to use the `@pytest.mark.skip` decorator like
 so:
@@ -54,7 +54,7 @@ SKIP [1] skip.py:14: just testing if skip works
 =================== 1 passed, 1 skipped in 0.02 seconds ==========
 ```
 
-The test above was skipped even before it started. This isn\'t always
+The test above was skipped even before it started. This isn't always
 ideal. You can have more control over how the test is skipped by using
 the `pytest.skip(reason)` function:
 

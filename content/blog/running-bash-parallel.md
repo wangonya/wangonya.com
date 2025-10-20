@@ -28,5 +28,5 @@ This will:
 - Send it to background, but keep printing its output.
 - Start prog2, and keep it in foreground, so you can close it with
   ctrl-c.
-- When you close prog2, you\'ll return to prog1\'s foreground, so you
+- When you close prog2, you'll return to prog1's foreground, so you
   can also close it with ctrl-c.

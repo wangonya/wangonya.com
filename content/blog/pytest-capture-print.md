@@ -14,7 +14,7 @@ reason. I mostly do this kind of thing when testing for database
 connections where, in addition to other tests, I want to make sure I see
 that \"Database connection successful\" message.
 
-Let\'s demonstrate with a simple example:
+Let's demonstrate with a simple example:
 
 ```python
 def add_numbers(num1, num2):
@@ -98,7 +98,7 @@ print.py:11: AssertionError
 ======================== 1 failed in 0.09 seconds =======================
 ```
 
-It\'s important to note that each `readouterr()` call
+It's important to note that each `readouterr()` call
 snapshots the output so far, so we can call it repeatedly, checking the
 output of our test step by step.
 

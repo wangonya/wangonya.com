@@ -8,21 +8,21 @@ tags:
   - pytest
 ---
 
-Tests tend to not always be so DRY, which isn\'t necessarily a bad
+Tests tend to not always be so DRY, which isn't necessarily a bad
 thing.
 
 [This](https://stackoverflow.com/a/129722/9312256) SO answer sums it up
 nicely:
 
 > Readability is more important for tests. If a test fails, you want the
-> problem to be obvious. The developer shouldn\'t have to wade through a
+> problem to be obvious. The developer shouldn't have to wade through a
 > lot of heavily factored test code to determine exactly what failed.
-> You don\'t want your test code to become so complex that you need to
+> You don't want your test code to become so complex that you need to
 > write unit-test-tests.
 >
 > However, eliminating duplication is usually a good thing, as long as
-> it doesn\'t obscure anything, and eliminating the duplication in your
-> tests may lead to a better API. Just make sure you don\'t go past the
+> it doesn't obscure anything, and eliminating the duplication in your
+> tests may lead to a better API. Just make sure you don't go past the
 > point of diminishing returns.
 
 Pytest gives some ways to reduce duplication with fixtures.
@@ -42,7 +42,7 @@ like this:
 /report/sheet-d
 ```
 
-Let\'s take a simple test case: checking that the endpoints return
+Let's take a simple test case: checking that the endpoints return
 `200` when called.
 
 ```python
@@ -116,7 +116,7 @@ Everything else remains the same.
 Given that all the sheets belong to one report, we can refactor the
 tests to reduce duplication without sacrificing readability.
 
-Here\'s how the tests can be rewritten using [Pytest
+Here's how the tests can be rewritten using [Pytest
 parametrize](https://docs.pytest.org/en/stable/parametrize.html#parametrize-basics):
 
 ```python

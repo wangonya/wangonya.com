@@ -7,7 +7,7 @@ tags:
 ---
 
 Often when working with collections of data, you may want to find the
-smallest or largest item. It\'s easy enough to write a function that
+smallest or largest item. It's easy enough to write a function that
 iterates through the items and returns the smallest or largest one, or
 use the builtin `min()`, `max()`, or
 `sorted()` functions. Another interesting way may be

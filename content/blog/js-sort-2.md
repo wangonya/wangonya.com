@@ -7,7 +7,7 @@ tags:
   - algorithms
 ---
 
-I\'m going to show Javascript implementations of three more sorting
+I'm going to show Javascript implementations of three more sorting
 algorithms:
 
 - Quick sort
@@ -15,11 +15,11 @@ algorithms:
 - Counting sort
 
 Again, this is not intended to be an in-depth explanation on the ins and
-outs of how the algorithms work and their performance. If you\'d rather
-read about that, here\'s a nice resource I found: [Sorting
+outs of how the algorithms work and their performance. If you'd rather
+read about that, here's a nice resource I found: [Sorting
 Algorithms](https://brilliant.org/wiki/sorting-algorithms/)
 
-To keep things simple, I\'ll be sorting a simple list `list`
+To keep things simple, I'll be sorting a simple list `list`
 having only 5 elements `[4, 2, 3, 1, 5]`.
 
 ## Quick Sort
@@ -33,8 +33,8 @@ until the complete list is sorted.
 
 Visual
 
-The visual on this wasn\'t very clear in illustrating how the algorithm
-actually works so [here\'s a
+The visual on this wasn't very clear in illustrating how the algorithm
+actually works so [here's a
 video](https://www.youtube.com/watch?v=PgBzjlCcFvc) instead.
 
 Code
@@ -138,10 +138,10 @@ console.log(list);
 
 ## Counting Sort
 
-You\'ll find counting sort to be rather unique compared to the
-algorithms we\'ve covered so far. This is because it does not compare
+You'll find counting sort to be rather unique compared to the
+algorithms we've covered so far. This is because it does not compare
 elements while sorting. It works based on numeric keys. It does this by
-creating a counting array, then using it to determine an element\'s
+creating a counting array, then using it to determine an element's
 correct position.
 
 Visual

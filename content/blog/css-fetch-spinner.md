@@ -8,13 +8,13 @@ tags:
 ---
 
 I always have to search for how to do this or refer back to my previous
-code whenever I work with `fetch`. For a while, I\'ve used
+code whenever I work with `fetch`. For a while, I've used
 the solution to
 [this](https://stackoverflow.com/questions/43792026/display-spinner-during-ajax-call-when-using-fetch-api)
-SO question. It\'s a correct solution and it works great but to be
-honest, I couldn\'t really explain _very well_ what was going on if
+SO question. It's a correct solution and it works great but to be
+honest, I couldn't really explain _very well_ what was going on if
 someone asked me to explain that piece of my code. So I thought of a
-simple way to do it. Here\'s how:
+simple way to do it. Here's how:
 
 ## Setting up the HTML
 
@@ -27,7 +27,7 @@ simple way to do it. Here\'s how:
 ```
 
 The spinner visibility is hidden by default using the built-in
-`hidden` attribute. This is the element we\'ll manipulate in
+`hidden` attribute. This is the element we'll manipulate in
 order to show and hide it as desired.
 
 ## Creating the CSS spinner
@@ -83,10 +83,10 @@ function loadData() {
 
 When the `loadData` function is called, it removes the
 `hidden` attribute
-(`spinner.removeAttribute('hidden')`). I\'ve set the delay to
+(`spinner.removeAttribute('hidden')`). I've set the delay to
 5 seconds (`mocky-delay=5000ms`) so we can see the spinner in
 action. After that, the `hidden` attribute is restored
 (`spinner.setAttribute('hidden', '')`), hiding the spinner.
 Ideally, this would happen after the data being fetched is returned.
 
-Here\'s the [pen](https://codepen.io/wang0nya/pen/bzwQPr)
+Here's the [pen](https://codepen.io/wang0nya/pen/bzwQPr)

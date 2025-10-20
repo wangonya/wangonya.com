@@ -9,9 +9,9 @@ tags:
 
 Saw this in the [MySQL
 docs](https://dev.mysql.com/doc/refman/8.0/en/entering-queries.html).
-I\'m assuming this only works for relational databases.
+I'm assuming this only works for relational databases.
 
-I don\'t know if it\'s very useful but definitely interesting.
+I don't know if it's very useful but definitely interesting.
 
 ```sql
 MariaDB[] > SELECT SIN(PI()/4), (4+1)*5;

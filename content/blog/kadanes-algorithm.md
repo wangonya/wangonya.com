@@ -20,7 +20,7 @@ problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem).
 
 ## Caveats [^1], [^2]
 
-- Kadane\'s Algorithm requires at least one positive number, so an
+- Kadane's Algorithm requires at least one positive number, so an
   input of all negative numbers would be invalid.
 - If the array contains all non-negative numbers, then the problem is
   trivial; a maximum subarray is the entire array.
@@ -29,7 +29,7 @@ problem](https://en.wikipedia.org/wiki/Maximum_subarray_problem).
   the empty subarray (which has sum 0), if it is permitted).
 - Several different sub-arrays may have the same maximum sum.
 
-### Solving [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) with Kadane\'s Algorithm
+### Solving [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) with Kadane's Algorithm
 
 Slightly tweak the algorithm to track max profit and min price.
 

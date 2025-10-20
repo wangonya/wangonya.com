@@ -8,11 +8,11 @@ tags:
   - python-click
 ---
 
-For the next phase in this series, we\'ll learn how to make a CLI app to
+For the next phase in this series, we'll learn how to make a CLI app to
 perform CRUD operations, i.e, Creating, Retrieving, Updating and
-Deleting data. We\'ll use Firebase to store our data.
+Deleting data. We'll use Firebase to store our data.
 
-### What we\'ll create
+### What we'll create
 
 A `contacts` app with the following functionality:
 
@@ -65,17 +65,17 @@ After signing in successfully, click on the **Go to console** button on
 the top right. There, you can create a new project. Follow the required
 steps to create a new project.
 
-Once the project is created, you\'ll see a **Develop** sidebar on the
+Once the project is created, you'll see a **Develop** sidebar on the
 left. Click on **Database** to set up the database. **Cloud Firestore**
-will be displayed as the first option but that\'s not what we\'ll be
-using. Scroll down and you\'ll see a **Realtime Database** option. Click
-on **Create database**. Next, you\'ll be presented with the security
+will be displayed as the first option but that's not what we'll be
+using. Scroll down and you'll see a **Realtime Database** option. Click
+on **Create database**. Next, you'll be presented with the security
 options.
 
 ![Firebase security rules
 options](https://res.cloudinary.com/practicaldev/image/fetch/s--NW18o5Cl--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/oxot8m2sd0u5k68byq5k.png)
 
-Since we\'ll not be handling authentication, choose **Start in test
+Since we'll not be handling authentication, choose **Start in test
 mode** for the security rules. Your database is now created 🎉
 
 ![Empty firebase
@@ -96,8 +96,8 @@ result](https://res.cloudinary.com/practicaldev/image/fetch/s--kRzFTe1G--/c_limi
 
 ### App setup
 
-We\'ve already gone through the basics of setting up in previous posts
-so I won\'t go into much detail on that. Here are the steps:
+We've already gone through the basics of setting up in previous posts
+so I won't go into much detail on that. Here are the steps:
 
 ```shell
 $ mkdir contacts-cli
@@ -121,7 +121,7 @@ $ . env/bin/activate
 
 This is where the api endpoint url will be stored. Firebase [provides a
 REST API](https://firebase.google.com/docs/reference/rest/database) for
-the database so that\'s what we\'ll use. If you already followed the
+the database so that's what we'll use. If you already followed the
 steps and created the database, just grab the link provided at the top
 of the database and set it in your `.env` file.
 
@@ -205,7 +205,7 @@ def add(name, mobile):
     click.echo(response.json())
 ```
 
-You\'ll notice that I used `PUT` for the request instead of
+You'll notice that I used `PUT` for the request instead of
 `POST`. I did this to avoid generating unique IDs for my data
 on Firebase. Feel free to use `POST` instead and see how you
 can work with the generated UIDs.
@@ -226,7 +226,7 @@ Options:
   --help             Show this message and exit.
 ```
 
-Let\'s add a new contact:
+Let's add a new contact:
 
 ```shell
 (env) $ contacts add Chris -m 34243234
@@ -249,7 +249,7 @@ def list():
     """
     response = requests.get('{}/contacts.json'
                             .format(os.getenv('URL')))
-    click.echo('Here\'s a list of all your contacts:')
+    click.echo('Here's a list of all your contacts:')
     click.echo(response.json())
 ```
 
@@ -283,7 +283,7 @@ def view(name):
 
 The `view` command is similar to `list`, except it
 takes a `name` argument and adds it to the url to return the
-contact for that name only. If the name doesn\'t exist in the database,
+contact for that name only. If the name doesn't exist in the database,
 `null` is returned. We take advantage of that in the
 `if` block to return the appropriate response.
 
@@ -314,9 +314,9 @@ def update(name, mobile):
     click.echo(response.json())
 ```
 
-This works exactly the same to the create command, except we\'re using
+This works exactly the same to the create command, except we're using
 `PATCH` instead of `PUT` (which apparently,
-doesn\'t make any difference here. Making a `PATCH` on a
+doesn't make any difference here. Making a `PATCH` on a
 non-existent node creates it, just like `PUT` would do. Try
 it out.)
 
@@ -328,7 +328,7 @@ Contact updated!
 
 ### And finally, deleting a contact
 
-Similar to the `view` command. The only change we\'ll make is
+Similar to the `view` command. The only change we'll make is
 using `DELETE` instead of `GET`.
 
 ```python
@@ -345,10 +345,10 @@ def delete(name):
     click.echo('Contact deleted!')
 ```
 
-`null` is returned on successful deletion so we don\'t
+`null` is returned on successful deletion so we don't
 require to return `response`. The `request` is
 called directly, and a success message is shown afterwords. This can be
-done better but it\'ll do for now.
+done better but it'll do for now.
 
 ```shell
 (env) $ contacts delete Peter
@@ -359,4 +359,4 @@ I meant to cover exporting (writing) the data to a local JSON file or
 sqlite database, but this post is already too long. These are
 interesting things to try if you want to learn more.
 
-In the next post, we\'ll add tests to the app using pytest.
+In the next post, we'll add tests to the app using pytest.

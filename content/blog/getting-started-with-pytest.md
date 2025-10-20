@@ -8,17 +8,17 @@ tags:
   - tutorial
 ---
 
-Test-Driven Development is great. If you\'re a Pythonista, it gets even
+Test-Driven Development is great. If you're a Pythonista, it gets even
 better with pytest - a framework that makes building simple and scalable
 tests easy.
 
-In this series, I\'ll be exploring the cool features that pytest offers
+In this series, I'll be exploring the cool features that pytest offers
 to help make testing Python code a breeze.
 
 ## Preparing your python environment
 
-Let\'s set up our testing environment with `virtualenv`.
-We\'ll be working with Python 3. `cd` into your working
+Let's set up our testing environment with `virtualenv`.
+We'll be working with Python 3. `cd` into your working
 directory and create a new virtual environment:
 
 ```shell
@@ -37,7 +37,7 @@ source env/bin/activate
 pip install pytest
 ```
 
-That\'s all you need to do to get pytest ready. You can check the
+That's all you need to do to get pytest ready. You can check the
 installed version by running:
 
 ```shell
@@ -59,8 +59,8 @@ def test_hello():
     assert hello_world("World!") == "Hello World!"
 ```
 
-You\'ll notice that our test function name begins with the word _test_.
-That\'s how pytest discoveres test methods. Also, :
+You'll notice that our test function name begins with the word _test_.
+That's how pytest discoveres test methods. Also, :
 
 - Test files should be named `test_<something>.py` or
   `<something>_test.py`
@@ -82,8 +82,8 @@ hello.py:6: AssertionError
 ```
 
 Pytest shows why the test failed:
-`AssertionError: assert None =` \'Hello World!'=. Obviously,
-we have no code in our hello function so let\'s fix that.
+`AssertionError: assert None =` 'Hello World!'=. Obviously,
+we have no code in our hello function so let's fix that.
 
 ```python
 def hello_world(name):
@@ -102,6 +102,6 @@ hello.py .                       [100%]
 ==================== 1 passed in 0.04 seconds ======================
 ```
 
-As you can see, it\'s pretty easy to get started with testing in python
-with pytest. Now that we have everything set up, we\'ll be going into
+As you can see, it's pretty easy to get started with testing in python
+with pytest. Now that we have everything set up, we'll be going into
 more advanced features as the series continues.

@@ -12,8 +12,8 @@ tags:
 [Arch Linux MariaDB docs](https://wiki.archlinux.org/title/MariaDB)
 
 > MariaDB is a reliable, high performance and full-featured database
-> server which aims to be an \'always Free, backward compatible,
-> drop-in\' replacement of MySQL. Since 2013 MariaDB is Arch Linux\'s
+> server which aims to be an 'always Free, backward compatible,
+> drop-in' replacement of MySQL. Since 2013 MariaDB is Arch Linux's
 > default implementation of MySQL.
 
 ## Install

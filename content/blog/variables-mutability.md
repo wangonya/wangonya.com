@@ -57,7 +57,7 @@ to be changed somewhere else.
 ## Shadowing
 
 Instead of making a variable mutable and reassigning it directly, rust
-provides another technique known as shadowing. Here\'s an example:
+provides another technique known as shadowing. Here's an example:
 
 ```rust
 fn main() {
@@ -71,11 +71,11 @@ fn main() {
 ```
 
 `var` remains immutable all through so trying to attach any
-value to it without using `let` to tell Rust you\'re
+value to it without using `let` to tell Rust you're
 shadowing will not work.
 
 Shadowing also allows changing the variable data type - something that
-making a variable mutable doesn\'t allow. An example of when to use this
+making a variable mutable doesn't allow. An example of when to use this
 would be when writing a program that accepts a string and returns the
 number of characters in that string.
 

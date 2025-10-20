@@ -9,8 +9,8 @@ tags:
 
 In our previous post, we made a Hello World! app to get us started with
 Click. You might have noticed though that we needed to do
-`python hello-world.py` to run it. Since we\'re building CLI
-apps, that\'s just not cool and it\'s not how CLI apps work anyway. We
+`python hello-world.py` to run it. Since we're building CLI
+apps, that's just not cool and it's not how CLI apps work anyway. We
 need to be able to run a single command, something like:
 
 ```shell
@@ -18,7 +18,7 @@ need to be able to run a single command, something like:
 Hello World!
 ```
 
-That\'s where [setuptools](https://setuptools.readthedocs.io/en/latest/)
+That's where [setuptools](https://setuptools.readthedocs.io/en/latest/)
 comes in. Setuptools helps us bundle our script so we can install it and
 run it like an app (`$ hello`), instead of like a script
 (`$ python hello-world.py`).
@@ -28,10 +28,10 @@ run it like an app (`$ hello`), instead of like a script
 > packages, especially ones that have dependencies on other packages. -
 > Docs
 
-The first thing we\'ll need to do is add a new file to our project and
-call it `setup.py`. We\'ll also rename
+The first thing we'll need to do is add a new file to our project and
+call it `setup.py`. We'll also rename
 `hello-world.py` to `helloworld.py` (remove the
-dash). I\'ll explain why this is necessary when we get to the
+dash). I'll explain why this is necessary when we get to the
 `setup()` section. Our project structure should now look like
 this:
 
@@ -42,7 +42,7 @@ hello-world-cli
 ```
 
 In the `helloworld.py`, remove the `if __name__ =`
-\'[[main]{.underline}]{.underline}\':= section. The code should now look
+'[[main]{.underline}]{.underline}':= section. The code should now look
 like this:
 
 ```python
@@ -71,7 +71,7 @@ setup(
 )
 ```
 
-Let\'s examine what each line of code does.
+Let's examine what each line of code does.
 
 ```python
 from setuptools import setup
@@ -87,7 +87,7 @@ parameters:
 name='hello-world-cli'
 ```
 
-This\'ll be the name of our CLI app.
+This'll be the name of our CLI app.
 
 ```python
 py_modules=['helloworld']
@@ -96,7 +96,7 @@ py_modules=['helloworld']
 This tells the `setup()` where to find our main module to
 execute. Our main file here is `helloworld.py` so we set
 `helloworld` as the module. We can keep it that simple since
-we only have one file for now, but as our app grows we\'ll replace
+we only have one file for now, but as our app grows we'll replace
 `py_modules` with `packages=find_packages()`. More
 on that later.
 
@@ -121,10 +121,10 @@ This is the part that saves us the hassle of having to run the app with
 `python ...` everytime, and enables us to just execute
 `hello` to run it.
 
-It\'s important to note that if we maintained our previous name
+It's important to note that if we maintained our previous name
 (`hello-world.py`), the `setup` would have failed
 at `entry_points`. This is because python module names
-shouldn\'t have dashes.
+shouldn't have dashes.
 
 We can now install our app in our environment and run it. To install it,
 run:

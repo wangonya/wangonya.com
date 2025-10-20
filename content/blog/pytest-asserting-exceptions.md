@@ -9,14 +9,14 @@ tags:
 ---
 
 First time I had someone review my pull requests, she was pretty strict
-on tests. I couldn\'t merge if the tests were failing, of course. But I
-also couldn\'t merge if coverage had decreased. TDD was still new to me
+on tests. I couldn't merge if the tests were failing, of course. But I
+also couldn't merge if coverage had decreased. TDD was still new to me
 so maintaining coverage was a challenge since I was only testing the
 bare minimum I could. I had to find out how to make my tests more robust
 and ensure as much of my code was tested as possible. One area that I
-wasn\'t really sure how to test was the custom exceptions I had written.
+wasn't really sure how to test was the custom exceptions I had written.
 
-Here\'s an example:
+Here's an example:
 
 ```python
 # login.py
@@ -30,12 +30,12 @@ def test_email_exception():
     pass
 ```
 
-This is probably something you want to do if you\'re implementing a
+This is probably something you want to do if you're implementing a
 system with email authentication. The example is oversimplified, but it
 serves the purpose of this post well.
 
 To test for raised exceptions, pytest offers a handy method:
-`pytest.raises`. Let\'s see how to use it in our example:
+`pytest.raises`. Let's see how to use it in our example:
 
 ```python
 import re

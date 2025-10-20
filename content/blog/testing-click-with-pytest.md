@@ -9,11 +9,11 @@ tags:
   - pytest
 ---
 
-It\'s good practice to, as much as possible, write tests for your code.
-If you\'re working with Python, [pytest](https://pytest.org/en/latest/)
+It's good practice to, as much as possible, write tests for your code.
+If you're working with Python, [pytest](https://pytest.org/en/latest/)
 makes the process of writing and running tests much smoother. I wrote a
 few posts some time back on getting started with testing with pytest, so
-if you\'re completely new to it, you might want to take a look at them:
+if you're completely new to it, you might want to take a look at them:
 
 - [Getting started with
   pytest](https://wangonya.com/blog/getting-started-with-pytest/)
@@ -28,7 +28,7 @@ For testing CLI apps, Click provides a convenient module:
 `CliRunner()`) to help us invoke commands and check their
 behavior.
 
-We\'ll go ahead and test each part of [our
+We'll go ahead and test each part of [our
 app](https://wangonya.com/blog/cli-crud-with-firebase/) - creating,
 reading, updating and deleting.
 
@@ -71,7 +71,7 @@ tests/test_app.py .                              [100%]
 
 ### Testing the `add` command
 
-Let\'s edit the test_app file to add a test to see if the
+Let's edit the test_app file to add a test to see if the
 `add` command adds a new contact:
 
 ```python
@@ -111,11 +111,11 @@ The rest of the tests will pretty much follow the same format.
 def test_list():
     response = runner.invoke(list)
     assert response.exit_code == 0
-    assert "Here\'s a list of all your contacts:" in response.output
+    assert "Here's a list of all your contacts:" in response.output
     assert "'test-user': {'mobile': '0'}" in response.output
 ```
 
-The list command doesn\'t take any arguments or options so we just call
+The list command doesn't take any arguments or options so we just call
 it directly: `response = runner.invoke(list)`.
 
 ### Testing the `view` command

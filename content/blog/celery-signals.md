@@ -7,7 +7,7 @@ tags:
   - celery
 ---
 
-If you\'re new to celery, [start
+If you're new to celery, [start
 here](https://docs.celeryq.dev/en/stable/getting-started/first-steps-with-celery.html#first-steps).
 
 Sometimes when using celery, you may want to get notified when a task
@@ -18,7 +18,7 @@ situations where
 [signals](https://docs.celeryq.dev/en/stable/userguide/signals.html)
 would come in handy.
 
-I\'ll create a simple file `tasks.py` and set up celery to
+I'll create a simple file `tasks.py` and set up celery to
 demonstrate how to use celery signals.
 
 ```python
@@ -49,7 +49,7 @@ Then run your tasks.py file and execute the `add` task:
 
 By default, what is returned is an
 [AsyncResult](https://docs.celeryq.dev/en/stable/reference/celery.result.html#celery.result.AsyncResult)
-instance but that\'s not what we\'re interested in. On the terminal with
+instance but that's not what we're interested in. On the terminal with
 your Celery worker running, you should see something similar to this:
 
 ```shell
@@ -62,7 +62,7 @@ The task executes successfully, and 8 is the result as expected.
 
 There are [a
 lot](https://docs.celeryq.dev/en/stable/userguide/signals.html#signals)
-of signals that celery offers but I\'ll focus on 4 simple ones to
+of signals that celery offers but I'll focus on 4 simple ones to
 demonstrate how signals work in general.
 
 1.  task_prerun

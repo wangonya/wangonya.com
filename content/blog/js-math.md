@@ -9,7 +9,7 @@ tags:
 Given that one of the main reason computers were invented was to solve
 mathematical problems quickly, it is no wonder that all the modern
 programming languages are so rich in arithmetic-oriented methods. The
-earliest computers were basically just calculators. (_Yes, I\'m looking
+earliest computers were basically just calculators. (_Yes, I'm looking
 at you [Abacus](https://en.wikipedia.org/wiki/Abacus)_). If you dabble
 in Javascript (and a little math every now and then), you might find
 this useful. The very obvious operations like simple addition (+) and

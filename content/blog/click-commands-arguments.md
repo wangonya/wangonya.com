@@ -9,11 +9,11 @@ tags:
 ---
 
 Arguments work very similarly to
-[options](https://wangonya.com/blog/click-commands-options/). If you\'re
-familiar with functional programming, then you\'re familiar with
+[options](https://wangonya.com/blog/click-commands-options/). If you're
+familiar with functional programming, then you're familiar with
 arguments. The concept is the same in Click.
 
-Let\'s edit our code a bit to see how we can integrate arguments.
+Let's edit our code a bit to see how we can integrate arguments.
 
 ```python
 # helloworld.py
@@ -41,8 +41,8 @@ arguments.
 ```
 
 We specify that `hello()` should expect an argument
-`person` to be passed in when it\'s called, and add a default
-value so that it\'s ok to call the command without passing in the
+`person` to be passed in when it's called, and add a default
+value so that it's ok to call the command without passing in the
 argument.
 
 Saving and running the app gives the following results:
