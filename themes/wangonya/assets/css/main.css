@@ -16,7 +16,8 @@ pre {
   overflow-x: auto;
 }
 
-code {
+pre,
+pre code {
   font-family: monospace;
   font-size: 0.95em;
 }
