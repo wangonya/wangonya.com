@@ -20,6 +20,8 @@ pre,
 pre code {
   font-family: monospace;
   font-size: 0.95em;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 img {
