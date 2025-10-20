@@ -36,14 +36,17 @@ reading, updating and deleting.
 
 pytest can be installed via pip:
 
-    (env) $ pip install pytest
+```shell
+(env) $ pip install pytest
+```
 
 After installing pytest, create a tests folder in the root directory and
 add the first test file:
+```shell
+(env) $ mkdir tests && cd tests
 
-    (env) $ mkdir tests && cd tests
-
-    (env) $ touch test_app.py
+(env) $ touch test_app.py
+```
 
 In the test_app file, add the following code for a start:
 
