@@ -65,12 +65,12 @@ lot](https://docs.celeryq.dev/en/stable/userguide/signals.html#signals)
 of signals that celery offers but I\'ll focus on 4 simple ones to
 demonstrate how signals work in general.
 
-1.  task~prerun~
-2.  task~postrun~
-3.  task~success~
-4.  task~failure~
+1.  task_prerun
+2.  task_postrun
+3.  task_success
+4.  task_failure
 
-### task~prerun~ {#task_prerun}
+### task_prerun {#task_prerun}
 
 This signal is dispatched **before** a task is executed.
 
@@ -102,7 +102,7 @@ output on the celery terminal:
 
 Just before the task runs, the signal dispatches and prints as expected.
 
-### task~postrun~ {#task_postrun}
+### task_postrun {#task_postrun}
 
 Dispatched **after** a task has been executed.
 
@@ -132,7 +132,7 @@ Running this should give the following result:
 [2020-11-03 17:03:51,657: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, done!
 ```
 
-### task~success~ {#task_success}
+### task_success {#task_success}
 
 Dispatched when a task succeeds.
 
@@ -169,7 +169,7 @@ Result:
 [2020-11-03 17:40:47,282: WARNING/ForkPoolWorker-2] From task_postrun_notifier ==> Ok, done!
 ```
 
-### task~failure~ {#task_failure}
+### task_failure {#task_failure}
 
 Dispatched when a task fails.
 

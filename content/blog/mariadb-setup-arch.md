@@ -37,7 +37,7 @@ $ systemctl enable mariadb.service
 
 ## Add user
 
-> In the below example, the user monty with some~pass~ as password is
+> In the below example, the user monty with some_pass as password is
 > being created, then granted full permissions to the database mydb:
 
 ```shell

@@ -45,7 +45,7 @@ add the first test file:
 
     (env) $ touch test_app.py
 
-In the test~app~ file, add the following code for a start:
+In the test_app file, add the following code for a start:
 
 ```python
 def test_add():
@@ -68,7 +68,7 @@ tests/test_app.py .                              [100%]
 
 ### Testing the `add` command
 
-Let\'s edit the test~app~ file to add a test to see if the
+Let\'s edit the test_app file to add a test to see if the
 `add` command adds a new contact:
 
 ```python
