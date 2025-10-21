@@ -29,4 +29,4 @@ This makes sense when you think about it because comparisons can't be carried ou
 SELECT * FROM table WHERE (LOWER(competitor_type) != "non-competitor" OR competitor_type IS NULL);
 ```
 
-This can also be handled by using `COALESCE` to get values from `NULL`, or by using the NULL -safe equal `<=>`, but I think it's a lot more clear to just check for `NULL` explicitly.
+This can also be handled by using `COALESCE` to get values from `NULL`, or by using the NULL-safe equal `<=>`, but I think it's a lot more clear to just check for `NULL` explicitly.
