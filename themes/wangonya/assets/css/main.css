@@ -1,10 +1,10 @@
 body {
   color: #222;
-  font-family: Georgia, serif;
+  font-family: "PT Serif", Georgia, serif;
   line-height: 1.5;
   margin: 1rem;
   max-width: 768px;
-  margin: 0 auto;
+  margin: 10px auto;
   padding: 20px;
 }
 
