@@ -1,8 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 body {
   color: #222;
   font-family: "PT Serif", Georgia, serif;
   line-height: 1.5;
-  margin: 1rem;
   max-width: 768px;
   margin: 10px auto;
   padding: 20px;
@@ -18,9 +27,12 @@ pre {
 
 pre,
 pre code {
-  font-family: monospace;
+  font-family: "Fira Code", "Fira Mono", "Menlo", "Consolas", "Liberation Mono", "Monaco", monospace;
   -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
   text-size-adjust: none;
+  font-size: 0.9em;
 }
 
 img {
@@ -33,7 +45,13 @@ table {
   border-collapse: collapse;
 }
 
-th,
+th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  background-color: #f9f9f9;
+}
+
 td {
   border: 1px solid #ddd;
   padding: 8px;
@@ -45,8 +63,9 @@ footer {
   justify-content: center;
 }
 
-.blog-list {
-  list-style: none;
+ul.blog-list,
+ol.blog-list {
+  list-style-type: none;
   padding: 0;
 }
 
@@ -54,9 +73,23 @@ footer {
   padding-right: 5px;
 }
 
-.horizontal-list {
-  list-style: none;
+ul.horizontal-list,
+ol.horizontal-list {
+  list-style-type: none;
   padding: 0;
   display: flex;
   gap: 1rem;
+}
+
+@supports not (gap: 1rem) {
+
+  ul.horizontal-list>li,
+  ol.horizontal-list>li {
+    margin-right: 1rem;
+  }
+
+  ul.horizontal-list>li:last-child,
+  ol.horizontal-list>li:last-child {
+    margin-right: 0;
+  }
 }
