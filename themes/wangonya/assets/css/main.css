@@ -367,8 +367,12 @@ ol.horizontal-list {
     background-color: #3c3f41;
   }
 
-  a {
+  a:link {
     color: #8ab4f8;
+  }
+
+  a:visited {
+    color: #c58af9;
   }
 
   img {
