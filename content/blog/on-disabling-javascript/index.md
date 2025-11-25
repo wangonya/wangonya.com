@@ -6,6 +6,11 @@ tags:
   - personal
 ---
 
+> Update 2025-11-25: After trying this for about three weeks, I've found that disabling Javascript by default is really inconvenient.
+Many sites just don't work properly without it, and having to manually enable it every time is a hassle.
+I guess that's the tradeoff one would have to make in this case, but I probably just don't care enough at the moment
+to go ahead with this. Of course I might revisit this again later, but for now it's back to the default browsing experience.
+
 This is something I always knew you could do but never considered doing - until I came across [this site](https://マリウス.com/).
 I was browsing some pages on that site, and had to leave to check something else on a different tab.
 After a while, I noticed something weird with the tabs:
