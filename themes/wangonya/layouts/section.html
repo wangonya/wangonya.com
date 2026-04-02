@@ -1,12 +1,12 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-{{ range .Pages }}
 <ul class="blog-list">
+  {{ range .Pages }}
   <li class="blog-list-item">
     <span class="blog-list-date">{{ .Date.Format "01/06" }}</span>
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
   </li>
+  {{ end }}
 </ul>
-{{ end }}
 {{ end }}
