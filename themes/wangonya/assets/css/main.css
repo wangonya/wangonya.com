@@ -1,3 +1,8 @@
+html {
+  font-size: 100%;
+  box-sizing: border-box;
+}
+
 @font-face {
   font-family: "IBM Plex Sans";
   src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2");
@@ -38,10 +43,6 @@
   font-display: optional;
 }
 
-html {
-  box-sizing: border-box;
-}
-
 *,
 *:before,
 *:after {
@@ -51,10 +52,12 @@ html {
 body {
   color: #222;
   font-family: "IBM Plex Sans", sans-serif;
-  line-height: 1.5;
+  line-height: 1.62em;
+  padding: 0 2.5em;
+  margin: 3rem auto;
+  font-size: 0.9rem;
+  word-wrap: break-word;
   max-width: 768px;
-  margin: 10px auto;
-  padding: 20px;
 }
 
 header {
