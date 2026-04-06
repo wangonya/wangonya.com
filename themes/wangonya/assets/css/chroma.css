@@ -1,0 +1,62 @@
+/* Chroma CSS for style: bw */
+
+.chroma .lnlinks {
+  outline: none;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chroma .lntd {
+  vertical-align: top;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.chroma .lntable {
+  border-spacing: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.chroma .hl {
+  background-color: #e5e5e5;
+}
+
+.chroma .lnt,
+.chroma .ln {
+  white-space: pre;
+  -webkit-user-select: none;
+  user-select: none;
+  margin-right: 0.4em;
+  padding: 0 0.4em 0 0.4em;
+  color: #7f7f7f;
+}
+
+.chroma .line {
+  display: flex;
+}
+
+.chroma .k, .chroma .kc, .chroma .kd, .chroma .kn, .chroma .kr,
+.chroma .nc, .chroma .ni, .chroma .ne, .chroma .nn, .chroma .nt,
+.chroma .ow,
+.chroma .gh, .chroma .gp, .chroma .gs, .chroma .gu,
+.chroma .se, .chroma .si {
+  font-weight: bold;
+}
+
+.chroma .s, .chroma .sa, .chroma .sb, .chroma .sc, .chroma .dl,
+.chroma .sd, .chroma .s2, .chroma .sh, .chroma .sx, .chroma .sr,
+.chroma .s1, .chroma .ss,
+.chroma .c, .chroma .ch, .chroma .cm, .chroma .c1, .chroma .cs,
+.chroma .ge,
+.chroma .se, .chroma .si {
+  font-style: italic;
+}
+
+@media (prefers-color-scheme: dark) {
+  .chroma .hl {
+    background-color: #3c3f41;
+  }
+}
