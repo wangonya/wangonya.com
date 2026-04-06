@@ -1,5 +1,5 @@
 :root {
-  --font-mono: "IBM Plex Mono", "Menlo", "Consolas", monospace;
+  --font-mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
 }
 
 html {
@@ -7,46 +7,6 @@ html {
   box-sizing: border-box;
   -webkit-text-size-adjust: none;
   text-size-adjust: none;
-}
-
-@font-face {
-  font-family: "IBM Plex Sans";
-  src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "IBM Plex Sans";
-  src: url("/fonts/IBMPlexSans-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "IBM Plex Sans";
-  src: url("/fonts/IBMPlexSans-Bold.woff2") format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2");
-  font-weight: 400;
-  font-style: normal;
-  font-display: optional;
-}
-
-@font-face {
-  font-family: "IBM Plex Mono";
-  src: url("/fonts/IBMPlexMono-Italic.woff2") format("woff2");
-  font-weight: 400;
-  font-style: italic;
-  font-display: optional;
 }
 
 *,
@@ -57,7 +17,7 @@ html {
 
 body {
   color: #222;
-  font-family: "IBM Plex Sans", sans-serif;
+  font-family: system-ui, sans-serif;
   line-height: 1.62;
   padding: 0 2.5em;
   margin: 3rem auto;
