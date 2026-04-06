@@ -80,6 +80,7 @@ ol.blog-list {
 }
 
 .blog-list-date,
+.horizontal-list-label,
 time {
   font-family: var(--font-mono);
   font-size: 0.8em;
@@ -95,8 +96,13 @@ ol.horizontal-list {
   font-size: 0.8em;
   list-style-type: none;
   padding: 0;
-  display: flex;
-  gap: 1rem;
+  margin: 0;
+  display: inline-flex;
+  gap: 0;
+}
+
+.horizontal-list li:not(:last-child)::after {
+  content: ", ";
 }
 
 @media (prefers-color-scheme: dark) {
