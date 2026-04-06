@@ -1,11 +1,11 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-{{ range .Pages }}
 <ul>
+  {{ range where .Pages "Params.archived" "ne" true }}
   <li>
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
   </li>
+  {{ end }}
 </ul>
-{{ end }}
 {{ end }}
