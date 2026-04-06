@@ -11,8 +11,8 @@ serious about implementing, is defaulting to asynchronous communication. I first
 a few years ago when reading [Basecamp's Employee Handbook](https://basecamp.com/handbook/how-we-work#asynchronously).
 
 I work remotely for a company in the UK, and we use Slack for communication. The timezone difference is only
-two/three hours, so the whole team is usually all online at the same time for most of the day. I, (and I'm sure most other
-members of the team), just find it a lot easier to pull someone in for a 'quick' huddle each time there's something
+two/three hours, so the whole team is usually all online at the same time for most of the day. I (and I'm sure most other
+members of the team) just find it a lot easier to pull someone in for a 'quick' huddle each time there's something
 to discuss. I always hesitate before doing this, but end up doing it anyway most of the time. The fact that it is
 very easy to do doesn't help. I think it does more harm than good.
 

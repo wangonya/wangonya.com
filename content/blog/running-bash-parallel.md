@@ -9,7 +9,7 @@ tags:
 
 This comes in handy when I want to, for example:
 
-- run an MySql proxy to Cloudql or similar, then
+- run a MySQL proxy to Cloudql or similar, then
 - run a project server (fastapi, django etc) that depends on the
   database connection
 

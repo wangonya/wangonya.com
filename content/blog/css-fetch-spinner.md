@@ -12,8 +12,7 @@ code whenever I work with `fetch`. For a while, I've used
 the solution to
 [this](https://stackoverflow.com/questions/43792026/display-spinner-during-ajax-call-when-using-fetch-api)
 SO question. It's a correct solution and it works great but to be
-honest, I couldn't really explain _very well_ what was going on if
-someone asked me to explain that piece of my code. So I thought of a
+honest, I couldn't clearly explain that piece of code if asked. So I thought of a
 simple way to do it. Here's how:
 
 ## Setting up the HTML

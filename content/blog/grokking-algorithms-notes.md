@@ -166,7 +166,7 @@ Uses divide & conquer.
 
 Base case: empty array or array with one element.
 
-For bigger arrays, choose an element from the array (pivot) and find elements smaller that the pivot and larger than it. All smaller elements go to the left of the pivot. Bigger elements go to the right of the pivot. Recurse until array is sorted.
+For bigger arrays, choose an element from the array (pivot) and find elements smaller than the pivot and larger than it. All smaller elements go to the left of the pivot. Bigger elements go to the right of the pivot. Recurse until array is sorted.
 
 ```python
 def quicksort(array):

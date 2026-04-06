@@ -19,7 +19,7 @@ Both `x` and `y` will have the value
 `y` was not created as a completely new/separate object.
 Instead, an **alias** for `x` was created. That is,
 `y` points to the memory location of `x`. It does
-not have it's own memory location - yet.
+not have its own memory location - yet.
 
 ```shell
 >>> id(x)
@@ -93,7 +93,7 @@ example, a shallow copy can be created using either the
 ```
 
 Now if some more values are appended to `x`, `y`
-will still be affected by `z` will not.
+will still be affected, but `z` will not.
 
 ```shell
 >>> x.append(6)

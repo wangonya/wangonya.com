@@ -103,7 +103,7 @@ console.log(sorted);
 ## Insertion Sort
 
 Insertion sort builds the final sorted list one element at a time. It
-does this by taking one element, comparing it to the rest of elements in
+does this by taking one element, comparing it to the rest of the elements in
 the list, finding its right position, and then placing it there.
 
 This is known as comparison-based sorting.
@@ -187,7 +187,7 @@ const sorted = bubbleSort(list);
 console.log(sorted);
 ```
 
-Thats it! And, incase you're wondering, I used
+That's it! And, in case you're wondering, I used
 [this](https://visualgo.net/en/sorting) site to make the visuals.
 
 In the next part, I'll be going through:

@@ -88,7 +88,7 @@ Note that no `KeyError` is raised despite the key not
 existing at first. Instead, the key is created with the default value of
 the type passed into `defaultdict`, in this case
 `0` for `int`. If we used `list`
-instead, the default value would be `[]`, an so on.
+instead, the default value would be `[]`, and so on.
 
 Further reading:
 

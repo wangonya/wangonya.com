@@ -6,7 +6,7 @@ tags:
   - javascript
 ---
 
-Given that one of the main reason computers were invented was to solve
+Given that one of the main reasons computers were invented was to solve
 mathematical problems quickly, it is no wonder that all the modern
 programming languages are so rich in arithmetic-oriented methods. The
 earliest computers were basically just calculators. (_Yes, I'm looking
@@ -159,7 +159,7 @@ let a = 4, // 4
 ```javascript
 // prefix: returns the value after decrementing
 let a = 4, // 4
-  b = -a, // 3
+  b = --a, // 3
   c = a; //3
 ```
 

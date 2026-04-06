@@ -18,7 +18,7 @@ Below are some examples of what's possible.
 
 ## Showing and controlling music
 
-I like seeing what's playing without having to bring up the Spotify app every time. If I can also control playback without bring up the app, even better.
+I like seeing what's playing without having to bring up the Spotify app every time. If I can also control playback without bringing up the app, even better.
 
 By default, i3 comes with [i3bar](https://i3wm.org/i3bar/). I'm sure I could achieve the same thing on i3bar [with enough time and effort](https://i3wm.org/docs/i3status.html#_external_scripts_programs_with_i3status), but its just much easier to do it with i3blocks.
 

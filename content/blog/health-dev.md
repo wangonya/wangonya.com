@@ -11,7 +11,7 @@ tags:
 > intelligence cannot be applied.\" ― Herophilus
 
 Let's face it. As developers, it's easy to let things get a bit out of
-hand health-wise. Many times we find ourselves in front of screens for
+hand when it comes to health. Many times we find ourselves in front of screens for
 hours on end. We sleep really late (or not at all) sometimes. Unless
 you're disciplined enough to follow a schedule, you might find yourself
 not having time to eat proper meals so snacking becomes a habit. All
@@ -22,8 +22,7 @@ don't look at the bigger picture - how it will affect us in the future.
 
 I think, if healthier practices were adopted, developers would be much
 more productive and would be able to accomplish some tasks in less time
-simply because the brain is much clearer. I might here quote surveys and
-researches conducted to prove this point but simple personal experience
+simply because the brain is much clearer. I could cite surveys and research here to prove this point, but simple personal experience
 will suffice. It's hard enough to get anything done when you're down
 with a cold. There is an intimate connection between the mind and the
 body, and when one suffers, the other no doubt feels it. Below are some
@@ -54,7 +53,7 @@ the fresh air of early morning jogs.
 
 If you wait until you feel thirsty, you've waited too long.
 
-## Take a break
+## Take a break 🚶
 
 ![debug](https://i.redd.it/mdjsol1eiad11.jpg)
 

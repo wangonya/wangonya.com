@@ -19,15 +19,15 @@ best way to go in the long term?
 
 ## How caffeine keeps us awake
 
-In our bodies, we have a chemical known as Adenosine. After a good night
+In our bodies, we have a chemical known as Adenosine. After a good night's
 sleep, levels of this chemical are low in the body, and that's why many
 feel more productive in the morning than later in the day. While awake,
 levels of adenosine rise each hour, making us feel more and more tired
 as the day goes by. Our brains have adenosine receptors, and the more
 adenosine molecules attach to the receptors, the more tired we feel. Now
 caffeine has a very similar structure to adenosine and is, therefore,
-able to attach to these receptors, therefore tricking the brain into
-thinking that it is not tired. This leads to it making more adenosine
+able to attach to these receptors, tricking the brain into
+thinking that it is not tired. This causes the brain to produce more adenosine
 receptors, which means that you might need more coffee with time to feel
 as alert.
 
@@ -58,8 +58,7 @@ Developer](https://wangonya.com/blog/health-dev/)
 ### 2. Take a power nap
 
 I know I've already talked about sleep, but this is a bit different. I
-remember back when I was at high school, I had a system when doing
-taking my exam papers: Skip the hard questions and answer what you can,
+remember back when I was at high school, I had a system when taking my exam papers: Skip the hard questions and answer what you can,
 take a nap, wake up and try the hard questions. I found this to be
 surprisingly effective. Sometimes I could wake up and the answers would
 just flow from my mind. I didn't know it, but I was taking advantage of
@@ -74,7 +73,7 @@ Harvard study:
 > getting more nighttime sleep, taking a nap, and using caffeine as ways
 > to cope with the afternoon hump. The nap was the most effective.
 
-If you've never, I'd recommend you try it. Just make sure to keep it
+If you've never tried it, I'd recommend you do. Just make sure to keep it
 short. Sleep too much and you'll wake up with _\"sleep inertia\"_,
 leaving you feeling even less ready to work.
 

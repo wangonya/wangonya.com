@@ -24,7 +24,7 @@ I'll just focus on one thing:
 ## How `this` works in arrow functions
 
 In a regular function, `this` refers to the object when
-defined as a method of an object. We can therefor do:
+defined as a method of an object. We can therefore do:
 
 ```javascript
 const brunch = {
@@ -61,11 +61,11 @@ function, `this` was our `order` object. When
 using an arrow function, `this` is not bound to anything and
 it just inherits from the parent scope which in this case is the window.
 Adding a `console.log(this)` before the `return`
-in the arrow function returns a `Window` object, so its
+in the arrow function returns a `Window` object, so it's
 looking for `Window.food` and `Window.beverage`
 which will obviously both be `undefined`.
 
-Arrow functions are therefor not suited as object methods.
+Arrow functions are therefore not suited as object methods.
 
 Another common problem area would be with event handlers. Here's an
 example:
@@ -114,8 +114,8 @@ arrow function:
 
 and `this` becomes the browser's `window`
 attribute. Clicking the button will give a `TypeError` error.
-If you rely on `this` in an event hanlder, a regular function
+If you rely on `this` in an event handler, a regular function
 may be necessary.
 
-So, as cool and popular as arrow functions may be, its best to
+So, as cool and popular as arrow functions may be, it's best to
 understand how they work, and to know when to and not to use them.

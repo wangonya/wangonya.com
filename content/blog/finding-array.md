@@ -55,7 +55,7 @@ console.log(ninjas.lastIndexOf("Assassin")); // -1 (doesn't exist)
 
 The `find()` method returns the **value** of the **first**
 element in the array that satisfies the provided testing function.
-Otherwise undefined is returned.
+Otherwise, undefined is returned.
 
 ```javascript
 const ninjas = [
@@ -72,7 +72,7 @@ console.log(ninjas.find((ninja) => ninja.name === "Assassin")); // undefined
 ### `findIndex()`
 
 Returns the **index** of the **first** element in the array that
-satisfies the provided testing function. Otherwise -1 is returned.
+satisfies the provided testing function. Otherwise, -1 is returned.
 
 ```javascript
 const ninjas = [

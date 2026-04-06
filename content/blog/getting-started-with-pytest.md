@@ -60,7 +60,7 @@ def test_hello():
 ```
 
 You'll notice that our test function name begins with the word _test_.
-That's how pytest discoveres test methods. Also, :
+That's how pytest discovers test methods. Also:
 
 - Test files should be named `test_<something>.py` or
   `<something>_test.py`
@@ -82,7 +82,7 @@ hello.py:6: AssertionError
 ```
 
 Pytest shows why the test failed:
-`AssertionError: assert None =` 'Hello World!'=. Obviously,
+`AssertionError: assert None == 'Hello World!'`. Obviously,
 we have no code in our hello function so let's fix that.
 
 ```python

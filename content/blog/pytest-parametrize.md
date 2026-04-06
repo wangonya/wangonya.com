@@ -8,7 +8,7 @@ tags:
   - pytest
 ---
 
-Tests tend to not always be so DRY, which isn't necessarily a bad
+Tests don't always need to be DRY, which isn't necessarily a bad
 thing.
 
 [This](https://stackoverflow.com/a/129722/9312256) SO answer sums it up
@@ -25,7 +25,7 @@ nicely:
 > tests may lead to a better API. Just make sure you don't go past the
 > point of diminishing returns.
 
-Pytest gives some ways to reduce duplication with fixtures.
+pytest gives some ways to reduce duplication with `parametrize`.
 
 Say you had a couple of endpoints that return data to be used in a
 report. The report data is supposed to be displayed in an excel sheet
@@ -131,13 +131,13 @@ report_sheet_endpoints = (
 
 
 @pytest.mark.parametrize('endpoint', report_sheet_endpoints)
-def test_report_sheets_return_200(endpoint)
+def test_report_sheets_return_200(endpoint):
     response = client.get(f'/report{endpoint}')
     assert response.status == 200
 
 
 @pytest.mark.parametrize('endpoint', report_sheet_endpoints)
-def test_report_sheets_require_auth(endpoint)
+def test_report_sheets_require_auth(endpoint):
     response = unauthorized_client.get(f'/report{endpoint}')
     assert response.status == 401
 ```

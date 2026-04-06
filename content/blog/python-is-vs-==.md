@@ -88,8 +88,8 @@ True
 
 All checks using `==` evaluate to `True`, because
 the values of `a`, `b` and `c` are all
-equal. If `d = [1, 2, 3]` is introduced, `a =` d=,
-`b =` d= and `c =` d= would all be
+equal. If `d = [1, 2, 3]` is introduced, `a == d`,
+`b == d` and `c == d` would all be
 `False`, because the values are not equal.
 
 So if you want to check that elements point to the same object, use

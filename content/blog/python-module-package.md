@@ -40,7 +40,7 @@ The same can be done in the interpreter:
 
 Packages are made up of multiple Python files (or modules), and can even
 include libraries written in different languages like C or C++. Seeing
-an `__init.py__` file in a folder typically tells you that
+an `__init__.py` file in a folder typically tells you that
 that folder is a Python package. The `__init__.py` doesn't
 have to contain any code -- sometimes it does -- it just has to be there
 for Python take that particular folder as a package.
@@ -52,7 +52,7 @@ for Python take that particular folder as a package.
 ```
 
 ```python
-# __init.py__
+# __init__.py
 
 from my_package.module import hello
 ```

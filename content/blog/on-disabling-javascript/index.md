@@ -17,7 +17,7 @@ After a while, I noticed something weird with the tabs:
 ![tabs](./tabs.png)
 
 I'm pretty sure I didn't search for "censorship on hackernews", or "how to hack coworkers phone".
-And I'm certainly not asking ChatGPT for Pick up lines suggestions 😂. What was going on?
+And I'm certainly not asking ChatGPT for pickup line suggestions 😂. What was going on?
 
 Well, Javascript.
 
@@ -45,4 +45,4 @@ I'm sure there are some security features on browsers to restrict the harm JS ca
 
 Of course it's going to be a pain to turn off JS by default and manually enable it whenever I visit a site I need and find that it just won't work unless I have it enabled. But I'll try it out for a while and see how it goes.
 
-Side note: I also learnt about [Punycode](https://en.wikipedia.org/wiki/Punycode) on that site, so - worth the visit.
+Side note: I also learned about [Punycode](https://en.wikipedia.org/wiki/Punycode) on that site, so - worth the visit.

@@ -9,7 +9,7 @@ tags:
 ---
 
 For the next phase in this series, we'll learn how to make a CLI app to
-perform CRUD operations, i.e, Creating, Retrieving, Updating and
+perform CRUD operations, i.e., Creating, Retrieving, Updating and
 Deleting data. We'll use Firebase to store our data.
 
 ### What we'll create
@@ -179,7 +179,7 @@ has been passed in or not? By looking at the context.
 `if ctx.invoked_subcommand is None`, then no sub-command
 has been passed - show the welcome message.
 
-Everything is setup now, so we can start working on the
+Everything is set up now, so we can start working on the
 functionality.
 
 ## Creating contacts
@@ -276,7 +276,7 @@ def view(name):
     response = requests.get('{}/contacts/{}.json'
                             .format(os.getenv('URL'), name))
     if not response.json():
-        click.echo("The contact you searched for does'nt exist")
+        click.echo("The contact you searched for doesn't exist")
     else:
         click.echo(response.json())
 ```
@@ -314,7 +314,7 @@ def update(name, mobile):
     click.echo(response.json())
 ```
 
-This works exactly the same to the create command, except we're using
+This works exactly the same as the create command, except we're using
 `PATCH` instead of `PUT` (which apparently,
 doesn't make any difference here. Making a `PATCH` on a
 non-existent node creates it, just like `PUT` would do. Try
@@ -346,8 +346,8 @@ def delete(name):
 ```
 
 `null` is returned on successful deletion so we don't
-require to return `response`. The `request` is
-called directly, and a success message is shown afterwords. This can be
+need to return `response`. The `request` is
+called directly, and a success message is shown afterwards. This can be
 done better but it'll do for now.
 
 ```shell

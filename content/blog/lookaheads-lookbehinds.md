@@ -33,12 +33,12 @@ Let's see an example:
 // check to see if we have the right 'Kanye'
 // /Kanye(?= West)/ : the string 'Kanye' must be followed by 'West'
 
-/Kanye(?= West)/.test('I heard Kanye will be performing tonight') // false. we cant really be sure it's the right Kanye
+/Kanye(?= West)/.test('I heard Kanye will be performing tonight') // false. we can't really be sure it's the right Kanye
 /Kanye(?= West)/.test('I heard Kanye East will be performing tonight') // false. Kanye who???
 /Kanye(?= West)/.test('I heard Kanye West will be performing tonight') // true
 ```
 
-You can also do `/Kanye(?` West \| East)/= to match Kanye if
+You can also do `/Kanye(?= West|East)/` to match Kanye if
 it's followed by either 'East' or 'West'.
 
 ### Format: `x(?!y)`
@@ -70,7 +70,7 @@ lookahead.
 // check to see if we have the right 'Kanye West'
 // /(?<= Kanye) West/ : the string 'West' must be preceded by 'Kanye'
 
-/(?<= Kanye) West/.test('I heard West will be performing tonight') // false. we cant really be sure it's the right West
+/(?<= Kanye) West/.test('I heard West will be performing tonight') // false. we can't really be sure it's the right West
 /(?<= Kanye) West/.test('I heard Keith West will be performing tonight') // false
 /(?<= Kanye) West/.test('I heard Kanye West will be performing tonight') // true
 ```

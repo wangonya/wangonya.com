@@ -41,8 +41,7 @@ hello-world-cli
     |- setup.py  # new file
 ```
 
-In the `helloworld.py`, remove the `if __name__ =`
-'[[main]{.underline}]{.underline}':= section. The code should now look
+In the `helloworld.py`, remove the `if __name__ == '__main__':` section. The code should now look
 like this:
 
 ```python
@@ -104,7 +103,7 @@ on that later.
 install_requires=['Click']
 ```
 
-Our app has Click as a dependancy, so it needs to be installed for it to
+Our app has Click as a dependency, so it needs to be installed for it to
 work. `setup()` needs to know about this so it can include it
 as it packages our project. `install_requires` accepts a list
 of values, so if we had more dependencies, we would list all of them
@@ -118,7 +117,7 @@ entry_points='''
 ```
 
 This is the part that saves us the hassle of having to run the app with
-`python ...` everytime, and enables us to just execute
+`python ...` every time, and enables us to just execute
 `hello` to run it.
 
 It's important to note that if we maintained our previous name

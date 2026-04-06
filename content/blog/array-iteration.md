@@ -20,10 +20,10 @@ The `some()` method tests whether **at least one** element in
 the array passes the test implemented by the provided function. It
 checks the elements one by one, and if it finds an array element where
 the function returns a truthy value, `some()` returns
-`true` and does not check the remaining values. Otherwise it
+`true` and does not check the remaining values. Otherwise, it
 returns `false`.
 
-Lets say you want to check if a contact exists in your contact list:
+Let's say you want to check if a contact exists in your contact list:
 
 ```javascript
 const contacts = ["Stewie", "Meg", "Quagmire", "Cleveland"];
@@ -48,9 +48,9 @@ This method tests whether **all** elements in the array pass the test
 implemented by the provided function. It checks the elements one by one,
 and if it finds an array element where the function returns a falsy
 value, `every()` returns `false` and does not
-check the remaining values. Otherwise it returns `true`.
+check the remaining values. Otherwise, it returns `true`.
 
-Lets check if all the names in our contacts list have more than 3
+Let's check if all the names in our contacts list have more than 3
 characters:
 
 ```javascript

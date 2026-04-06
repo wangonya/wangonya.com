@@ -93,7 +93,7 @@ required arguments and options:
 `response = runner.invoke(add, ["test-user", "-m", "0"])`.
 
 We then check that the command executes successfully:
-`assert response.exit_code =` 0=.
+`assert response.exit_code == 0`.
 
 If the command executes successfully, we expect a success message should
 be returned in the response with the values we added:

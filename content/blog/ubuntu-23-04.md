@@ -7,7 +7,7 @@ tags:
   - rant
 ---
 
-I haven't used Ubuntu since I first discovered Linux 9 years ago in University, so I thought I'd give it a this past weekend.
+I haven't used Ubuntu since I first discovered Linux 9 years ago in University, so I thought I'd give it a try this past weekend.
 I didn't like it. I only used it for a day and a half before I had to wipe everything and go back to Manjaro.
 
 Before I get into the things that really bothered me, here's what I liked:
@@ -18,7 +18,7 @@ This is more of a Gnome thing than Ubuntu, but still, I love that I can add all 
 I love KDE Plasma, but this is the one thing I really miss in it.
 
 I actually don't care much for email, but calendar notifications is something I really need. I always find myself forgetting about scheduled meetings.
-Ofcourse I could find another way to deal with this, but it would be really nice if I could have it OOTB with my distro.
+Of course I could find another way to deal with this, but it would be really nice if I could have it OOTB with my distro.
 
 ## 2. Wallpapers
 
@@ -73,8 +73,8 @@ When I install an arch based distro, I have a script that installs [yay](https:/
 With Ubuntu, I have to figure out if the thing is in the repos. I may have to add some new repos, add GPG keys and run system updates.
 Maybe the thing is a snap. In that case, I need to run some different commands to install snaps.
 
-I wan't even able to install previous versions of Python [^1]. Something about it being a security issue for non-lts versions (can't remember the exact error).
+I wasn't even able to install previous versions of Python [^1]. Something about it being a security issue for non-lts versions (can't remember the exact error).
 
 There's probably something out there like yay but for Ubuntu - I don't know. But as it is, it's all just too much work.
 
-[^1]: Ofcourse I should have used pyenv instead, but ain't nobody got time for that.
+[^1]: Yes, I should have used pyenv instead.

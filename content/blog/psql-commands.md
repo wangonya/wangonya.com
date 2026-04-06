@@ -81,4 +81,4 @@ ORDER BY 1;
 ```
 
 With the underlying query executed on running the slash command, I was
-able to edit it get the desired result.
+able to edit it to get the desired result.

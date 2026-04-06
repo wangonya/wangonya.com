@@ -51,8 +51,8 @@ Notice the `Captured stdout call` section. It captured out
 two print statements. During test execution, any output sent to stdout
 and stderr is captured. By default, the captured output is only
 displayed if the test fails. Changing our
-`assert add_numbers(2, 3) =` 3= to
-`assert add_numbers(2, 3) =` 5= and running the test again
+`assert add_numbers(2, 3) == 3` to
+`assert add_numbers(2, 3) == 5` and running the test again
 gives the following output:
 
 ```shell

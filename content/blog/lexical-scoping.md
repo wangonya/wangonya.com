@@ -6,15 +6,15 @@ tags:
   - javascript
 ---
 
-In Javascript, code blocks are created using curly braces ({}). For
+Lexical scoping means that the scope of a variable is determined by where it is defined in the source code — specifically, by the block or function it is written inside. In Javascript, code blocks are created using curly braces ({}). For
 example:
 
 ```javascript
-someFunction() {
+function someFunction() {
     // some code here
 }
 
-anotherFunction() {
+function anotherFunction() {
     // some more code here
 }
 ```
@@ -31,12 +31,12 @@ To illustrate:
 ```javascript
 var name = "Kenny"
 
-someFunction() {
+function someFunction() {
     var name = "Kyle"
     console.log("someFunction block:", name) // someFunction block: Kyle
 }
 
-anotherFunction() {
+function anotherFunction() {
     var name = "Timmy"
     console.log("anotherFunction block:", name) // anotherFunction block: Timmy
 }

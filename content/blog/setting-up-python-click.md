@@ -161,11 +161,11 @@ def hello():
 This is how we define functions in Python.
 
 ```python
-click.echo('Hello World')
+click.echo('Hello World!')
 ```
 
 Calling `hello()` will run
-`click.echo('Hello World')` which displays the text \"Hello
+`click.echo('Hello World!')` which displays the text \"Hello
 World!\" on the terminal.
 
 ```python

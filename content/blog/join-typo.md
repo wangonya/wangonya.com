@@ -50,6 +50,6 @@ ON LEFFT.a = table_2.a AND LEFFT.b = table_2.b
 
 So the query works fine but the results would be incorrect.
 
-This is one merit of syntax highlighting I've never really thought about until now. The only reason I noticed this quickly was by
-seeing `LEFFT` wasn't highlighted as I expected. The results of the query looked fine at first glance so this would have definitely bit
+This is one benefit of syntax highlighting I've never really thought about until now. The only reason I noticed this quickly was by
+seeing `LEFFT` wasn't highlighted as I expected. The results of the query looked fine at first glance so this would have definitely bitten
 me somewhere down the line if it got to production.

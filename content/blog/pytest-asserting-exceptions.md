@@ -8,7 +8,7 @@ tags:
   - pytest
 ---
 
-First time I had someone review my pull requests, she was pretty strict
+The first time I had someone review my pull requests, she was pretty strict
 on tests. I couldn't merge if the tests were failing, of course. But I
 also couldn't merge if coverage had decreased. TDD was still new to me
 so maintaining coverage was a challenge since I was only testing the
@@ -79,8 +79,7 @@ login.py:16: Failed
 ```
 
 Notice it says `Failed: DID NOT RAISE <class 'Exception'>`.
-If an exception is not raised, the test fails. I found this to be pretty
-awesome. We passed in a valid email format (according to our standards
+If an exception is not raised, the test fails. I found this particularly useful. We passed in a valid email format (according to our standards
 here) so the test works as expected. Now we can make it pass.
 
 ```python

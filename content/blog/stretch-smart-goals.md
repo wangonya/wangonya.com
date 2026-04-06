@@ -29,7 +29,7 @@ focused on small daily \"wins\" that we lose focus on the larger
 picture.
 
 > "You get into this mindset where crossing things off your to-do list
-> becomes more important that asking yourself if you're doing the right
+> becomes more important than asking yourself if you're doing the right
 > things. - The book
 >
 > \"To-do lists are great if you're using them correctly. But when

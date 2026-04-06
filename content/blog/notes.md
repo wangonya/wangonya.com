@@ -7,7 +7,7 @@ tags:
 ---
 
 I need to get in the habit of taking notes while I work. Especially when I'm debugging.
-I've noticed a poor habit reoccur when I'm working on a particularly difficult problem.
+I've noticed a poor habit recur when I'm working on a particularly difficult problem.
 
 It usually goes something like this:
 
@@ -27,4 +27,4 @@ If notes are taken at each step of the way, it's clear what works and what doesn
 
 As much as I plan to mostly use pen and paper for this, it should also give me ample opportunity to blog more. Many problems should be general enough for someone[^1] else out there to benefit from.
 
-[^1]: Barely anyone reads my blog, I know, but it should at least act as a backup to my pen and paper.
+[^1]: Barely anyone reads my blog, I know — but it should at least act as a backup to my pen and paper.
