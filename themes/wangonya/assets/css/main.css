@@ -79,12 +79,20 @@ ol.blog-list {
   padding: 0;
 }
 
+.blog-list-date,
+time {
+  font-family: var(--font-mono);
+  font-size: 0.8em;
+}
+
 .blog-list-date {
   padding-right: 0.3125rem;
 }
 
 ul.horizontal-list,
 ol.horizontal-list {
+  font-family: var(--font-mono);
+  font-size: 0.8em;
   list-style-type: none;
   padding: 0;
   display: flex;
