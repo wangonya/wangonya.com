@@ -1,6 +1,12 @@
+:root {
+  --font-mono: "IBM Plex Mono", "Menlo", "Consolas", monospace;
+}
+
 html {
   font-size: 100%;
   box-sizing: border-box;
+  -webkit-text-size-adjust: none;
+  text-size-adjust: none;
 }
 
 @font-face {
@@ -24,7 +30,7 @@ html {
   src: url("/fonts/IBMPlexSans-Bold.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
-  font-display: swap;
+  font-display: optional;
 }
 
 @font-face {
@@ -52,16 +58,21 @@ html {
 body {
   color: #222;
   font-family: "IBM Plex Sans", sans-serif;
-  line-height: 1.62em;
+  line-height: 1.62;
   padding: 0 2.5em;
   margin: 3rem auto;
   font-size: 0.9rem;
-  word-wrap: break-word;
+  overflow-wrap: break-word;
   max-width: 48rem;
 }
 
 header {
   margin-bottom: 1rem;
+}
+
+pre,
+code {
+  font-family: var(--font-mono);
 }
 
 pre {
@@ -71,14 +82,8 @@ pre {
   border-radius: 0.3125rem;
 }
 
-pre,
-pre code {
-  font-family: "IBM Plex Mono", "Menlo", "Consolas", monospace;
-  -webkit-text-size-adjust: none;
-  -moz-text-size-adjust: none;
-  -ms-text-size-adjust: none;
-  text-size-adjust: none;
-  font-size: 0.9em;
+code {
+  font-size: 0.8em;
 }
 
 img {
@@ -92,17 +97,15 @@ table {
   border-collapse: collapse;
 }
 
-th {
-  border: 0.0625rem solid #ddd;
-  padding: 0.5rem;
-  text-align: left;
-  background-color: #f9f9f9;
-}
-
+th,
 td {
   border: 0.0625rem solid #ddd;
   padding: 0.5rem;
   text-align: left;
+}
+
+th {
+  background-color: #f9f9f9;
 }
 
 footer {
@@ -126,19 +129,6 @@ ol.horizontal-list {
   padding: 0;
   display: flex;
   gap: 1rem;
-}
-
-@supports not (gap: 1rem) {
-
-  ul.horizontal-list>li,
-  ol.horizontal-list>li {
-    margin-right: 1rem;
-  }
-
-  ul.horizontal-list>li:last-child,
-  ol.horizontal-list>li:last-child {
-    margin-right: 0;
-  }
 }
 
 @media (prefers-color-scheme: dark) {
