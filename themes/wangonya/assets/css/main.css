@@ -244,6 +244,46 @@
 
 /* ***************************************************************** */
 
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "IBM Plex Sans";
+  src: url("/fonts/IBMPlexSans-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: optional;
+}
+
+@font-face {
+  font-family: "IBM Plex Mono";
+  src: url("/fonts/IBMPlexMono-Italic.woff2") format("woff2");
+  font-weight: 400;
+  font-style: italic;
+  font-display: optional;
+}
+
 html {
   box-sizing: border-box;
 }
@@ -256,7 +296,7 @@ html {
 
 body {
   color: #222;
-  font-family: Georgia, serif;
+  font-family: "IBM Plex Sans", sans-serif;
   line-height: 1.5;
   max-width: 768px;
   margin: 10px auto;
@@ -276,7 +316,7 @@ pre {
 
 pre,
 pre code {
-  font-family: "Fira Code", "Fira Mono", "Menlo", "Consolas", "Liberation Mono", "Monaco", monospace;
+  font-family: "IBM Plex Mono", "Menlo", "Consolas", monospace;
   -webkit-text-size-adjust: none;
   -moz-text-size-adjust: none;
   -ms-text-size-adjust: none;
