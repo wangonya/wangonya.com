@@ -29,7 +29,7 @@ This is not actually the first time I've seen this. The same thing happens on [s
 but there it's done just for fun. That's why I never thought twice about it when I first saw it there.
 The author of マリウス also [acknowledges](https://マリウス.com/updates-2025-q3/#site-updates) that he got the idea from the same source:
 > I got the inspiration for this from this post by sizeof.cat, [...].
-
+>
 > While sizeof.cat uses this feature purely for the lulz, I believe it can serve as an effective way to encourage people to disable JavaScript in their browsers by default, and to be very selective about which websites they enable it for.
 
 I think the fact that he decided to use this trick for this purpose is genius. Props to him. It's really effective.
