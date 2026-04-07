@@ -14,7 +14,7 @@ For a given taxonomy, renders a list of terms assigned to the page.
 {{- $label := (index . 0).Parent.LinkTitle }}
 <div>
   <span class="horizontal-list-label">{{ $label }}:</span>
-  <ul class="horizontal-list">
+  <ul class="horizontal-list tag-list">
     {{- range . }}
     <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
     {{- end }}

@@ -85,7 +85,10 @@ ol.blog-list {
 
 .blog-list-date,
 .horizontal-list-label,
-time {
+time,
+ul.tag-list,
+ol.tag-list,
+footer ul {
   font-family: var(--font-mono);
   font-size: 0.8em;
 }
@@ -96,16 +99,17 @@ time {
 
 ul.horizontal-list,
 ol.horizontal-list {
-  font-family: var(--font-mono);
-  font-size: 0.8em;
   list-style-type: none;
   padding: 0;
   margin: 0;
   display: inline-flex;
-  gap: 0;
 }
 
-.horizontal-list li:not(:last-child)::after {
+footer ul {
+  gap: 1rem;
+}
+
+.tag-list li:not(:last-child)::after {
   content: ", ";
 }
 
