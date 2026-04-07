@@ -66,7 +66,7 @@ I use these apps a lot so it would be too distracting for me to have them not lo
 ## 4. Different ways to install software
 
 This is totally me having been spoiled by the conveniences of the [AUR](https://aur.archlinux.org/).
-When I install an arch based distro, I have a script that installs [yay](https://github.com/Jguer/yay), and uses it to install everything else from wherever it's available (official repos or AUR, I don't care).
+When I install an arch based distro, I have a script that installs [yay](https://github.com/Jguer/yay), and uses it to install everything else from wherever it's available (official repos or AUR).
 
 `yay -S literally-anything`. It Just Works ™.
 
