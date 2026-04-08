@@ -35,6 +35,7 @@ header {
 pre,
 code {
   font-family: var(--font-mono);
+  font-size: 0.75rem;
 }
 
 pre {
@@ -44,12 +45,8 @@ pre {
   border-radius: 0.3125rem;
 }
 
-code {
-  font-size: 0.8em;
-}
-
 .footnotes {
-  font-size: 0.8em;
+  font-size: 0.75rem;
 }
 
 blockquote {
@@ -99,7 +96,7 @@ ul.tag-list,
 ol.tag-list,
 footer ul {
   font-family: var(--font-mono);
-  font-size: 0.8em;
+  font-size: 0.75rem;
 }
 
 .blog-list-date {
