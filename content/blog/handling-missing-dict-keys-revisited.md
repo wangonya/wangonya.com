@@ -44,7 +44,7 @@ This doesn't work. `self[key]` calls `__missing__` instead of raising `KeyError`
 {'x': 'my default value'}  # side effect: key was set in the dict
 ```
 
-There's no clean way to honour both the `__missing__` default and the `default` parameter in `get` - they pull in opposite directions. It's better to accept that `get` and `__missing__` serve different purposes and leave `get` alone. Note that this applies to `dict` subclasses specifically. If you subclass `UserDict` instead, `get` calls `__getitem__` internally and `__missing__` is triggered. With a `dict` subclass, `get` is implemented in C and bypasses `__getitem__` altogether. The behaviour is inconsistent across the standard library depending on which base class you use.
+There's no clean way to honour both the `__missing__` default and the `default` parameter in `get`. It's better to accept that `get` and `__missing__` serve different purposes and leave `get` alone. Note that this applies to `dict` subclasses specifically. If you subclass `UserDict` instead, `get` calls `__getitem__` internally and `__missing__` is triggered. With a `dict` subclass, `get` is implemented in C and bypasses `__getitem__` altogether. The behaviour is inconsistent across the standard library depending on which base class you use.
 
 As for `__contains__`, overriding it is a design decision. If your subclass provides a value for every possible key, returning `True` always can be reasonable:
 
@@ -53,4 +53,4 @@ def __contains__(self, key):
     return True
 ```
 
-Just be aware that `"x" in m` returns `True` even when `m` is `{}`, which looks confusing.
+Only thing to keep in mind in this case is that `"x" in m` returns `True` even when `m` is `{}`, which looks confusing.
