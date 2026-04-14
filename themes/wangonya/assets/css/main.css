@@ -59,17 +59,6 @@ pre {
   padding-left: 1.25rem;
 }
 
-hr {
-  border: none;
-  text-align: center;
-  margin: 2rem 0;
-}
-
-hr::after {
-  content: "* * *";
-  color: var(--color-muted);
-}
-
 .footnotes hr {
   display: none;
 }
