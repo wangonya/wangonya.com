@@ -9,6 +9,15 @@
   <p>This post has been archived and is no longer available.</p>
   {{ else }}
   {{ .Content }}
-  {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+  <div class="post-footer">
+    {{- with .GetTerms "tags" }}
+    <ul class="horizontal-list tag-list">
+      {{- range . }}
+      <li><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></li>
+      {{- end }}
+    </ul>
+    {{- end }}
+    <p class="disclaimer">wangonya is human and can make mistakes. Double-check important info.</p>
+  </div>
   {{ end }}
 {{ end }}
