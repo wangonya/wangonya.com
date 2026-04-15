@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2021-12-02T08:25:49+03:00"
-title: Kadane's Algorithm
+title: Kadane's algorithm
 tags:
   - python
   - algorithms

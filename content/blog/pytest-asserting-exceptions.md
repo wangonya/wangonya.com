@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2019-01-29T05:15:40+03:00"
-title: Asserting Exceptions with Pytest
+title: Asserting exceptions with pytest
 tags:
   - python
   - tutorial

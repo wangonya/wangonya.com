@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2020-06-21T12:36:17+03:00"
-title: Shallow & deep copying in python
+title: Shallow & deep copying in Python
 tags:
   - python
 ---

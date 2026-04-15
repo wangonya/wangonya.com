@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2019-02-20T18:35:12+03:00"
-title: Difference between a python module and a package
+title: Difference between a Python module and a package
 tags:
   - python
 ---

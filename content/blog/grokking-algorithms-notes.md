@@ -1,5 +1,5 @@
 ---
-title: "Grokking Algorithms Notes"
+title: "Grokking algorithms notes"
 date: 2022-05-21T12:03:23+03:00
 tags:
   - algorithms

@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2019-03-08T12:52:10+03:00"
-title: Lexical Variable Scoping with Javascript
+title: Lexical variable scoping with Javascript
 tags:
   - javascript
 ---

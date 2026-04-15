@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2019-03-14T19:54:39+03:00"
-title: Caring for your Health as a Developer
+title: Caring for your health as a developer
 tags:
   - productivity
 ---

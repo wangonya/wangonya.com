@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: 2019-09-09
-title: HTML to JSX Compiler
+title: HTML to JSX compiler
 tags:
   - javascript
 ---

@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: 2019-08-02
-title: Setting up your python environment for Click
+title: Setting up your Python environment for Click
 tags:
   - python
   - tutorial

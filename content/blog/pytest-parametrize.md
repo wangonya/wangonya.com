@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2021-04-08T17:08:41+03:00"
-title: Writing DRYer tests using Pytest parametrize
+title: Writing DRYer tests using pytest parametrize
 tags:
   - python
   - tutorial

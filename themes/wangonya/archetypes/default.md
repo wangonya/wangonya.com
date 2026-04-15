@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: '{{ .Date }}'
-title: '{{ replace .File.ContentBaseName "-" " " | title }}'
+title: '{{ .File.ContentBaseName | humanize }}'
 draft: true
 tags:
   - 

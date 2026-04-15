@@ -1,5 +1,5 @@
 ---
-title: "Algorithms (Jeff Erickson) Notes [WIP]"
+title: "Algorithms (Jeff Erickson) notes [WIP]"
 date: 2022-06-07T18:41:07+03:00
 tags:
   - algorithms

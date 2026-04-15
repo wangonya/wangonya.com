@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: 2018-11-04
-title: Sorting Algorithms with Javascript (Part 2)
+title: Sorting algorithms with Javascript (Part 2)
 tags:
   - javascript
   - algorithms

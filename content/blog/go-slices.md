@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2022-05-02T19:51:27+03:00"
-title: Go Slices
+title: Go slices
 tags:
   - go
 draft: true

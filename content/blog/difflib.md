@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: 2019-09-22
-title: difflib - Finding close matches of strings from a list
+title: difflib - finding close matches of strings from a list
 tags:
   - python
 ---

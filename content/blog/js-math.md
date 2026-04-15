@@ -1,7 +1,7 @@
 ---
 author: Kelvin Wangonya
 date: "2019-03-05T05:25:12+03:00"
-title: Javascript Arithmetic Cheat Sheet
+title: Javascript arithmetic cheat sheet
 tags:
   - javascript
 ---

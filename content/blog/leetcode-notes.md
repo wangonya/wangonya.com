@@ -1,5 +1,5 @@
 ---
-title: 'Leetcode Notes'
+title: 'Leetcode notes'
 date: 2025-03-01T05:05:50+03:00
 draft: true
 ---
