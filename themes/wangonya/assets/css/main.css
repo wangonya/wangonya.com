@@ -121,7 +121,7 @@ time,
 ul.tag-list,
 ol.tag-list {
   font-family: var(--font-mono);
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   color: var(--color-muted);
 }
 
@@ -148,24 +148,21 @@ footer ul {
   gap: 0.75rem;
 }
 
+.muted-nav-link {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+}
+
+.muted-nav-link,
+.muted-nav-link:visited,
 .tag-list a,
 .tag-list a:visited {
   color: var(--color-muted);
   text-decoration: none;
 }
 
+.muted-nav-link:hover,
 .tag-list a:hover {
-  text-decoration: underline;
-}
-
-.muted-nav-link {
-  font-family: var(--font-mono);
-  font-size: 0.75rem;
-  color: var(--color-muted);
-  text-decoration: none;
-}
-
-.muted-nav-link:hover {
   text-decoration: underline;
 }
 
