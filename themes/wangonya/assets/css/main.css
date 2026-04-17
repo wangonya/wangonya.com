@@ -158,6 +158,33 @@ footer ul {
   text-decoration: underline;
 }
 
+.muted-nav-link {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--color-muted);
+  text-decoration: none;
+}
+
+.muted-nav-link:hover {
+  text-decoration: underline;
+}
+
+.latest-posts-label {
+  margin-top: 2rem;
+  margin-bottom: 0;
+}
+
+.latest-posts-label + ul.blog-list {
+  margin-top: 0;
+}
+
+.footer-links-top {
+  gap: 1rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  margin-bottom: 1rem;
+}
+
 .post-footer {
   display: flex;
   flex-direction: column;

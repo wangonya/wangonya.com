@@ -16,35 +16,43 @@ meta = "Kelvin Wangonya's blog. | Software engineer. Mostly doing backend and da
 author = "Kelvin Wangonya"
 authorTitle = "Software Engineer"
 
-[[menus.footer]]
+[[menus.links]]
 name = 'Home'
 url = "/"
 weight = 1
 
-[[menus.footer]]
+[[menus.links]]
 name = 'Blog'
 url = "/blog"
 weight = 2
 
-[[menus.footer]]
+[[menus.links]]
 name = 'Github'
 url = "https://github.com/wangonya"
 weight = 3
+[menus.links.params]
+home = true
 
-[[menus.footer]]
+[[menus.links]]
 name = 'LinkedIn'
 url = "https://www.linkedin.com/in/wangonya/"
 weight = 4
+[menus.links.params]
+home = true
 
-[[menus.footer]]
+[[menus.links]]
 name = 'Email'
 url = "mailto:kwangonya@gmail.com"
 weight = 5
+[menus.links.params]
+home = true
 
-[[menus.footer]]
+[[menus.links]]
 name = 'RSS'
 url = "/index.xml"
 weight = 6
+[menus.links.params]
+home = true
 
 [module]
 [module.hugoVersion]
