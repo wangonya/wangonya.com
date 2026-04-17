@@ -205,7 +205,8 @@ footer ul {
     background-color: #23272a;
   }
 
-  pre {
+  pre,
+  :not(pre) > code {
     background: #23272a;
     color: #e8e6e3;
   }
