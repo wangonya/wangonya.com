@@ -85,8 +85,14 @@ img {
   margin: 0.625rem auto;
 }
 
+td img {
+  width: 80px;
+  margin: 0;
+}
+
 table {
   border-collapse: collapse;
+  margin: 0 auto;
 }
 
 th,
