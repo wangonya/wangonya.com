@@ -54,6 +54,10 @@ weight = 6
 [menus.links.params]
 home = true
 
+[outputs]
+home = ["HTML"]
+section = ["HTML", "RSS"]
+
 [module]
 [module.hugoVersion]
 extended = false
