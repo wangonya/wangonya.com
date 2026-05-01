@@ -1,7 +1,8 @@
-{{ define "main" }}
-<h1>{{ .Title }}</h1>
-{{ .Content }}
-{{ range where .Pages "Params.archived" "ne" true }}
-<p><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></p>
-{{ end }}
-{{ end }}
+<ul class="blog-list">
+    {{ range . }}
+    <li class="blog-list-item">
+        <time>{{ .Date.Format "01/06" }}</time>
+        <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+    </li>
+    {{ end }}
+</ul>

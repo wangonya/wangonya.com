@@ -9,12 +9,10 @@
   <main>
     {{ block "main" . }}{{ end }}
   </main>
-  {{ if not .IsHome }}
   <hr>
   <footer>
     {{ partialCached "footer.html" . }}
   </footer>
-  {{ end }}
 </body>
 
 </html>

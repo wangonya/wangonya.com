@@ -4,7 +4,7 @@
 <ul class="blog-list">
   {{ range where .Pages "Params.archived" "ne" true }}
   <li class="blog-list-item">
-    <span class="blog-list-date">{{ .Date.Format "01/06" }}</span>
+    <time>{{ .Date.Format "01/06" }}</time>
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
   </li>
   {{ end }}

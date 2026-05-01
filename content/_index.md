@@ -2,7 +2,8 @@
 author: Kelvin Wangonya
 ---
 
-I'm Kelvin Wangonya - a Software Engineer at [Jenga][jenga], currently working for [Artefact][artefact].
+Kelvin Wangonya — writing about software, life, and whatever else
+
+Senior Data Engineer at [Jenga]
 
 [jenga]: https://jenga-agency.com/
-[artefact]: https://www.artefact.com/

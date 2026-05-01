@@ -1,5 +1,6 @@
 {{ define "main" }}
-  <a href="/" class="muted-nav-link">← home</a>
+<a href="/">← home</a>
+<article>
   <h1>{{ .Title }}</h1>
 
   {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
@@ -10,14 +11,13 @@
   <p>This post has been archived and is no longer available.</p>
   {{ else }}
   {{ .Content }}
-  <div class="post-footer">
-    {{- with .GetTerms "tags" }}
-    <ul class="horizontal-list tag-list">
-      {{- range . }}
-      <li><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
+  {{- with .GetTerms "tags" }}
+  <ul class="horizontal-list tag-list">
+    {{- range . }}
+    <li><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></li>
     {{- end }}
-  </div>
-  {{ end }}
+  </ul>
+  {{- end }}
+</article>
+{{ end }}
 {{ end }}

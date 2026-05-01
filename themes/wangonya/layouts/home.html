@@ -1,18 +1,18 @@
 {{ define "main" }}
 {{ .Content }}
-<ul class="horizontal-list footer-links-top">
-  {{ range where site.Menus.links ".Params.home" true }}
-  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-  {{ end }}
-</ul>
-<p class="horizontal-list-label latest-posts-label">latest posts</p>
+<nav>
+  <ul class="horizontal-list">
+    {{ range where site.Menus.links ".Params.home" true }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+  </ul>
+</nav>
 <ul class="blog-list">
-  {{ range first 10 (where site.RegularPages "Params.archived" "ne" true) }}
+  {{ range site.RegularPages }}
   <li class="blog-list-item">
-    <span class="blog-list-date">{{ .Date.Format "01/06" }}</span>
+    <time>{{ .Date.Format "01/06" }}</time>
     <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
   </li>
   {{ end }}
 </ul>
-<a href="/blog" class="muted-nav-link">see all posts →</a>
 {{ end }}
