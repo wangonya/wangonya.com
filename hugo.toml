@@ -57,7 +57,7 @@ section = ["HTML", "RSS"]
 [module]
 [module.hugoVersion]
 extended = false
-min = "0.146.0"
+min = "0.158.0"
 
 [markup]
 [markup.highlight]
