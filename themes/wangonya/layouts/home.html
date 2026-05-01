@@ -7,5 +7,5 @@
     {{ end }}
   </ul>
 </nav>
-{{ partial "lists.html" (where site.RegularPages "Params.archived" "ne" true) }}
+{{ partial "lists.html" site.RegularPages }}
 {{ end }}

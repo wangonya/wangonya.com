@@ -7,9 +7,6 @@
   {{ $dateHuman := .Date | time.Format ":date_long" }}
   <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
 
-  {{ if .Params.archived }}
-  <p>This post has been archived and is no longer available.</p>
-  {{ else }}
   {{ .Content }}
   {{- with .GetTerms "tags" }}
   <ul class="horizontal-list tag-list">
@@ -18,6 +15,5 @@
     {{- end }}
   </ul>
   {{- end }}
-  {{ end }}
 </article>
 {{ end }}

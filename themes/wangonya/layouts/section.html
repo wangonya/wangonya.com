@@ -1,4 +1,4 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-{{ partial "lists.html" (where .Pages "Params.archived" "ne" true) }}
+{{ partial "lists.html" .Pages }}
 {{ end }}
