@@ -11,7 +11,7 @@
   {{- with .GetTerms "tags" }}
   <ul class="horizontal-list tag-list">
     {{- range . }}
-    <li><a href="{{ .RelPermalink }}">#{{ .LinkTitle }}</a></li>
+    <li><a href="{{ .RelPermalink }}">#{{ .LinkTitle | lower }}</a></li>
     {{- end }}
   </ul>
   {{- end }}
