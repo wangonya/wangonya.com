@@ -7,12 +7,5 @@
     {{ end }}
   </ul>
 </nav>
-<ul class="blog-list">
-  {{ range site.RegularPages }}
-  <li class="blog-list-item">
-    <time>{{ .Date.Format "01/06" }}</time>
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-  </li>
-  {{ end }}
-</ul>
+{{ partial "lists.html" (where site.RegularPages "Params.archived" "ne" true) }}
 {{ end }}

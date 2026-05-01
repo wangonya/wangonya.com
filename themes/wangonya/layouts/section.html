@@ -1,11 +1,4 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
-<ul class="blog-list">
-  {{ range .Pages }}
-  <li class="blog-list-item">
-    <span class="blog-list-date">{{ .Date.Format "01/06" }}</span>
-    <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-  </li>
-  {{ end }}
-</ul>
+{{ partial "lists.html" (where .Pages "Params.archived" "ne" true) }}
 {{ end }}

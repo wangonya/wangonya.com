@@ -1,9 +1,7 @@
 baseurl = "https://wangonya.com"
-languageCode = "en-us"
+locale = "en-us"
 title = "Kelvin Wangonya"
 theme = "wangonya"
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
-footnotereturnlinkcontents = "↩"
 pluralizeListTitles = false
 enableGitInfo = true
 
@@ -47,7 +45,7 @@ home = true
 
 [[menus.links]]
 name = 'RSS'
-url = "/index.xml"
+url = "/blog/index.xml"
 weight = 6
 [menus.links.params]
 home = true
