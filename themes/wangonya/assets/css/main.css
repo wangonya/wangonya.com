@@ -158,12 +158,24 @@ time {
   padding-right: 0.3125rem;
 }
 
-footer {
+.site-footer {
   margin-top: var(--space-4);
 }
 
-footer .horizontal-list {
+.site-footer .horizontal-list {
   justify-content: center;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
 }
 
 .blog-list {

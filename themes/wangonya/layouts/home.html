@@ -1,6 +1,7 @@
 {{ define "main" }}
+<h1 class="visually-hidden">{{ site.Title }}</h1>
 {{ .Content }}
-<nav>
+<nav aria-label="Social links">
   <ul class="horizontal-list">
     {{ range where site.Menus.links ".Params.home" true }}
     <li><a href="{{ .URL }}">{{ .Name }}</a></li>

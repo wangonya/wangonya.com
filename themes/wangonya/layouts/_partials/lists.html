@@ -1,7 +1,7 @@
 <ul class="blog-list">
     {{ range . }}
     <li class="blog-list-item">
-        <time>{{ .Date.Format "01/06" }}</time>
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "01/06" }}</time>
         <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
     </li>
     {{ end }}
