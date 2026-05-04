@@ -53,6 +53,8 @@ home = true
 [outputs]
 home = ["HTML"]
 section = ["HTML", "RSS"]
+taxonomy = ["HTML"]
+term = ["HTML"]
 
 [module]
 [module.hugoVersion]
