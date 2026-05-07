@@ -1,7 +1,13 @@
 :root {
   --font-serif: "Charter", "Bitstream Charter", Georgia, serif;
   --font-sans: system-ui, sans-serif;
-  --font-mono: ui-monospace, monospace;
+  --font-mono: "SF Mono",
+    SFMono-Regular,
+    "Cascadia Mono",
+    "DejaVu Sans Mono",
+    Consolas,
+    ui-monospace,
+    monospace;
   --font-size-base: 0.9rem;
   --font-size-meta: 0.7rem;
   --font-size-h1: 1.8rem;
@@ -92,7 +98,8 @@ code {
 
 pre {
   overflow-x: auto;
-  background: var(--color-code-bg) !important; /* to override default chroma style for bw */
+  background: var(--color-code-bg) !important;
+  /* to override default chroma style for bw */
   padding: var(--space-2);
   border-radius: var(--radius-sm);
   margin: var(--space-2) 0;
