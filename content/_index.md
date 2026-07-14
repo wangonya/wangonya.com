@@ -2,7 +2,7 @@
 author: Kelvin Wangonya
 ---
 
-Kelvin Wangonya — writing about software, life, and whatever else
+Kelvin Wangonya
 
 Senior Data Engineer at [Jenga]
 
