@@ -16,9 +16,7 @@ FROM `mydataset.mytable`
 
 That query allows you to get data from the table as it was an hour ago.
 
-In a setup where things like scheduled pipeline runs are constantly updating the table, it helps a lot to be able to see what a table looked like at a specific point in time.
-
-The timestamp has to be within your time travel window. That's seven days by default, and can be configured from two to seven days.
+In a setup where things like scheduled pipeline runs are constantly updating the table, it helps a lot to be able to see what a table looked like at a specific point in time. The timestamp has to be within your time travel window, which can be between two to seven days (7 by default).
 
 For a full restore, copy the historical data into a new table. If you only need to repair the current table, copy the time travel data to a temp table, then update the current table using the temp table as source.
 
